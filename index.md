@@ -6,6 +6,9 @@
 *This is my GitHub*
 [![](/github.png)](https://github.com/MinecraftFuns)
 
+*Fangzhou · Ark's Blog*
+[![](/blog.png)](https://www.arkblog.cf)
+
 *You can find me on Zhihu here*
 [![](/zhihu.png)](https://www.zhihu.com/people/minecraftfuns)
 
