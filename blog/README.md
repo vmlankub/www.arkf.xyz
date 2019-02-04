@@ -11,6 +11,7 @@
 * [JavaScript专题之函数柯里化](2019/t7folwF8cim1Fz1U)
 * [央视春晚亮点快来看](2019/ZjMVtiJU8y888r9G)
 * [假设林纳斯先生离世，Linux将会如何发展？](2019/WZpa45g9ZzpsTumo)
+* [为什么要使用 Windows 10 的 214 条理由](2019/xm9vsRaSadKuET3S)
 
 
 ![](https://cdn.jsdelivr.net/gh/vmlankub/www.arkf.xyz/white.png)
