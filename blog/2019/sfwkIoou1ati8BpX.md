@@ -1,15 +1,299 @@
 # Problem - 1111A - Codeforces
-<div class="problemindexholder" problemindex="A">
-        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">A. Superhero Transformation</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file"><div class="property-title">input</div>standard input</div><div class="output-file"><div class="property-title">output</div>standard output</div></div><div><p>We all know that a superhero can transform to certain other superheroes. But not all Superheroes can transform to any other superhero. A superhero with name <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>s</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.551em, 1000.42em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mi" id="MathJax-Span-3" style="font-family: MathJax_Math-italic;">s</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.718em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>s</mi></math></span></span><script type="math/tex" id="MathJax-Element-1">s</script> can transform to another superhero with name <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>t</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-4" style="width: 0.479em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.36em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.313em, 1000.3em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-5"><span class="mi" id="MathJax-Span-6" style="font-family: MathJax_Math-italic;">t</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.932em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi></math></span></span><script type="math/tex" id="MathJax-Element-2">t</script> if <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>s</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-7" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.551em, 1000.42em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-8"><span class="mi" id="MathJax-Span-9" style="font-family: MathJax_Math-italic;">s</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.718em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>s</mi></math></span></span><script type="math/tex" id="MathJax-Element-3">s</script> can be made equal to <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>t</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-10" style="width: 0.479em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.36em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.313em, 1000.3em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-11"><span class="mi" id="MathJax-Span-12" style="font-family: MathJax_Math-italic;">t</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.932em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi></math></span></span><script type="math/tex" id="MathJax-Element-4">t</script> by changing any vowel in <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>s</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-13" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.551em, 1000.42em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-14"><span class="mi" id="MathJax-Span-15" style="font-family: MathJax_Math-italic;">s</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.718em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>s</mi></math></span></span><script type="math/tex" id="MathJax-Element-5">s</script> to any other vowel and any consonant in <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-6-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>s</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-16" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.551em, 1000.42em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-17"><span class="mi" id="MathJax-Span-18" style="font-family: MathJax_Math-italic;">s</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.718em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>s</mi></math></span></span><script type="math/tex" id="MathJax-Element-6">s</script> to any other consonant. Multiple changes can be made.</p><p><span class="tex-font-style-bf">In this problem</span>, we consider the letters '<span class="tex-font-style-tt">a</span>', '<span class="tex-font-style-tt">e</span>', '<span class="tex-font-style-tt">i</span>', '<span class="tex-font-style-tt">o</span>' and '<span class="tex-font-style-tt">u</span>' to be vowels and all the other letters to be consonants.</p><p>Given the names of two superheroes, determine if the superhero with name <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-7-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>s</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-19" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.551em, 1000.42em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-20"><span class="mi" id="MathJax-Span-21" style="font-family: MathJax_Math-italic;">s</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.718em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>s</mi></math></span></span><script type="math/tex" id="MathJax-Element-7">s</script> can be transformed to the Superhero with name <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-8-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>t</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-22" style="width: 0.479em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.36em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.313em, 1000.3em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-23"><span class="mi" id="MathJax-Span-24" style="font-family: MathJax_Math-italic;">t</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.932em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi></math></span></span><script type="math/tex" id="MathJax-Element-8">t</script>.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains the string <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-9-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>s</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-25" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.551em, 1000.42em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-26"><span class="mi" id="MathJax-Span-27" style="font-family: MathJax_Math-italic;">s</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.718em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>s</mi></math></span></span><script type="math/tex" id="MathJax-Element-9">s</script> having length between <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-10-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>1</mn></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-28" style="width: 0.658em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.539em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.372em, 1000.48em, 2.384em, -999.997em); top: -2.199em; left: 0em;"><span class="mrow" id="MathJax-Span-29"><span class="mn" id="MathJax-Span-30" style="font-family: MathJax_Main;">1</span></span><span style="display: inline-block; width: 0px; height: 2.205em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.932em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-10">1</script> and <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-11-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>1000</mn></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-31" style="width: 2.384em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.967em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.372em, 1001.91em, 2.384em, -999.997em); top: -2.199em; left: 0em;"><span class="mrow" id="MathJax-Span-32"><span class="mn" id="MathJax-Span-33" style="font-family: MathJax_Main;">1000</span></span><span style="display: inline-block; width: 0px; height: 2.205em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 1.004em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1000</mn></math></span></span><script type="math/tex" id="MathJax-Element-11">1000</script>, inclusive.</p><p>The second line contains the string <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-12-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>t</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-34" style="width: 0.479em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.36em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.313em, 1000.3em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-35"><span class="mi" id="MathJax-Span-36" style="font-family: MathJax_Math-italic;">t</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.932em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi></math></span></span><script type="math/tex" id="MathJax-Element-12">t</script> having length between <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-13-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>1</mn></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-37" style="width: 0.658em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.539em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.372em, 1000.48em, 2.384em, -999.997em); top: -2.199em; left: 0em;"><span class="mrow" id="MathJax-Span-38"><span class="mn" id="MathJax-Span-39" style="font-family: MathJax_Main;">1</span></span><span style="display: inline-block; width: 0px; height: 2.205em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.932em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-13">1</script> and <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-14-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>1000</mn></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-40" style="width: 2.384em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.967em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.372em, 1001.91em, 2.384em, -999.997em); top: -2.199em; left: 0em;"><span class="mrow" id="MathJax-Span-41"><span class="mn" id="MathJax-Span-42" style="font-family: MathJax_Main;">1000</span></span><span style="display: inline-block; width: 0px; height: 2.205em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 1.004em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1000</mn></math></span></span><script type="math/tex" id="MathJax-Element-14">1000</script>, inclusive.</p><p>Both strings <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-15-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>s</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-43" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.551em, 1000.42em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-44"><span class="mi" id="MathJax-Span-45" style="font-family: MathJax_Math-italic;">s</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.718em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>s</mi></math></span></span><script type="math/tex" id="MathJax-Element-15">s</script> and <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-16-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>t</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-46" style="width: 0.479em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.36em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.313em, 1000.3em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-47"><span class="mi" id="MathJax-Span-48" style="font-family: MathJax_Math-italic;">t</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.932em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi></math></span></span><script type="math/tex" id="MathJax-Element-16">t</script> are guaranteed to be different and consist of lowercase English letters only.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Output "<span class="tex-font-style-tt">Yes</span>" (without quotes) if the superhero with name <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-17-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>s</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-49" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.551em, 1000.42em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-50"><span class="mi" id="MathJax-Span-51" style="font-family: MathJax_Math-italic;">s</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.718em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>s</mi></math></span></span><script type="math/tex" id="MathJax-Element-17">s</script> can be transformed to the superhero with name <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-18-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>t</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-52" style="width: 0.479em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.36em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.313em, 1000.3em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-53"><span class="mi" id="MathJax-Span-54" style="font-family: MathJax_Math-italic;">t</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.932em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi></math></span></span><script type="math/tex" id="MathJax-Element-18">t</script> and "<span class="tex-font-style-tt">No</span>" (without quotes) otherwise.</p><p>You can print each letter in any case (upper or lower).</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005720016913585524" id="id004186919380268437" class="input-output-copier">Copy</div></div><pre id="id005720016913585524">a
-u
-</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0066533271366385" id="id0032457799577184687" class="input-output-copier">Copy</div></div><pre id="id0066533271366385">Yes
-</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0015900144816368256" id="id0009530751582853436" class="input-output-copier">Copy</div></div><pre id="id0015900144816368256">abc
-ukm
-</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0045590916480464827" id="id0036675324346987526" class="input-output-copier">Copy</div></div><pre id="id0045590916480464827">Yes
-</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006772075314230601" id="id006251932758352845" class="input-output-copier">Copy</div></div><pre id="id006772075314230601">akm
-ua
-</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id004376713621221584" id="id00930686979682777" class="input-output-copier">Copy</div></div><pre id="id004376713621221584">No
-</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first sample, since both '<span class="tex-font-style-tt">a</span>' and '<span class="tex-font-style-tt">u</span>' are vowels, it is possible to convert string <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-19-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>s</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-55" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.551em, 1000.42em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-56"><span class="mi" id="MathJax-Span-57" style="font-family: MathJax_Math-italic;">s</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.718em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>s</mi></math></span></span><script type="math/tex" id="MathJax-Element-19">s</script> to <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-20-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>t</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-58" style="width: 0.479em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.36em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.313em, 1000.3em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-59"><span class="mi" id="MathJax-Span-60" style="font-family: MathJax_Math-italic;">t</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.932em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi></math></span></span><script type="math/tex" id="MathJax-Element-20">t</script>.</p><p>In the third sample, '<span class="tex-font-style-tt">k</span>' is a consonant, whereas '<span class="tex-font-style-tt">a</span>' is a vowel, so it is not possible to convert string <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-21-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>s</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-61" style="width: 0.598em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.479em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.551em, 1000.42em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-62"><span class="mi" id="MathJax-Span-63" style="font-family: MathJax_Math-italic;">s</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.718em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>s</mi></math></span></span><script type="math/tex" id="MathJax-Element-21">s</script> to <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-22-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>t</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-64" style="width: 0.479em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.36em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.313em, 1000.3em, 2.324em, -999.997em); top: -2.14em; left: 0em;"><span class="mrow" id="MathJax-Span-65"><span class="mi" id="MathJax-Span-66" style="font-family: MathJax_Math-italic;">t</span></span><span style="display: inline-block; width: 0px; height: 2.146em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 0.932em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi></math></span></span><script type="math/tex" id="MathJax-Element-22">t</script>.</p></div></div><p>  </p></div>
+<div class="WordSection1" style="layout-grid:15.6pt">
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="font-size:16.0pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">A. Superhero Transformation<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">time limit per test<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">1 second<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">memory limit per test<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">256 megabytes<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">input<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">standard input<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">output<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">standard output<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:left;line-height:16.8pt;mso-pagination:widow-orphan;background:
+white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:宋体;color:#222222;mso-font-kerning:0pt">We all know that
+a superhero can transform to certain other superheroes. But not all Superheroes
+can transform to any other superhero. A superhero with name&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Math-italic&quot;,serif;
+mso-fareast-font-family:宋体;mso-bidi-font-family:Helvetica;color:#222222;
+mso-font-kerning:0pt">s</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;
+font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;color:#222222;
+mso-font-kerning:0pt">&nbsp;can transform to another superhero with name&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Math-italic&quot;,serif;
+mso-fareast-font-family:宋体;mso-bidi-font-family:Helvetica;color:#222222;
+mso-font-kerning:0pt">t</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;
+font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;color:#222222;
+mso-font-kerning:0pt">&nbsp;if&nbsp;</span><span lang="EN-US" style="font-size:
+12.5pt;font-family:&quot;MathJax_Math-italic&quot;,serif;mso-fareast-font-family:宋体;
+mso-bidi-font-family:Helvetica;color:#222222;mso-font-kerning:0pt">s</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:宋体;color:#222222;mso-font-kerning:0pt">s&nbsp;can be
+made equal to&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:
+&quot;MathJax_Math-italic&quot;,serif;mso-fareast-font-family:宋体;mso-bidi-font-family:
+Helvetica;color:#222222;mso-font-kerning:0pt">t</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">&nbsp;by changing any vowel in&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Math-italic&quot;,serif;
+mso-fareast-font-family:宋体;mso-bidi-font-family:Helvetica;color:#222222;
+mso-font-kerning:0pt">s</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;
+font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;color:#222222;
+mso-font-kerning:0pt">&nbsp;to any other vowel and any consonant in&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Math-italic&quot;,serif;
+mso-fareast-font-family:宋体;mso-bidi-font-family:Helvetica;color:#222222;
+mso-font-kerning:0pt">s</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;
+font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;color:#222222;
+mso-font-kerning:0pt">s&nbsp;to any other consonant. Multiple changes can be
+made.<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="margin-top:18.0pt;text-align:left;
+line-height:16.8pt;mso-pagination:widow-orphan;background:white"><b><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:宋体;color:#222222;mso-font-kerning:0pt">In this problem</span></b><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:宋体;color:#222222;mso-font-kerning:0pt">, we consider
+the letters '</span><span lang="EN-US" style="font-size:11.5pt;font-family:&quot;Courier New&quot;;
+mso-fareast-font-family:宋体;color:#222222;mso-font-kerning:0pt">a</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:宋体;color:#222222;mso-font-kerning:0pt">', '</span><span lang="EN-US" style="font-size:11.5pt;font-family:&quot;Courier New&quot;;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">e</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">', '</span><span class="SpellE"><span lang="EN-US" style="font-size:11.5pt;font-family:&quot;Courier New&quot;;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">i</span></span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">', '</span><span lang="EN-US" style="font-size:11.5pt;font-family:&quot;Courier New&quot;;mso-fareast-font-family:宋体;
+color:#222222;mso-font-kerning:0pt">o</span><span lang="EN-US" style="mso-bidi-font-size:
+10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;
+color:#222222;mso-font-kerning:0pt">' and '</span><span lang="EN-US" style="font-size:11.5pt;font-family:&quot;Courier New&quot;;mso-fareast-font-family:宋体;
+color:#222222;mso-font-kerning:0pt">u</span><span lang="EN-US" style="mso-bidi-font-size:
+10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;
+color:#222222;mso-font-kerning:0pt">' to be vowels and all the other letters to
+be consonants.<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:16.8pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">Given the names of two superheroes,
+determine if the superhero with name&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Math-italic&quot;,serif;mso-fareast-font-family:
+宋体;mso-bidi-font-family:Helvetica;color:#222222;mso-font-kerning:0pt">s</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:宋体;color:#222222;mso-font-kerning:0pt">s&nbsp;can be
+transformed to the Superhero with name&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Math-italic&quot;,serif;mso-fareast-font-family:
+宋体;mso-bidi-font-family:Helvetica;color:#222222;mso-font-kerning:0pt">t</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:宋体;color:#222222;mso-font-kerning:0pt">.<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><b><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">Input<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:16.8pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">The first line contains the string&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Math-italic&quot;,serif;
+mso-fareast-font-family:宋体;mso-bidi-font-family:Helvetica;color:#222222;
+mso-font-kerning:0pt">s</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;
+font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;color:#222222;
+mso-font-kerning:0pt">&nbsp;having length between&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Main&quot;,serif;mso-fareast-font-family:
+宋体;mso-bidi-font-family:Helvetica;color:#222222;mso-font-kerning:0pt">1</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:宋体;color:#222222;mso-font-kerning:0pt">&nbsp;and&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Main&quot;,serif;mso-fareast-font-family:
+宋体;mso-bidi-font-family:Helvetica;color:#222222;mso-font-kerning:0pt">1000</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:宋体;color:#222222;mso-font-kerning:0pt">, inclusive.<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:16.8pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">The second line contains the
+string&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Math-italic&quot;,serif;
+mso-fareast-font-family:宋体;mso-bidi-font-family:Helvetica;color:#222222;
+mso-font-kerning:0pt">t</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;
+font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;color:#222222;
+mso-font-kerning:0pt">&nbsp;having length between&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Main&quot;,serif;mso-fareast-font-family:
+宋体;mso-bidi-font-family:Helvetica;color:#222222;mso-font-kerning:0pt">1</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:宋体;color:#222222;mso-font-kerning:0pt">&nbsp;and&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Main&quot;,serif;mso-fareast-font-family:
+宋体;mso-bidi-font-family:Helvetica;color:#222222;mso-font-kerning:0pt">1000</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:宋体;color:#222222;mso-font-kerning:0pt">, inclusive.<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:16.8pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">Both strings&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Math-italic&quot;,serif;
+mso-fareast-font-family:宋体;mso-bidi-font-family:Helvetica;color:#222222;
+mso-font-kerning:0pt">s</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;
+font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;color:#222222;
+mso-font-kerning:0pt">s&nbsp;and&nbsp;</span><span lang="EN-US" style="font-size:
+12.5pt;font-family:&quot;MathJax_Math-italic&quot;,serif;mso-fareast-font-family:宋体;
+mso-bidi-font-family:Helvetica;color:#222222;mso-font-kerning:0pt">t</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:宋体;color:#222222;mso-font-kerning:0pt">&nbsp;are
+guaranteed to be different and consist of lowercase English letters only.<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><b><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">Output<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:16.8pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">Output "</span><span lang="EN-US" style="font-size:11.5pt;font-family:&quot;Courier New&quot;;mso-fareast-font-family:宋体;
+color:#222222;mso-font-kerning:0pt">Yes</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">" (without quotes) if the superhero
+with name&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:
+&quot;MathJax_Math-italic&quot;,serif;mso-fareast-font-family:宋体;mso-bidi-font-family:
+Helvetica;color:#222222;mso-font-kerning:0pt">s</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">s&nbsp;can be transformed to the
+superhero with name&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;
+font-family:&quot;MathJax_Math-italic&quot;,serif;mso-fareast-font-family:宋体;mso-bidi-font-family:
+Helvetica;color:#222222;mso-font-kerning:0pt">t</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">&nbsp;and "</span><span lang="EN-US" style="font-size:11.5pt;font-family:&quot;Courier New&quot;;mso-fareast-font-family:宋体;
+color:#222222;mso-font-kerning:0pt">No</span><span lang="EN-US" style="mso-bidi-font-size:
+10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;
+color:#222222;mso-font-kerning:0pt">" (without quotes) otherwise.<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="margin-top:18.0pt;text-align:left;
+line-height:16.8pt;mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:宋体;color:#222222;mso-font-kerning:0pt">You can print
+each letter in any case (upper or lower).<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><b><span lang="EN-US" style="font-size:11.0pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">Examples<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><b><span lang="EN-US" style="font-size:12.5pt;font-family:Consolas;mso-fareast-font-family:宋体;
+mso-bidi-font-family:Helvetica;color:#222222;mso-font-kerning:0pt">input<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:15.0pt;
+mso-pagination:widow-orphan;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:#EFEFEF"><span lang="EN-US" style="font-size:9.5pt;font-family:Consolas;
+mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;color:#880000;mso-font-kerning:
+0pt">a<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:15.0pt;
+mso-pagination:widow-orphan;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:#EFEFEF"><span lang="EN-US" style="font-size:9.5pt;font-family:Consolas;
+mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;color:#880000;mso-font-kerning:
+0pt">u<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><b><span lang="EN-US" style="font-size:12.5pt;font-family:Consolas;mso-fareast-font-family:宋体;
+mso-bidi-font-family:Helvetica;color:#222222;mso-font-kerning:0pt">output<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:15.0pt;
+mso-pagination:widow-orphan;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:#EFEFEF"><span lang="EN-US" style="font-size:9.5pt;font-family:Consolas;
+mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;color:#880000;mso-font-kerning:
+0pt">Yes<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><b><span lang="EN-US" style="font-size:12.5pt;font-family:Consolas;mso-fareast-font-family:宋体;
+mso-bidi-font-family:Helvetica;color:#222222;mso-font-kerning:0pt">input<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:15.0pt;
+mso-pagination:widow-orphan;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:#EFEFEF"><span class="SpellE"><span lang="EN-US" style="font-size:9.5pt;
+font-family:Consolas;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;
+color:#880000;mso-font-kerning:0pt">abc</span></span><span lang="EN-US" style="font-size:9.5pt;font-family:Consolas;mso-fareast-font-family:宋体;
+mso-bidi-font-family:宋体;color:#880000;mso-font-kerning:0pt"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:15.0pt;
+mso-pagination:widow-orphan;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:#EFEFEF"><span class="SpellE"><span lang="EN-US" style="font-size:9.5pt;
+font-family:Consolas;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;
+color:#880000;mso-font-kerning:0pt">ukm</span></span><span lang="EN-US" style="font-size:9.5pt;font-family:Consolas;mso-fareast-font-family:宋体;
+mso-bidi-font-family:宋体;color:#880000;mso-font-kerning:0pt"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><b><span lang="EN-US" style="font-size:12.5pt;font-family:Consolas;mso-fareast-font-family:宋体;
+mso-bidi-font-family:Helvetica;color:#222222;mso-font-kerning:0pt">output<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:15.0pt;
+mso-pagination:widow-orphan;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:#EFEFEF"><span lang="EN-US" style="font-size:9.5pt;font-family:Consolas;
+mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;color:#880000;mso-font-kerning:
+0pt">Yes<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><b><span lang="EN-US" style="font-size:12.5pt;font-family:Consolas;mso-fareast-font-family:宋体;
+mso-bidi-font-family:Helvetica;color:#222222;mso-font-kerning:0pt">input<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:15.0pt;
+mso-pagination:widow-orphan;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:#EFEFEF"><span class="SpellE"><span lang="EN-US" style="font-size:9.5pt;
+font-family:Consolas;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;
+color:#880000;mso-font-kerning:0pt">akm</span></span><span lang="EN-US" style="font-size:9.5pt;font-family:Consolas;mso-fareast-font-family:宋体;
+mso-bidi-font-family:宋体;color:#880000;mso-font-kerning:0pt"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:15.0pt;
+mso-pagination:widow-orphan;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:#EFEFEF"><span class="SpellE"><span lang="EN-US" style="font-size:9.5pt;
+font-family:Consolas;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;
+color:#880000;mso-font-kerning:0pt">ua</span></span><span lang="EN-US" style="font-size:9.5pt;font-family:Consolas;mso-fareast-font-family:宋体;
+mso-bidi-font-family:宋体;color:#880000;mso-font-kerning:0pt"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><b><span lang="EN-US" style="font-size:12.5pt;font-family:Consolas;mso-fareast-font-family:宋体;
+mso-bidi-font-family:Helvetica;color:#222222;mso-font-kerning:0pt">output<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:15.0pt;
+mso-pagination:widow-orphan;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:#EFEFEF"><span lang="EN-US" style="font-size:9.5pt;font-family:Consolas;
+mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;color:#880000;mso-font-kerning:
+0pt">No<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;background:white"><b><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">Note<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:16.8pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">In the first sample, since both '</span><span lang="EN-US" style="font-size:11.5pt;font-family:&quot;Courier New&quot;;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">a</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">' and '</span><span lang="EN-US" style="font-size:11.5pt;font-family:&quot;Courier New&quot;;mso-fareast-font-family:宋体;
+color:#222222;mso-font-kerning:0pt">u</span><span lang="EN-US" style="mso-bidi-font-size:
+10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;
+color:#222222;mso-font-kerning:0pt">' are vowels, it is possible to convert
+string&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Math-italic&quot;,serif;
+mso-fareast-font-family:宋体;mso-bidi-font-family:Helvetica;color:#222222;
+mso-font-kerning:0pt">s</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;
+font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;color:#222222;
+mso-font-kerning:0pt">s&nbsp;to&nbsp;</span><span class="SpellE"><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Math-italic&quot;,serif;
+mso-fareast-font-family:宋体;mso-bidi-font-family:Helvetica;color:#222222;
+mso-font-kerning:0pt">t</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;
+font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;color:#222222;
+mso-font-kerning:0pt">t</span></span><span lang="EN-US" style="mso-bidi-font-size:
+10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;
+color:#222222;mso-font-kerning:0pt">.<o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-align:left;line-height:16.8pt;
+mso-pagination:widow-orphan;background:white"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">In the third sample, '</span><span lang="EN-US" style="font-size:11.5pt;font-family:&quot;Courier New&quot;;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">k</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">' is a consonant, whereas '</span><span lang="EN-US" style="font-size:11.5pt;font-family:&quot;Courier New&quot;;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">a</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">' is a vowel, so it is not possible to
+convert string&nbsp;</span><span lang="EN-US" style="font-size:12.5pt;font-family:
+&quot;MathJax_Math-italic&quot;,serif;mso-fareast-font-family:宋体;mso-bidi-font-family:
+Helvetica;color:#222222;mso-font-kerning:0pt">s</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+宋体;color:#222222;mso-font-kerning:0pt">s&nbsp;to&nbsp;</span><span class="SpellE"><span lang="EN-US" style="font-size:12.5pt;font-family:&quot;MathJax_Math-italic&quot;,serif;
+mso-fareast-font-family:宋体;mso-bidi-font-family:Helvetica;color:#222222;
+mso-font-kerning:0pt">t</span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;
+font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;color:#222222;
+mso-font-kerning:0pt">t</span></span><span lang="EN-US" style="mso-bidi-font-size:
+10.5pt;font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:宋体;
+color:#222222;mso-font-kerning:0pt">.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US"><o:p>&nbsp;</o:p></span></p>
+
 </div>
 
 ```cpp
