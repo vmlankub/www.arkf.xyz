@@ -1,5 +1,5 @@
 # Blog::Category
 * [Algorithm](algo)
 * [C++](cpp)
-* [Javascript](javascript)
+* [Javascript](js)
 * [News](news)
