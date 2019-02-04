@@ -10,7 +10,7 @@
 * [JavaScript专题之从零实现jQuery的extend](2019/QyRkrMZCL2A43LDZ)
 * [JavaScript专题之函数柯里化](2019/t7folwF8cim1Fz1U)
 * [央视春晚亮点快来看](2019/ZjMVtiJU8y888r9G)
-
+* [假设林纳斯先生离世，Linux将会如何发展？](2019/WZpa45g9ZzpsTumo)
 
 
 ![](https://cdn.jsdelivr.net/gh/vmlankub/www.arkf.xyz/white.png)
