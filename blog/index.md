@@ -9,6 +9,7 @@
 * [JavaScript专题之乱序](2019/L0JKxU7seBp5ojyV)
 * [JavaScript专题之从零实现jQuery的extend](2019/QyRkrMZCL2A43LDZ)
 * [JavaScript专题之函数柯里化](2019/t7folwF8cim1Fz1U)
+* [央视春晚亮点快来看](2019/ZjMVtiJU8y888r9G)
 
 
 
