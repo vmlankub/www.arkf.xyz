@@ -326,7 +326,7 @@ console.log(c);
 
 我们会得到一个可以无限展开的对象，类似于这样：
 
-![循环引用对象](https://cdn.jsdelivr.net/gh/mqyqingfeng/Blog/Images/extend/extend1.png)
+![循环引用对象](https://raw.githubusercontent.com/mqyqingfeng/Blog/master/Images/extend/extend1.png)
 
 为了避免这个问题，我们需要判断要复制的对象属性是否等于 target，如果等于，我们就跳过：
 
