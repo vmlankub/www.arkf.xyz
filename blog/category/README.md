@@ -3,3 +3,4 @@
 * [C++](cpp)
 * [Javascript](js)
 * [News](news)
+* [Speech](speech)
