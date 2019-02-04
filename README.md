@@ -6,7 +6,7 @@
 > * [Cloudflare File Share](https://cf.arkf.xyz)
 
 `Hi! I'm Joe. Welcome to my blog.`
-> * [To Blog](/blog)
+> ## [To Blog](/blog)
 
 *This is my GitHub*
 [![](/github.png)](https://github.com/MinecraftFuns)
