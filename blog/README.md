@@ -17,6 +17,7 @@
 * [Problem - 1111A - Codeforces](2019/sfwkIoou1ati8BpX)
 * [一言 · 2019.2.5](2019/QrW9XPZgi4e4VRir)
 * [HTTPS中加密算法的密钥是随机生成吗？和用户帐号密码有什么关联？](2019/yV0Mes7HLjnFfZeR)
+* [亚里斯多德法则——《人性的弱点》](2019/mwnBDRTfDWm5G1ik)
 
 
 ![](https://cdn.jsdelivr.net/gh/vmlankub/www.arkf.xyz/white.png)
