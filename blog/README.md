@@ -21,7 +21,7 @@
 * [特朗普总统2019年国情咨文演讲【全文翻译】](2019/ouGF3MEDGh6Yxq6G)
 * [前端组件化框架之路](2019/WZIjdMCoXyGOqn0W)
 * [你觉得《三体》中最残忍的一句话是什么？](2019/6X0SYbSEFsSXQqg3)
-* [通过 Flash 技术可获取的信息](2019/xe4HBf4N9r4SGCmE)
+* [通过 Flash 技术 / JavaScript 可获取的信息](2019/xe4HBf4N9r4SGCmE)
 
 
 ![](https://cdn.jsdelivr.net/gh/vmlankub/www.arkf.xyz/white.png)
