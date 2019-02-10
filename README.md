@@ -10,6 +10,7 @@
 `Hi! I'm Joe. Welcome to my blog.`
 
 > ## [前往图床](/epic/#src=www.arkf.xyz)
+> ## [Base64](/base64/#src=www.arkf.xyz)
 
 *This is my GitHub*
 [![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dh1xi0cj30vp0kzjzm.jpg)](https://github.com/MinecraftFuns)
