@@ -24,7 +24,7 @@
 * [通过 Flash 技术 / JavaScript 可获取的信息](2019/xe4HBf4N9r4SGCmE)
 
 
-![](https://cdn.jsdelivr.net/gh/vmlankub/www.arkf.xyz/white.png)
+![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <script> (adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-4161171709893056", enable_page_level_ads: true }); </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
