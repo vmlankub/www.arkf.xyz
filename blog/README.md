@@ -22,7 +22,7 @@
 * [前端组件化框架之路](2019/WZIjdMCoXyGOqn0W)
 * [你觉得《三体》中最残忍的一句话是什么？](2019/6X0SYbSEFsSXQqg3)
 * [通过 Flash 技术 / JavaScript 可获取的信息](2019/xe4HBf4N9r4SGCmE)
-
+* [新时代我国社会的主要矛盾及其现实意义](2019/jnaepONrQVLF5P8Q)
 
 ![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
