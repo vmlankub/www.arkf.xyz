@@ -1,7 +1,7 @@
 # Blog::Contents
 `按照时间排序`|`Sort by time`
 > **[Blog::Category](/blog/category/)**  
-> **[Blog::Contents](/blog/contents)**  
+> *[Blog::Contents](/blog/contents)*  
 > **[Blog::Selected](/blog/)**
 
 ## 2019
