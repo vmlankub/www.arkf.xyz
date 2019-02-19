@@ -1,7 +1,7 @@
 # 七年级 · 历史与社会(下册)
 
 > 这是一份七年级历史与社会的知识梳理，全文为图片格式。  
-> PDF格式的[源文件](J65RKs8X2ZW4SIFL.pdf)
+> PDF格式的[源文件](/epic/WdloCcTojoTsvFay/J65RKs8X2ZW4SIFL.pdf)
 
 ## ISBN:9787107251986
 ![](/epic/hLow7GCvmbbwkbhX/0001.jpg)  
