@@ -27,6 +27,7 @@
 * [为什么没有支持周期长达数年的开源浏览器？](2019/7EWcPMg4rquWzoEF)
 * [Linode 里为什么 Ubuntu 最火呢？](2019/nlVS8t83aWpb1X3F)
 * [七年级 · 历史与社会(上册)](2019/dphjWD2ClYM7TOAK)
+* [七年级 · 历史与社会(下册)](2019/Q0pYpZeNhOi0Wm5v)
 
 ![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
