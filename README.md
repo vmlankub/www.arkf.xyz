@@ -1,4 +1,3 @@
-{% include head.html %}
 # Ark's Blog | 方舟的博客
 
 **欢迎你，访客！**
