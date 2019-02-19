@@ -1,7 +1,7 @@
 # Blog::Selected
 > **[Blog::Category](/blog/category/)**  
 > **[Blog::Contents](/blog/contents)**  
-> **[Blog::Selected](/blog/)**
+> *[Blog::Selected](/blog/)*
 
 * [HTTPS中加密算法的密钥是随机生成吗？和用户帐号密码有什么关联？](2019/yV0Mes7HLjnFfZeR)
 * [一个程序员的成长之路](2019/MgXZH4Scw6Lckg9C)
