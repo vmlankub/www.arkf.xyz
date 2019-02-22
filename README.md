@@ -23,7 +23,7 @@
 *这是我的 GitHub 账户*
 [![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dh1xi0cj30vp0kzjzm.jpg)](/link/wlqe.html)
 
-> ## [前往GitHub](/link/wlqe)
+> ## [前往GitHub](/link/wlqe.html)
 
 *方舟 · Ark's Blog*
 [![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dhwhi0rj31c00ltx2w.jpg)](/link/yXxR.html)
