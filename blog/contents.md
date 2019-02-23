@@ -24,7 +24,7 @@
 * [前端组件化框架之路](2019/WZIjdMCoXyGOqn0W)
 * [你觉得《三体》中最残忍的一句话是什么？](2019/6X0SYbSEFsSXQqg3)
 * [通过 Flash 技术 / JavaScript 可获取的信息](2019/xe4HBf4N9r4SGCmE)
-* [新时代我国社会的主要矛盾及其现实意义](2019/jnaepONrQVLF5P8Q)
+* [新时代，我国社会的主要矛盾及其现实意义](2019/jnaepONrQVLF5P8Q)
 * [海南省人民医院原党委副书记、院长李灼日接受审查调查](2019/4fJsqMWacnMRA2mf)
 * [为什么没有支持周期长达数年的开源浏览器？](2019/7EWcPMg4rquWzoEF)
 * [Linode 里为什么 Ubuntu 最火呢？](2019/nlVS8t83aWpb1X3F)
