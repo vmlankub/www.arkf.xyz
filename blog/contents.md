@@ -35,6 +35,7 @@
 * [My Hobby](2019/GtmMN7PWAYLOVtUx)
 * [E - Y2K Accounting Bug](2019/U7cuaviCRbMgbMJr)
 * [A - Plate Game](2019/2qfFRq6fZAhMEXH5)
+* [甘肃省兰州市 2017 年中考语文真题试题](2019/XHYjKAEFH9w0roF9)
 
 ![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
