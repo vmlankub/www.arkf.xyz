@@ -34,6 +34,7 @@
 * [在考试中写正解得分不如暴力得分高怎么办？](2019/wkDiPQRpX3UGpzbb)
 * [My Hobby](2019/GtmMN7PWAYLOVtUx)
 * [E - Y2K Accounting Bug](2019/U7cuaviCRbMgbMJr)
+* [A - Plate Game](2019/2qfFRq6fZAhMEXH5)
 
 ![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
