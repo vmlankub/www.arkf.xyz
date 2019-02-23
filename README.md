@@ -2,45 +2,46 @@
 
 **欢迎你，访客！**
 
-> ## [前往博客](/blog/#src=www.arkf.xyz)
+> ## [前往博客](/blog/?src=www.arkf.xyz)
 
 -----------------------------
 
 > ## 这是一些小作品
-> * [Ark Miner](/link/KqhP.html)
-> * [10分钟邮箱](/link/W4nz.html)
-> * [Cloudflare File Share](/link/SHrL.html)
+> * [Ark Miner](/link/KqhP.html?src=www.arkf.xyz)
+> * [10分钟邮箱](/link/W4nz.html?src=www.arkf.xyz)
+> * [Cloudflare File Share](/link/SHrL.html?src=www.arkf.xyz)
 
 > ## 在线工具箱
-* [图床](/epic/#src=www.arkf.xyz)
-* [Base64编码](/base64/#src=www.arkf.xyz)
-* [我的Todo List](/blog/todo/#src=www.arkf.xyz)
+* [图床](/epic/?src=www.arkf.xyz)
+* [Base64编码](/base64/?src=www.arkf.xyz)
+* [我的Todo List](/blog/todo/?src=www.arkf.xyz)
+* [下载 Chrome](/chrome-download/?src=www.arkf.xyz)
 
 -----------------------------
 
 **以下是我的个人简介。**
 
 *这是我的 GitHub 账户*
-[![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dh1xi0cj30vp0kzjzm.jpg)](/link/wlqe.html)
+[![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dh1xi0cj30vp0kzjzm.jpg)](/link/wlqe.html?src=www.arkf.xyz)
 
-> ## [前往GitHub](/link/wlqe.html)
+> ## [前往GitHub](/link/wlqe.html?src=www.arkf.xyz)
 
 *方舟 · Ark's Blog*
-[![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dhwhi0rj31c00ltx2w.jpg)](/link/yXxR.html)
+[![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dhwhi0rj31c00ltx2w.jpg)](/link/yXxR.html?src=www.arkf.xyz)
 
-> ## [前往ArkBlog.CF](/link/yXxR.html)
+> ## [前往ArkBlog.CF](/link/yXxR.html?src=www.arkf.xyz)
 
 *你可以在 知乎@MinecraftFuns 找到我*
-[![](https://ww2.sinaimg.cn/large/005BYqpgly1g01didpnl0j30vv0lo7gk.jpg)](/link/zU9A.html)
+[![](https://ww2.sinaimg.cn/large/005BYqpgly1g01didpnl0j30vv0lo7gk.jpg)](/link/zU9A.html?src=www.arkf.xyz)
 
-> ## [前往知乎](/link/zU9A.html)
+> ## [前往知乎](/link/zU9A.html?src=www.arkf.xyz)
 
 *我的网易云音乐账号，有不少精选歌单呢*
-[![](https://ww2.sinaimg.cn/large/005BYqpgly1g01diuv3jcj30rw0kadk3.jpg)](/link/aXJZ.html)
+[![](https://ww2.sinaimg.cn/large/005BYqpgly1g01diuv3jcj30rw0kadk3.jpg)](/link/aXJZ.html?src=www.arkf.xyz)
 
-> ## [前往网易云音乐](/link/aXJZ.html)
+> ## [前往网易云音乐](/link/aXJZ.html?src=www.arkf.xyz)
 
-* For web miner please go to [g.arkf.xyz](/link/2mdH.html)
+* For web miner please go to [g.arkf.xyz](/link/2mdH.html?src=www.arkf.xyz)
 
 ![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
