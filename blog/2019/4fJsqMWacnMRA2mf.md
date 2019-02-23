@@ -2,7 +2,7 @@
 <div class="text_con text_con01">        
         <div class="text_c">
        <h3 id="jtitle" style="display: none;"></h3>
-       <h1>海南省人民医院原党委副书记、院长李灼日接受审查调查</h1>
+       <h1>李灼日接受审查调查</h1>
 	   <h2 id="ftitle" style="display: none;"></h2>
        <p class="sou1" style="display: none;"></p>
 	   <p class="sou">2019年02月12日08:17&nbsp;&nbsp;&nbsp;&nbsp;来源：<a href="http://cpc.people.com.cn/" target="_blank">人民网-中国共产党新闻网</a></p>	   
