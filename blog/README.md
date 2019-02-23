@@ -8,7 +8,7 @@
 * [Linode 里为什么 Ubuntu 最火呢？](2019/nlVS8t83aWpb1X3F)
 * [七年级 · 历史与社会(上册)](2019/dphjWD2ClYM7TOAK)
 * [七年级 · 历史与社会(下册)](2019/Q0pYpZeNhOi0Wm5v)
-* [My Hobby](2019/GtmMN7PWAYLOVtUx)
+* [甘肃省兰州市 2017 年中考语文真题试题](2019/XHYjKAEFH9w0roF9)
 
 ![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
