@@ -18,6 +18,7 @@
 * [A - Odds and Ends](2019/FfhA71UDvDBdZODf)
 * [B - Tell Your World](2019/UQCgKEL42tnaDOe3)
 * [什么情况下C++需要垃圾处理机制？](2019/95Mu3U9PDrroP0d6)
+* [A - Tree and Permutation](2019/QX4xPUxGRNQfWjoC)
 ## [前往上一页](contents)
 ## [前往下一页](contents-未指定.html)
 
