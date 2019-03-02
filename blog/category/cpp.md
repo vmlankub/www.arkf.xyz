@@ -4,5 +4,6 @@
 * [A - Plate Game](/blog/2019/2qfFRq6fZAhMEXH5)
 * [A - Odds and Ends](/blog/2019/FfhA71UDvDBdZODf)
 * [B - Tell Your World](/blog/2019/UQCgKEL42tnaDOe3)
+* [A - Tree and Permutation](/blog/2019/QX4xPUxGRNQfWjoC)
 
 ![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
