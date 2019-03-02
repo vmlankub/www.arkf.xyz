@@ -21,33 +21,40 @@
 5
 7 5 8 6 9
 ```
+
 > Output
 ```
 Yes
 ```
+
 > Input
 ```
 5
 -1 -2 0 0 -5
 ```
+
 > Output
 ```
 No
 ```
+
 > Input
 ```
 5
 5 4 3 2 1
 ```
+
 > Output
 ```
 No
 ```
+
 > Input
 ```
 5
 1000000000 0 0 0 0
 ```
+
 > Output
 ```
 Yes
@@ -60,7 +67,7 @@ Yes
 
 > In the third example, it's impossible to satisfy both requirements at the same time.
 
-##【题解】
+## 【题解】
 
 >  大致题意：给定n个点，下标代表x值，值代表y值，现在要判断是否存在两条平行且不重合的直线可以穿过所有的点。
 
