@@ -26,6 +26,7 @@
 > 你每次都是new一个对象，后面手动delete，请问你这和用C有什么区别？不就是当成malloc/free吗？  
 > 现代的C++代码是看不到new（除了一些RAII式容器中的构造），delete的，如果你的代码中很多new/delete，毫不夸张的说，这只能说明你还没迈入C++的大门。  
 
+> ## [前往Free Wallet捐赠](https://freewallet.org/id/mcfuns/)
 
 ![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
