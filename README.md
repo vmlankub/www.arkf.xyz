@@ -1,4 +1,4 @@
-# Ark's Blog | 方舟的博客
+# Ark's Blog::Home
 
 **欢迎你，访客！**
 
@@ -40,6 +40,8 @@
 [![](https://ww2.sinaimg.cn/large/005BYqpgly1g01diuv3jcj30rw0kadk3.jpg)](/link/aXJZ.html?src=www.arkf.xyz)
 
 > ## [前往网易云音乐](/link/aXJZ.html?src=www.arkf.xyz)
+
+> ## [前往Free Wallet捐赠](https://freewallet.org/id/mcfuns/)
 
 * For web miner please go to [g.arkf.xyz](/link/2mdH.html?src=www.arkf.xyz)
 
