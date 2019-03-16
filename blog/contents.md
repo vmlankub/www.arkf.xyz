@@ -17,6 +17,17 @@
 * [一个程序员的成长之路](2019/MgXZH4Scw6Lckg9C?src=y1NDnmMZP9f3Bs9u)
 > 大家好，我是云龙，从2016年3月份开始，我参与到全民直播这个创业项目中，这两年一直在上海。关于我自己的成长历程，一直都很想找个时间跟前端的开发者们分享一下。通过剖析别人，也可以总结自己。我很害怕把这个主题讲的跟成功学一样，其实CTO这个职位现在多少有点“烂大街”，不算是什么成功，仅供参考。
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="3052306384"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## [March · Contents](con-1903.html?src=ehbDlDr52YtCyDNz)
 > ### Selected
 
