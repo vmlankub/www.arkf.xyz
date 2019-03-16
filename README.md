@@ -10,6 +10,18 @@
 > * [10分钟邮箱](/link/W4nz.html?src=www.arkf.xyz)
 > * [Cloudflare File Share](/link/SHrL.html?src=www.arkf.xyz)
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Q711scUVrV4DkyFQ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="1810542752"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 > ## 在线工具箱
 > * [图床](/epic/?src=www.arkf.xyz)
 > * [Base64编码](/base64/?src=www.arkf.xyz)
@@ -32,6 +44,18 @@
 > ## [前往ArkBlog.CF](/link/yXxR.html?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
 -----------------------------
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- il7YNvMMUbbbz7q8 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="9948532008"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 *你可以在 知乎@MinecraftFuns 找到我*
 [![](https://ww2.sinaimg.cn/large/005BYqpgly1g01didpnl0j30vv0lo7gk.jpg)](/link/zU9A.html?src=www.arkf.xyz)
 
@@ -45,6 +69,18 @@
 -----------------------------
 
 > ## [打赏](/donations?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Q711scUVrV4DkyFQ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="1810542752"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
