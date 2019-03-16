@@ -11,4 +11,4 @@ W3C也想搞个稳定长期支持的版本的，你看还不是被WHATWG干翻�
 
 [知乎](https://www.zhihu.com/question/310511853/answer/595628579)
 
-![](https://ww2.sinaimg.cn/large/005BYqpggy1g03ohpy4fvj30m60c3769.jpg)
+![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpggy1g03ohpy4fvj30m60c3769.jpg)
