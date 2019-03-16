@@ -22,7 +22,7 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-![](https://ww2.sinaimg.cn/large/005BYqpggy1g0gaz521j7j30m80dwta1.jpg)
+![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpggy1g0gaz521j7j30m80dwta1.jpg)
 
 ## Top.2 [什么情况下C++需要垃圾处理机制？](2019/95Mu3U9PDrroP0d6)
 > 专门产垃圾的语言才需要垃圾回收！！！  
@@ -41,7 +41,7 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-![](https://ww2.sinaimg.cn/large/005BYqpggy1g0gb1gaxboj30m80k4jv8.jpg)
+![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpggy1g0gb1gaxboj30m80k4jv8.jpg)
 
 ## Top.3 [一个程序员的成长之路](2019/MgXZH4Scw6Lckg9C)
 > 大家好，我是云龙，从2016年3月份开始，我参与到全民直播这个创业项目中，这两年一直在上海。关于我自己的成长历程，一直都很想找个时间跟前端的开发者们分享一下。通过剖析别人，也可以总结自己。我很害怕把这个主题讲的跟成功学一样，其实CTO这个职位现在多少有点“烂大街”，不算是什么成功，仅供参考。
@@ -57,7 +57,7 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-![](https://ww2.sinaimg.cn/large/005BYqpggy1g0gb2kve8sj30m80etjt4.jpg)
+![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpggy1g0gb2kve8sj30m80etjt4.jpg)
 
 ### [七年级 · 历史与社会(上册)](2019/dphjWD2ClYM7TOAK)
 ### [七年级 · 历史与社会(下册)](2019/Q0pYpZeNhOi0Wm5v)
@@ -77,7 +77,7 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
+![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116309064-2"></script>
