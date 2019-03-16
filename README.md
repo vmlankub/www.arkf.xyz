@@ -22,20 +22,23 @@
 [![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dh1xi0cj30vp0kzjzm.jpg)](/link/wlqe.html?src=www.arkf.xyz)
 
 > ## [前往GitHub](/link/wlqe.html?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
+
 *方舟 · Ark's Blog*
 [![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dhwhi0rj31c00ltx2w.jpg)](/link/yXxR.html?src=www.arkf.xyz)
 
 > ## [前往ArkBlog.CF](/link/yXxR.html?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
+
 *你可以在 知乎@MinecraftFuns 找到我*
 [![](https://ww2.sinaimg.cn/large/005BYqpgly1g01didpnl0j30vv0lo7gk.jpg)](/link/zU9A.html?src=www.arkf.xyz)
 
 > ## [前往知乎](/link/zU9A.html?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
+
 *我的网易云音乐账号，有不少精选歌单呢*
 [![](https://ww2.sinaimg.cn/large/005BYqpgly1g01diuv3jcj30rw0kadk3.jpg)](/link/aXJZ.html?src=www.arkf.xyz)
 
 > ## [前往网易云音乐](/link/aXJZ.html?src=www.arkf.xyz)
+
 > ## [打赏](/donations?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
-* For web miner please go to [g.arkf.xyz](/link/2mdH.html?src=www.arkf.xyz)
 
 ![](https://ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
