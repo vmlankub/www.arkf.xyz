@@ -9,6 +9,17 @@
 
 C++不生产垃圾，除非你不使用RAII，当然，不使用RAII也不能说你是在用C++，很可能你就是在写C，对了，C语言其实是需要垃圾回收的，毕竟用C时清理垃圾的心智包袱很大，既不能忘记，也不能double free，由其是数据结构一旦复杂了，指针到处飞，不是你写的，根本就看不清，反正C就不多说了唉。
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="5334499576"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 你每次都是new一个对象，后面手动delete，请问你这和用C有什么区别？不就是当成malloc/free吗？
 
 > 现代的C++代码是看不到new（除了一些RAII式容器中的构造），delete的，如果你的代码中很多new/delete，毫不夸张的说，这只能说明你还没迈入C++的大门。
