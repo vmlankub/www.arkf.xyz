@@ -7,6 +7,18 @@ Today, I’d like to talk about my hobby. My hobby is reading science fictions, 
 
 My favorite science-fiction writers are Wang Jinkang and Liu Cixin. Their styles are different but very brilliant. 
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Q711scUVrV4DkyFQ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="1810542752"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Wang Jinkang was born in 1948, so his life shows the common ups and downs of the generation of the cultural revolution. Because of his experiences, his works contain his own understanding of life, which is desolate and solemn, but the keynote of his works is positive and self-confident, reflecting the great national spirit. 
 
 Almost everyone knows Liu Cixin. He is the most popular science-fiction writer in China and he has created many fantastic works. His most famous fiction is the Three-body Problem, which has brought Chinese science fictions to the world level.
@@ -18,6 +30,18 @@ Now please close your eyes and imagine. There is only one glass ball floating in
 Maybe you’re thinking now: Will the universe continue? Will life go on? 
 
 The story indicates that the man-made light is not only light, but something that can lighten people’s hearts as well. This fiction leads us to the reflections on the ultimate meaning of the universe. It is really a great work.
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Q711scUVrV4DkyFQ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="1810542752"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 This is my hobby, reading science fictions. How about yours? 
 
