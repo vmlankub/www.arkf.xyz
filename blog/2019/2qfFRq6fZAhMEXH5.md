@@ -20,11 +20,11 @@ If wins the player who moves first, print "First" (without the quotes). Otherwis
 ## Note
 In the first sample the table has place for only one plate. The first player puts a plate on the table, the second player can't do that and loses.
 
-![](https://ww2.sinaimg.cn/large/005BYqpggy1g0g35p2g02j305s05rjr7.jpg)
+![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpggy1g0g35p2g02j305s05rjr7.jpg)
 
 In the second sample the table is so small that it doesn't have enough place even for one plate. So the first player loses without making a single move.
 
-![](https://ww2.sinaimg.cn/large/005BYqpggy1g0g36f0qdqj307w0803ye.jpg)
+![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpggy1g0g36f0qdqj307w0803ye.jpg)
 
 
 ```cpp
