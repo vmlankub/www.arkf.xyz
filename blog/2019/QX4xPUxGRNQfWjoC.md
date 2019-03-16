@@ -1,19 +1,19 @@
 # A - Tree and Permutation 
 * [资源：FSCapture下载](/epic/ldP6xPtp2zdmXWDY/d6GIYytCJVL3puki.zip)
 
-![](https://ww2.sinaimg.cn/large/005BYqpggy1g0o95g52fxj30mi06a75w.jpg)
+![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpggy1g0o95g52fxj30mi06a75w.jpg)
 
 ## Input
-![](https://ww2.sinaimg.cn/large/005BYqpggy1g0o96ybuvrj30mj04awf9.jpg)
+![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpggy1g0o96ybuvrj30mj04awf9.jpg)
 
 ## Output
-![](https://ww2.sinaimg.cn/large/005BYqpggy1g0o978z441j30m501qjre.jpg)
+![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpggy1g0o978z441j30m501qjre.jpg)
 
 ## Sample Input
-![](https://ww2.sinaimg.cn/large/005BYqpggy1g0o97r6mvvj30ma05l74j.jpg)
+![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpggy1g0o97r6mvvj30ma05l74j.jpg)
 
 ## Sample Output
-![](https://ww2.sinaimg.cn/large/005BYqpgly1g0o980cwn0j30m402zq2x.jpg)
+![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g0o980cwn0j30m402zq2x.jpg)
 
 ```cpp
 #pragma comment(linker, "/STACK:102400000,102400000")
