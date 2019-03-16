@@ -6,6 +6,18 @@
 
 嗯，没有了，直接看代码吧。
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- il7YNvMMUbbbz7q8 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="9948532008"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Math.random
 
 一个经常会遇见的写法是使用 Math.random()：
@@ -252,6 +264,18 @@ console.log(res)
 ![Fisher–Yates 效果演示](https://cdn.jsdelivr.net/gh/mqyqingfeng/Blog/Images/shuffle/fisher-yates.png)
 
 真正的实现了乱序的效果！
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- il7YNvMMUbbbz7q8 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="9948532008"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 专题系列
 
