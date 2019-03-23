@@ -2,3 +2,14 @@
 
 > 约翰·亚岱尔是一位美国拓荒者、军人和政治家，曾担任肯塔基州第8任州长，也曾是该州的联邦众议员和联邦参议员。曾参与革命战争，期间两度沦为英军战俘。战争结束后，他成为南卡罗莱纳州批准联邦宪法的与会代表。1786年迁居肯塔基州后，亚岱尔投身西北印第安战争，曾于1792年与美洲原住民迈阿密人酋长小乌龟发生遭遇战。1792年成为肯塔基州制宪会议代表。1793到1803年间，亚岱尔8次当选州众议员，还是1802到1803年间肯塔基州众议院的议长，也是1799年该州第二次制宪大会的代表。之后投身1812年战争，随后又长期为受到安德鲁·杰克逊指控在新奥尔良战役中表现懦弱的肯塔基州军人辩护。1817年，亚岱尔回到政治舞台，担任州民兵指挥官。1820年，肯塔基州经济因1819年大恐慌以及随之而来的经济衰退遭受重创，亚岱尔以缓解财政困局为竞选纲领在选举中获胜，当选第8任肯塔基州州长。他在经济上的主要成绩就是建立了联邦银行，卸任后，亚岱尔还成为联邦众议员。1840年5月19日，约翰·亚岱尔在哈洛兹柏格逝世，终年83岁。  
 > ![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/img/Pes8MkDOveQUp4jW.jpg)  
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="3017846475"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
