@@ -2,6 +2,14 @@
 > ![Referendum_Party_Logo.jpg](https://i.loli.net/2019/03/30/5c9ec11a27ab7.jpg)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-4161171709893056",
+          enable_page_level_ads: true
+     });
+</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
      data-ad-layout="in-article"
