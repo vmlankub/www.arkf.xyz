@@ -33,7 +33,7 @@
 </script>
 
 **[一个演员的理想是什么？](DqWRJSYNsTt16HUB?src=index)**
-> Aamir Khan (演员 阿米尔·汗)
+> Aamir Khan (演员 阿米尔·汗)  
 > I think being an actor who is talented, and you still wait for good work to come your way is something quite heartbreaking. And I can understand the feeling of an actor or actress, who is very talented, but is not getting any work.
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
