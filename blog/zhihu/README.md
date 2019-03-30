@@ -34,7 +34,8 @@
 
 **[一个演员的理想是什么？](DqWRJSYNsTt16HUB?src=index)**
 > Aamir Khan (演员 阿米尔·汗)  
-> I think being an actor who is talented, and you still wait for good work to come your way is something quite heartbreaking. And I can understand the feeling of an actor or actress, who is very talented, but is not getting any work.
+> I think being an actor who is talented, and you still wait for good work to come your way is something quite heartbreaking. And I can understand the feeling of an actor or actress, who is very talented, but is not getting any work.  
+> 我认为，作为一个才华横溢的演员，你仍然需要等待好的工作才能让你心满意足。而且我能理解一个非常有才华但没有得到任何工作的演员或女演员的感觉。
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
