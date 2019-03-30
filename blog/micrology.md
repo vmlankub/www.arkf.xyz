@@ -1,8 +1,9 @@
 # 微知道 · 存档
 
 ###### 1dcwlljn
-> [William Matthews](https://en.wikipedia.org/wiki/William_Matthews_(priest)) (December 16, 1770 – April 30, 1854), occasionally spelled Mathews, was an American Roman Catholic priest from the colonial Province of Maryland who became the fifth Catholic priest ordained in the United States and the first such person born in British America. He was briefly a novice in the Society of Jesus, and became influential in establishing Catholic parochial and educational institutions in Washington, D.C. He was the second pastor of St. Patrick's Church for most of his life and was the sixth President of Georgetown College, later known as Georgetown University. Matthews acted as president of the Washington Catholic Seminary, which became Gonzaga College High School, and oversaw the continuity of the school during suppression by the church and financial insecurity.   
-![180px-William_Matthews_by_Parker_(cropped).jpg](https://i.loli.net/2019/03/30/5c9ec2605d07b.jpg)
+> [William Matthews](https://en.wikipedia.org/wiki/William_Matthews_(priest)) （1770年12月16日 - 1854年4月30日）偶尔拼写马修斯，是来自殖民地马里兰州的美国罗马天主教神父，成为美国第五位天主教神父，也是第一位出生于此的人在英国。他曾是耶稣会的新手，在华盛顿特区建立天主教教区和教育机构方面具有影响力。他大部分时间都是圣帕特里克教堂的第二任牧师，并且是乔治敦学院的第六任校长。，后来被称为乔治城大学。马修斯担任华盛顿天主教神学院院长，后来成为冈萨加学院高中，并在教堂镇压和金融不安全的情况下监督学校的连续性。   
+> ![180px-William_Matthews_by_Parker_(cropped).jpg](https://i.loli.net/2019/03/30/5c9ec2605d07b.jpg)  
+> [查看原文](/epic/rUrwlYtRCcqBkaow.html?src=micrology)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
@@ -16,8 +17,9 @@
 </script>
 
 ###### cwi5bdrp
-> The [Referendum Party](https://en.wikipedia.org/wiki/Referendum_Party) was a Eurosceptic, single-issue political party that was active in the United Kingdom from 1994 to 1997. The party's sole objective was for a referendum to be held on the nature of the UK's membership of the European Union (EU). Specifically, it called for a referendum on whether the British electorate wanted to either be part of a federal European state or revert to being a sovereign nation that was part of a European free-trade bloc without wider political functions.   
-> ![Referendum_Party_Logo.jpg](https://i.loli.net/2019/03/30/5c9ec11a27ab7.jpg)
+> [公民投票方](https://en.wikipedia.org/wiki/Referendum_Party)是一个欧洲怀疑论者，单一议题的政党，从1994年到1997年在英国活跃。该党的唯一目标是举行全民公决。 关注英国加入欧盟（EU）的性质。 具体而言，它呼吁就英国选民是否希望成为欧洲联邦政府的一部分，或者恢复成为欧洲自由贸易集团的一个主权国家而没有更广泛的政治职能进行公民投票。    
+> ![Referendum_Party_Logo.jpg](https://i.loli.net/2019/03/30/5c9ec11a27ab7.jpg)  
+> [查看原文](/epic/rUrwlYtRCcqBkaow.html?src=micrology)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
@@ -31,7 +33,7 @@
 </script>
 
 ###### mxkn8nsa
-> 约翰·亚岱尔是一位美国拓荒者、军人和政治家，曾担任肯塔基州第8任州长，也曾是该州的联邦众议员和联邦参议员。曾参与革命战争，期间两度沦为英军战俘。战争结束后，他成为南卡罗莱纳州批准联邦宪法的与会代表。1786年迁居肯塔基州后，亚岱尔投身西北印第安战争，曾于1792年与美洲原住民迈阿密人酋长小乌龟发生遭遇战。1792年成为肯塔基州制宪会议代表。1793到1803年间，亚岱尔8次当选州众议员，还是1802到1803年间肯塔基州众议院的议长，也是1799年该州第二次制宪大会的代表。之后投身1812年战争，随后又长期为受到安德鲁·杰克逊指控在新奥尔良战役中表现懦弱的肯塔基州军人辩护。1817年，亚岱尔回到政治舞台，担任州民兵指挥官。1820年，肯塔基州经济因1819年大恐慌以及随之而来的经济衰退遭受重创，亚岱尔以缓解财政困局为竞选纲领在选举中获胜，当选第8任肯塔基州州长。他在经济上的主要成绩就是建立了联邦银行，卸任后，亚岱尔还成为联邦众议员。1840年5月19日，约翰·亚岱尔在哈洛兹柏格逝世，终年83岁。  
+> 约翰·亚岱尔是一位美国拓荒者、军人和政治家，曾担任肯塔基州第8任州长，也曾是该州的联邦众议员和联邦参议员。曾参与革命战争，期间两度沦为英军战俘。战争结束后，他成为南卡罗莱纳州批准联邦宪法的与会代表。1786年迁居肯塔基州后，亚岱尔投身西北印第安战争，曾于1792年与美洲原住民迈阿密人酋长小乌龟发生遭遇战。1792年成为肯塔基州制宪会议代表。1793到1803年间，亚岱尔8次当选州众议员，还是1802到1803年间肯塔基州众议院的议长，也是1799年该州第二次制宪大会的代表。之后投身1812年战争，随后又长期为受到安德鲁·杰克逊指控在新奥尔良战役中表现懦弱的肯塔基州军人辩护。1817年，亚岱尔回到政治舞台，担任州民兵指挥官。1820年，肯塔基州经济因1819年大恐慌以及随之而来的经济衰退遭受重创，亚岱尔以缓解财政困局为竞选纲领在选举中获胜，当选第8任肯塔基州州长。他在经济上的主要成绩就是建立了联邦银行，卸任后，亚岱尔还成为联邦众议员。1840年5月19日，约翰·亚岱尔在哈洛兹柏格逝世，终年83岁。    
 > ![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/img/Pes8MkDOveQUp4jW.jpg)  
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -78,8 +80,9 @@
 </script>
 
 ###### r4ghgik3
-> ![Albert_Pierrepoint,_English_hangman.jpg](https://i.loli.net/2019/03/30/5c9ebfccc0563.jpg)   
-> [Albert Pierrepoint](https://en.wikipedia.org/wiki/Albert_Pierrepoint) (30 March 1905 – 10 July 1992) was an English hangman who executed between 435 and 600 people in a 25-year career that ended in 1956. His first execution was in December 1932, assisting his uncle Thomas. His father Henry had also been a hangman. In October 1941 he undertook his first hanging as lead executioner. During his tenure he hanged 200 people who had been convicted of war crimes in Germany and Austria, as well as several high-profile murderers—including Gordon Cummins (the Blackout Ripper), John Haigh (the Acid Bath Murderer) and John Christie (the Rillington Place Strangler). He undertook several contentious executions, including Timothy Evans, Derek Bentley and Ruth Ellis. He executed William Joyce (also known as Lord Haw-Haw) and John Amery for high treason, and Theodore Schurch for treachery. In the 2005 film Pierrepoint he was portrayed by Timothy Spall. 
+> ![Albert_Pierrepoint,English_hangman.jpg](https://i.loli.net/2019/03/30/5c9ebfccc0563.jpg)   
+> [Albert Pierrepoint](https://en.wikipedia.org/wiki/Albert_Pierrepoint)（1905年3月30日 -  1992年7月10日）是一名英国刽子手，在2556年的职业生涯中执行了435至600人，并于1956年结束。 他的第一次处决是在1932年12月，协助他的叔叔托马斯。 他的父亲亨利也是个刽子手。 1941年10月，他首次担任首席刽子手。 在他任职期间，他吊死了200名在德国和奥地利被判犯有战争罪的人，以及几名备受瞩目的杀人犯 - 包括戈登康明斯（停电开膛手），约翰海格（酸浴凶手）和约翰克里斯蒂（ Rillington Place Strangler）。 他进行了几次有争议的处决，包括Timothy Evans，Derek Bentley和Ruth Ellis。 他执行了威廉乔伊斯（也称为Lord Haw-Haw）和John Amery因叛国罪而被执行，而Theodore Schurch因背叛而被处决。 在2005年的电影“皮埃尔波因特”中，蒂莫西·斯帕尔描绘了他。   
+> [查看原文](/epic/AIUdTXsoazOsRjqD.html?src=micrology)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
