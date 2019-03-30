@@ -22,6 +22,21 @@
 > “可不是么!”他高兴了。“可是做工是昼夜无休息的：清早担水晚烧饭，上午跑街夜磨面，晴洗衣裳雨张伞，冬烧汽炉夏打扇。半夜要煨银耳，侍候主人耍钱;头钱从来没分，有时还挨皮鞭……。”
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="3017846475"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+**[一个演员的理想是什么？](DqWRJSYNsTt16HUB?src=index)**
+> Aamir Khan (演员 阿米尔·汗)
+> I think being an actor who is talented, and you still wait for good work to come your way is something quite heartbreaking. And I can understand the feeling of an actor or actress, who is very talented, but is not getting any work.
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({
           google_ad_client: "ca-pub-4161171709893056",
