@@ -1,5 +1,35 @@
 # 微知道 · 存档
 
+###### pg6dyix3
+> 《[性别扭曲](https://zh.wikipedia.org/wiki/%E6%80%A7%E5%88%AB%E6%89%AD%E6%9B%B2)》是美国科幻电视剧《X档案》第一季的第14集，于1994年1月21日通过福克斯电视网在美国首播。由拉里·巴伯和保罗·巴伯编剧，罗伯·鲍曼执导，属电视剧的“每周怪物”系列剧集，同主线剧情的层层谜团没有联系。客串演员布伦特·欣克利和尼古拉斯·李经本集首次露面，其中李之后还在第二季以常设角色亚历克斯·克里克回归。联邦调查局特工福克斯·穆德和丹娜·斯嘉丽在本集调查连环杀人案，受害人都是在发生性关系后被杀。两人很快发现嫌疑人可能是马萨诸塞州的教派人士，而且很可能不是人类。本集剧情源自制片人格伦·摩根的构想，希望制作一期有更多性方面内容的节目。但是，编剧在创作过程中发现，无论是要表现性危险的一面还是加入阿米什风格社区都不是件容易的事。在美国首播期间共吸引约680万户家庭观看，之后评价褒贬不一，特别是“天外救星”般突然的结局颇受非议。部分学者认为，本集剧情基本遵循科幻传统，把强大的超自然元素同与外星生命的肢体接触联系起来。也有观点认为，剧情反映出20世纪90年代多种性别角色涌现引发的社会焦虑心理。  
+> ![The_X-Files_logo.svg.png](https://i.loli.net/2019/03/30/5c9f0e4701af4.png)
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="3017846475"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+###### izg7mlki
+> 飓风埃丝特（英语：Hurricane Esther）是第一个经卫星地图发现的热带气旋，也是1961年大西洋飓风季的第5个热带气旋、第5场获得命名的风暴和第5场飓风，于9月10日由佛得角群岛最南端西南偏西方向数百英里海域的一片扰动天气区域发展形成。低气压向西北方向移动，于9月11日达到热带风暴强度并获命名为“埃丝特”（Esther），并在次日增强为飓风。9月13日清晨，埃丝特蜿蜒向西移动并强化成大型飓风[注 1]。接下来4天的时间里，风暴都保持在三级飓风强度，并逐渐朝西北偏西转向。9月17日晚，埃丝特增强成四级飓风，并于次日达到持续风速每小时230公里的最高强度。9月19日，风暴在北卡罗莱纳州近海向东北偏北蜿蜒行进，并在逼近新英格兰的过程中开始减弱，于9月21日降为三级飓风。次日清晨，埃丝特转向东进并迅速减弱成热带风暴。   
+> ![Hurricane_Esther.jpg](https://i.loli.net/2019/03/30/5c9f0ed03bff5.jpg)
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="3017846475"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ###### 1dcwlljn
 > [William Matthews](https://en.wikipedia.org/wiki/William_Matthews_(priest)) （1770年12月16日 - 1854年4月30日）偶尔拼写马修斯，是来自殖民地马里兰州的美国罗马天主教神父，成为美国第五位天主教神父，也是第一位出生于此的人在英国。他曾是耶稣会的新手，在华盛顿特区建立天主教教区和教育机构方面具有影响力。他大部分时间都是圣帕特里克教堂的第二任牧师，并且是乔治敦学院的第六任校长。，后来被称为乔治城大学。马修斯担任华盛顿天主教神学院院长，后来成为冈萨加学院高中，并在教堂镇压和金融不安全的情况下监督学校的连续性。   
 > ![180px-William_Matthews_by_Parker_(cropped).jpg](https://i.loli.net/2019/03/30/5c9ec2605d07b.jpg)  
