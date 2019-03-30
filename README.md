@@ -58,6 +58,8 @@
 > * [Base64编码](/base64/?src=www.arkf.xyz)
 > * [我的Todo List](/blog/todo/?src=www.arkf.xyz)
 > * [下载 Chrome](/chrome-download/?src=www.arkf.xyz)
+> * [Ark Blog::Link](https://link.arkf.xyz/?src=homepage)
+> * [Ark Blog::Redirecting…](https://lkpo0v.github.io/?src=hp)
 
 -----------------------------
 
