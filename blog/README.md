@@ -3,27 +3,14 @@
 > **[Blog::Contents](/blog/contents)**  
 > *[Blog::Selected](/blog/)*
 
-> # 每日微知道
-> 美利坚合众国宪法第十七条修正案于1912年5月13日提出，1913年4月8日批准生效。其中规定联邦参议员需由公民进行直接选举选出，取代了宪法第一条第三款中参议员选举办法的规定，根据该款，“合众国参议院由每州州议会选举的两名参议员组成”，因此联邦参议员原本是由州议会选举而非公民直接选举。修正案还改变了参议员席位出现空缺时的补选程序，规定各州州长“在人民依该州议会指示举行选举填补缺额以前”“任命临时参议员”，而原本的规定这一缺额仍然是“在州议会下次集会”来进行“填补”的。两者的根本区别就是补选的参议员也将由公民而非州议会选出。最初宪法中这样设计是为了确保联邦政府拥有足够数量的各州代表，并且保证他们不会过于依赖民众支持而在“面对呈交国会的问题时可以更高瞻远瞩。然而随着时间的推移，这样的规定也产生了各种问题，如可能产生腐败或州议会选举出现僵局导致联邦参议员席位长时间得不到补充等，引起了对之加以改革呼声和运动的出现。图为美国国家档案和记录管理局存放的第十七条修正案文本。    
-> ![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3@master/img/iA9Yt2eYp52Gpuj0.jpg)  
-> ### [微知道 · 存档](micrology.html?src=blog-selected)
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Q711scUVrV4DkyFQ -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4161171709893056"
-     data-ad-slot="1810542752"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 > # 知乎精选 · 优质回答
 > **[如何看待国家鼓励人们生二胎，但效果甚微？](zhihu/86jvKAlzT4jhMOG0?src=blog-selected)**  
 > 先匿名，怕招骂。现在这个养育成本谁生二胎。先看看一般生二胎的是啥家庭，不是家里有老人全程带孩子的就是家里不缺钱，夫妻俩起码一个几乎不用上班的。  
-> 养二胎钱是一个问题，更大的问题是精力和时间啊。现在的学校从幼儿园开始几乎天天找家长，不是给布置任务就是说你教得不好，孩子不好就是你没用心教。放学时间也不按双职工的工作时间来，也没有政策能让一部分人提早下班。
+> 养二胎钱是一个问题，更大的问题是精力和时间啊。现在的学校从幼儿园开始几乎天天找家长，不是给布置任务就是说你教得不好，孩子不好就是你没用心教。放学时间也不按双职工的工作时间来，也没有政策能让一部分人提早下班。  
+> **[一个演员的理想是什么？](DqWRJSYNsTt16HUB?src=blog-selected)**  
+> Aamir Khan (演员 阿米尔·汗)  
+> I think being an actor who is talented, and you still wait for good work to come your way is something quite heartbreaking. And I can understand the feeling of an actor or actress, who is very talented, but is not getting any work.  
+> 我认为，作为一个才华横溢的演员，你仍然需要等待好的工作才能让你心满意足。而且我能理解一个非常有才华但没有得到任何工作的演员或女演员的感觉。  
 > ### [前往知乎精选](zhihu/?src=blog-selected)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -35,6 +22,18 @@
      data-ad-slot="3017846475"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Q711scUVrV4DkyFQ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="1810542752"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
 > # 每日精选 · 优质内容
@@ -93,11 +92,26 @@
 
 ![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpggy1g0gb2kve8sj30m80etjt4.jpg)
 
-### [七年级 · 历史与社会(上册)](2019/dphjWD2ClYM7TOAK)
-### [七年级 · 历史与社会(下册)](2019/Q0pYpZeNhOi0Wm5v)
-### [甘肃省兰州市 2017 年中考语文真题试题](2019/XHYjKAEFH9w0roF9)
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="5334499576"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-> ## [打赏](/donations?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
+> # 每日微知道
+> 美利坚合众国宪法第十七条修正案于1912年5月13日提出，1913年4月8日批准生效。其中规定联邦参议员需由公民进行直接选举选出，取代了宪法第一条第三款中参议员选举办法的规定，根据该款，“合众国参议院由每州州议会选举的两名参议员组成”，因此联邦参议员原本是由州议会选举而非公民直接选举。修正案还改变了参议员席位出现空缺时的补选程序，规定各州州长“在人民依该州议会指示举行选举填补缺额以前”“任命临时参议员”，而原本的规定这一缺额仍然是“在州议会下次集会”来进行“填补”的。两者的根本区别就是补选的参议员也将由公民而非州议会选出。最初宪法中这样设计是为了确保联邦政府拥有足够数量的各州代表，并且保证他们不会过于依赖民众支持而在“面对呈交国会的问题时可以更高瞻远瞩。然而随着时间的推移，这样的规定也产生了各种问题，如可能产生腐败或州议会选举出现僵局导致联邦参议员席位长时间得不到补充等，引起了对之加以改革呼声和运动的出现。图为美国国家档案和记录管理局存放的第十七条修正案文本。    
+> ![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3@master/img/iA9Yt2eYp52Gpuj0.jpg)  
+> ### [微知道 · 存档](micrology.html?src=blog-selected)
+
+> ## 推荐文章
+> #### [七年级 · 历史与社会(上册)](2019/dphjWD2ClYM7TOAK)
+> #### [七年级 · 历史与社会(下册)](2019/Q0pYpZeNhOi0Wm5v)
+> #### [甘肃省兰州市 2017 年中考语文真题试题](2019/XHYjKAEFH9w0roF9)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Q711scUVrV4DkyFQ -->
@@ -110,6 +124,8 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+> ## [打赏](/donations?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
 
 ![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
