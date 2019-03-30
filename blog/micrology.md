@@ -33,7 +33,7 @@
 ###### 1dcwlljn
 > [William Matthews](https://en.wikipedia.org/wiki/William_Matthews_(priest)) （1770年12月16日 - 1854年4月30日）偶尔拼写马修斯，是来自殖民地马里兰州的美国罗马天主教神父，成为美国第五位天主教神父，也是第一位出生于此的人在英国。他曾是耶稣会的新手，在华盛顿特区建立天主教教区和教育机构方面具有影响力。他大部分时间都是圣帕特里克教堂的第二任牧师，并且是乔治敦学院的第六任校长。，后来被称为乔治城大学。马修斯担任华盛顿天主教神学院院长，后来成为冈萨加学院高中，并在教堂镇压和金融不安全的情况下监督学校的连续性。   
 > ![180px-William_Matthews_by_Parker_(cropped).jpg](https://i.loli.net/2019/03/30/5c9ec2605d07b.jpg)  
-> [查看原文](/epic/rUrwlYtRCcqBkaow.html?src=micrology)
+> [查看原文](/epic/zRy0wPhA965OhZhi.html?src=micrology)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
