@@ -2,6 +2,22 @@
 
 -----------------------------
 
+###### jt54yfee
+> [Live and Let Die](https://en.wikipedia.org/wiki/Live_and_Let_Die_(novel))是[Ian Fleming](https://en.wikipedia.org/wiki/Ian_Fleming)的[James Bond](https://en.wikipedia.org/wiki/James_Bond_(literary_character))系列中的第二部小说。 它位于伦敦，美国和牙买加，于1954年4月5日由Jonathan Cape首次在英国出版.Fleming在他的第一本书“皇家赌场”出版之前在牙买加的Goldeneye庄园写了这部小说。 故事的中心是邦德对大先生的追求，他与美国的犯罪网络，伏都教世界和SMERSH（俄罗斯特勤局的一个部门）有联系 - 所有这些都是对西方的威胁。 通过布莱克先生从加勒比地区的英国领土走私17世纪的金币，邦德卷入了美国。 这部小说讲述了正在进行的冷战时期东西方斗争的主题，包括英美关系，英国在世界上的地位，种族关系以及善恶斗争。 它于1973年改编为Eon Productions Bond系列中的第八部电影，也是第一部将Roger Moore（如图）饰演为邦德的电影。    
+> ![Sir_Roger_Moore_3.jpg](https://i.loli.net/2019/04/05/5ca6f18eb795a.jpg)   
+> [Live and Let Die](https://en.wikipedia.org/wiki/Live_and_Let_Die_(novel)) is the second novel in [Ian Fleming](https://en.wikipedia.org/wiki/Ian_Fleming)'s [James Bond](https://en.wikipedia.org/wiki/James_Bond_(literary_character)) series. Set in London, the US and Jamaica, it was first published in the UK by Jonathan Cape on 5 April 1954. Fleming wrote the novel at his Goldeneye estate in Jamaica before his first book, Casino Royale, was published. The story centres on Bond's pursuit of Mr Big, who has links to an American criminal network, the world of voodoo and SMERSH—an arm of the Russian secret service—all of which are threats to the West. Bond becomes involved in the US through Mr Big's smuggling of 17th-century gold coins from British territories in the Caribbean. The novel deals with themes of the ongoing East–West struggle of the Cold War, including British and American relations, Britain's position in the world, race relations and the struggle between good and evil. It was adapted in 1973 as the eighth film in the Eon Productions Bond series and the first to star Roger Moore (pictured) as Bond. 
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="3017846475"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ###### 8esly96v
 > [2002年大西洋飓风季](https://zh.wikipedia.org/wiki/2002%E5%B9%B4%E5%A4%A7%E8%A5%BF%E6%B4%8B%E9%A3%93%E9%A3%8E%E5%AD%A3)是一次活跃程度在中等水平的大西洋飓风季，于2002年6月1日正式开始，同年11月30日结束，传统上这样的日期界定了一年中绝大多数热带气旋在大西洋盆地形成和发展的时间段。全季共产生了14个热带气旋，其中12个达到热带风暴强度，4个发展成飓风，两个成为大型飓风。虽然飓风季是在6月1日正式开始，但第一个气旋要一直到7月14日才形成。虽然起步较慢，但本季在9月一共发展出多达8场热带风暴，创下新的纪录，之后只有2004、2007和2010年大西洋飓风季追平。同时，本季在10月6日后就再也没有热带风暴形成，这种情况也很罕见，部分是因为受到厄尔尼诺-南方涛动现象的影响。全季最强烈的飓风是伊西多尔，最低中心气压只有934毫巴，不过飓风丽丽的最大持续风速更高，达到了萨菲尔-辛普森飓风等级下的四级飓风标准。本飓风季造成的破坏程度低于平均水平，一共导致23人丧生，经济损失约26亿美元，其中大部分都是由飓风伊西多尔和丽丽造成。9月，飓风古斯塔夫在转变成温带气旋的过程中登陆新斯科舍，给当地带去持续数日的狂风。伊西多尔先后袭击了尤卡坦半岛和美国，造成约价值9.7亿美元的破坏，还夺走了7人的生命。8到9月间还有另外多场风暴对陆地产生影响，其中包括全季持续时间最长的风暴飓风凯尔。10月初，飓风丽丽登陆路易斯安那州，造成15人遇难，损失达8.6亿美元。    
 > ![285px-2002_Atlantic_hurricane_season_summary_map.png](https://i.loli.net/2019/04/05/5ca6e92c75ff8.png)  
