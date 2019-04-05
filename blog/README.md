@@ -7,11 +7,6 @@
 > **[如何看待国家鼓励人们生二胎，但效果甚微？](zhihu/86jvKAlzT4jhMOG0?src=blog-selected)**  
 > 先匿名，怕招骂。现在这个养育成本谁生二胎。先看看一般生二胎的是啥家庭，不是家里有老人全程带孩子的就是家里不缺钱，夫妻俩起码一个几乎不用上班的。  
 > 养二胎钱是一个问题，更大的问题是精力和时间啊。现在的学校从幼儿园开始几乎天天找家长，不是给布置任务就是说你教得不好，孩子不好就是你没用心教。放学时间也不按双职工的工作时间来，也没有政策能让一部分人提早下班。  
-> **[一个演员的理想是什么？](zhihu/DqWRJSYNsTt16HUB?src=blog-selected)**  
-> Aamir Khan (演员 阿米尔·汗)  
-> I think being an actor who is talented, and you still wait for good work to come your way is something quite heartbreaking. And I can understand the feeling of an actor or actress, who is very talented, but is not getting any work.  
-> 我认为，作为一个才华横溢的演员，你仍然需要等待好的工作才能让你心满意足。而且我能理解一个非常有才华但没有得到任何工作的演员或女演员的感觉。  
-> ### [前往知乎精选](zhihu/?src=blog-selected)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
@@ -23,6 +18,12 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+> **[一个演员的理想是什么？](zhihu/DqWRJSYNsTt16HUB?src=blog-selected)**  
+> Aamir Khan (演员 阿米尔·汗)  
+> I think being an actor who is talented, and you still wait for good work to come your way is something quite heartbreaking. And I can understand the feeling of an actor or actress, who is very talented, but is not getting any work.  
+> 我认为，作为一个才华横溢的演员，你仍然需要等待好的工作才能让你心满意足。而且我能理解一个非常有才华但没有得到任何工作的演员或女演员的感觉。  
+> ### [前往知乎精选](zhihu/?src=blog-selected)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Q711scUVrV4DkyFQ -->
@@ -110,7 +111,33 @@
 
 > ## 推荐文章
 > #### [七年级 · 历史与社会(上册)](2019/dphjWD2ClYM7TOAK)
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Q711scUVrV4DkyFQ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="1810542752"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 > #### [七年级 · 历史与社会(下册)](2019/Q0pYpZeNhOi0Wm5v)
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Q711scUVrV4DkyFQ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="1810542752"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 > #### [甘肃省兰州市 2017 年中考语文真题试题](2019/XHYjKAEFH9w0roF9)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
