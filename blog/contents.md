@@ -37,7 +37,40 @@
 > 你每次都是new一个对象，后面手动delete，请问你这和用C有什么区别？不就是当成malloc/free吗？  
 > 现代的C++代码是看不到new（除了一些RAII式容器中的构造），delete的，如果你的代码中很多new/delete，毫不夸张的说，这只能说明你还没迈入C++的大门。  
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="3052306384"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+## [April · Contents](con-1904.html?src=ehbDlDr52YtCyDNz)
+> ### Selected
+
+* [如何看待国家鼓励人们生二胎，但效果甚微？](zhihu/86jvKAlzT4jhMOG0?src=ehbDlDr52YtCyDNz)  
+> 先匿名，怕招骂。现在这个养育成本谁生二胎。先看看一般生二胎的是啥家庭，不是家里有老人全程带孩子的就是家里不缺钱，夫妻俩起码一个几乎不用上班的。  
+> 养二胎钱是一个问题，更大的问题是精力和时间啊。现在的学校从幼儿园开始几乎天天找家长，不是给布置任务就是说你教得不好，孩子不好就是你没用心教。放学时间也不按双职工的工作时间来，也没有政策能让一部分人提早下班。  
+* [一个演员的理想是什么？](zhihu/DqWRJSYNsTt16HUB?src=ehbDlDr52YtCyDNz)  
+> Aamir Khan (演员 阿米尔·汗)  
+> I think being an actor who is talented, and you still wait for good work to come your way is something quite heartbreaking. And I can understand the feeling of an actor or actress, who is very talented, but is not getting any work.  
+> 我认为，作为一个才华横溢的演员，你仍然需要等待好的工作才能让你心满意足。而且我能理解一个非常有才华但没有得到任何工作的演员或女演员的感觉。  
 > ## [打赏](/donations?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Q711scUVrV4DkyFQ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="1810542752"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
