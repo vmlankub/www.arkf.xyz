@@ -9,14 +9,15 @@
 > 养二胎钱是一个问题，更大的问题是精力和时间啊。现在的学校从幼儿园开始几乎天天找家长，不是给布置任务就是说你教得不好，孩子不好就是你没用心教。放学时间也不按双职工的工作时间来，也没有政策能让一部分人提早下班。  
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- il7YNvMMUbbbz7q8 -->
 <ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
+     style="display:block"
      data-ad-client="ca-pub-4161171709893056"
-     data-ad-slot="3017846475"></ins>
+     data-ad-slot="9948532008"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
+(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
 > **[一个演员的理想是什么？](zhihu/DqWRJSYNsTt16HUB?src=blog-selected)**  
@@ -26,15 +27,14 @@
 > ### [前往知乎精选](zhihu/?src=blog-selected)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Q711scUVrV4DkyFQ -->
 <ins class="adsbygoogle"
-     style="display:block"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
      data-ad-client="ca-pub-4161171709893056"
-     data-ad-slot="1810542752"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+     data-ad-slot="3017846475"></ins>
 <script>
-(adsbygoogle = window.adsbygoogle || []).push({});
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
 > # 每日精选 · 优质内容
