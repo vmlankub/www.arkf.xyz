@@ -82,6 +82,18 @@
 > ## [前往GitHub](/link/wlqe.html?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
 -----------------------------
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- il7YNvMMUbbbz7q8 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="9948532008"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 > ### *方舟 · Ark's Blog*
 [![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dhwhi0rj31c00ltx2w.jpg)](/link/yXxR.html?src=www.arkf.xyz)
 
@@ -106,11 +118,35 @@
 > ## [前往知乎](/link/zU9A.html?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
 -----------------------------
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- il7YNvMMUbbbz7q8 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="9948532008"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 > ### *我的网易云音乐账号，有不少精选歌单呢*
 [![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01diuv3jcj30rw0kadk3.jpg)](/link/aXJZ.html?src=www.arkf.xyz)
 
 > ## [前往网易云音乐](/link/aXJZ.html?src=www.arkf.xyz)
 -----------------------------
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- il7YNvMMUbbbz7q8 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="9948532008"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > ## [打赏](/donations?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
 
