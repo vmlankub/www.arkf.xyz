@@ -113,11 +113,11 @@
 > #### [七年级 · 历史与社会(上册)](2019/dphjWD2ClYM7TOAK)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Q711scUVrV4DkyFQ -->
+<!-- il7YNvMMUbbbz7q8 -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4161171709893056"
-     data-ad-slot="1810542752"
+     data-ad-slot="9948532008"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
@@ -127,11 +127,11 @@
 > #### [七年级 · 历史与社会(下册)](2019/Q0pYpZeNhOi0Wm5v)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Q711scUVrV4DkyFQ -->
+<!-- il7YNvMMUbbbz7q8 -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4161171709893056"
-     data-ad-slot="1810542752"
+     data-ad-slot="9948532008"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
@@ -141,11 +141,11 @@
 > #### [甘肃省兰州市 2017 年中考语文真题试题](2019/XHYjKAEFH9w0roF9)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Q711scUVrV4DkyFQ -->
+<!-- il7YNvMMUbbbz7q8 -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4161171709893056"
-     data-ad-slot="1810542752"
+     data-ad-slot="9948532008"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
