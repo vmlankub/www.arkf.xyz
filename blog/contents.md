@@ -57,15 +57,27 @@
 * [一个演员的理想是什么？](zhihu/DqWRJSYNsTt16HUB?src=ehbDlDr52YtCyDNz)  
 > Aamir Khan (演员 阿米尔·汗)  
 > I think being an actor who is talented, and you still wait for good work to come your way is something quite heartbreaking. And I can understand the feeling of an actor or actress, who is very talented, but is not getting any work.  
-> 我认为，作为一个才华横溢的演员，你仍然需要等待好的工作才能让你心满意足。而且我能理解一个非常有才华但没有得到任何工作的演员或女演员的感觉。  
+> 我认为，作为一个才华横溢的演员，你仍然需要等待好的工作才能让你心满意足。而且我能理解一个非常有才华但没有得到任何工作的演员或女演员的感觉。 
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="3017846475"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 > ## [打赏](/donations?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Q711scUVrV4DkyFQ -->
+<!-- K8wRjJg0lgYP1und -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4161171709893056"
-     data-ad-slot="1810542752"
+     data-ad-slot="2038319602"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
