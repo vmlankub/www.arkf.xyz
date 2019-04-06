@@ -5,6 +5,47 @@
 
 -----------------------------
 
+> # 每日推荐 · 新文章
+> [**为什么今天国家授时服务快了一个小时？**](2019/hc3wdcFm5PbaABRm)   
+> 不是今天，是昨天凌晨，也就是三月的最后一个周日凌晨，即周六到周日的那个凌晨两点，2019年三月的最后一个周日是31号，正好是三月最后一天。   
+> 这一天，欧洲夏令时了，美国则比欧洲早，美国是三月第二个星期日调。   
+> 周六到周日这个晚上绝大多数人都过周末，所以调一下大家也不会有什么问题。当然了，对于不熟悉的人来说自然就出乱子了。   
+> 夏令时制从上世纪初就开始了，那时候大家都手动调，现在手机电脑都有选项，可以自动调整了（如果你生活的地区不适用夏令时，而又把自己的所在地选择成了夏令时地区，又没有取消“自动夏令时”的选项，那么时间就乱了。）   
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- il7YNvMMUbbbz7q8 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="9948532008"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+> [**如何看待 996ICU 项目中正在讨论的反 996 许可证 (Anti-996 License)?**](2019/F1FeB3yZBSGdtJcc)   
+> 有个悖论。    
+> 一个公然违反劳动法的公司，还怕违反license吗。  
+> 一个害怕违反license的公司，怎么可能公然对抗劳动法？  
+> 所以问题出在什么地方是很清晰的。  
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- il7YNvMMUbbbz7q8 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="9948532008"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ 
+> ### [前往Blog::Contents](/blog/contents)
+
+-----------------------------
+
 > # 知乎精选 · 优质回答
 > **[如何看待国家鼓励人们生二胎，但效果甚微？](zhihu/86jvKAlzT4jhMOG0?src=blog-selected)**  
 > 先匿名，怕招骂。现在这个养育成本谁生二胎。先看看一般生二胎的是啥家庭，不是家里有老人全程带孩子的就是家里不缺钱，夫妻俩起码一个几乎不用上班的。  
@@ -149,7 +190,7 @@
 
 -----------------------------
 
-> ## 推荐文章
+> ## 资料集锦
 > #### [七年级 · 历史与社会(上册)](2019/dphjWD2ClYM7TOAK)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
