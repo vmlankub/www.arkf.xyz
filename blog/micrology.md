@@ -2,6 +2,23 @@
 
 -----------------------------
 
+###### g5tf57hs
+> [1980年圣海伦火山爆发](https://zh.wikipedia.org/wiki/1980%E5%B9%B4%E5%9C%A3%E6%B5%B7%E4%BC%A6%E7%81%AB%E5%B1%B1%E7%88%86%E5%8F%91)是1980年5月18日美国华盛顿州斯卡梅尼亚县境内的圣海伦火山发生的一次重大爆发。截止2013年6月，这仍是美国历史上死亡人数最多，经济损失最为惨重的一次爆发，也是继1915年加利福尼亚州境内的拉森火山爆发以来唯一的一次重大爆发，其火山爆发指数为5。火山爆发的喷发柱冲入大气层24,400米高，喷出的火山灰在11个州沉积。同时火山上的冰、雪和多个整块的冰川被迅速融化，形成一系列大型火山泥流一直冲到了西南方向近80公里外的哥伦比亚河。火山接下来的多起较为轻微的爆发持续到了第二天，并在同年晚些时候又发生了一次较大但破坏程度不算严重的爆发。有57人因这场爆发丧生，数百平方公里地区变成一片废墟，造成的损失超过10亿美元，折合通货膨胀相当于2013年的28.34亿美元，数千只野生动物死亡，圣海伦火山北侧也留下了一个火山口。  
+> ![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/285px-FEMA_-_2710_-_Photograph_by_NOAA_News_Photo_taken_on_05-18-1980_in_Washington.jpg)
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="3017846475"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+-----------------------------
+
 ###### jt54yfee
 > [Live and Let Die](https://en.wikipedia.org/wiki/Live_and_Let_Die_(novel))是[Ian Fleming](https://en.wikipedia.org/wiki/Ian_Fleming)的[James Bond](https://en.wikipedia.org/wiki/James_Bond_(literary_character))系列中的第二部小说。 它位于伦敦，美国和牙买加，于1954年4月5日由Jonathan Cape首次在英国出版.Fleming在他的第一本书“皇家赌场”出版之前在牙买加的Goldeneye庄园写了这部小说。 故事的中心是邦德对大先生的追求，他与美国的犯罪网络，伏都教世界和SMERSH（俄罗斯特勤局的一个部门）有联系 - 所有这些都是对西方的威胁。 通过布莱克先生从加勒比地区的英国领土走私17世纪的金币，邦德卷入了美国。 这部小说讲述了正在进行的冷战时期东西方斗争的主题，包括英美关系，英国在世界上的地位，种族关系以及善恶斗争。 它于1973年改编为Eon Productions Bond系列中的第八部电影，也是第一部将Roger Moore（如图）饰演为邦德的电影。    
 > ![Sir_Roger_Moore_3.jpg](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3@master/img/5ca6f18eb795a.jpg)   
@@ -177,7 +194,23 @@
 > [Albert Pierrepoint](https://en.wikipedia.org/wiki/Albert_Pierrepoint)（1905年3月30日 -  1992年7月10日）是一名英国刽子手，在2556年的职业生涯中执行了435至600人，并于1956年结束。 他的第一次处决是在1932年12月，协助他的叔叔托马斯。 他的父亲亨利也是个刽子手。 1941年10月，他首次担任首席刽子手。 在他任职期间，他吊死了200名在德国和奥地利被判犯有战争罪的人，以及几名备受瞩目的杀人犯 - 包括戈登康明斯（停电开膛手），约翰海格（酸浴凶手）和约翰克里斯蒂（ Rillington Place Strangler）。 他进行了几次有争议的处决，包括Timothy Evans，Derek Bentley和Ruth Ellis。 他执行了威廉乔伊斯（也称为Lord Haw-Haw）和John Amery因叛国罪而被执行，而Theodore Schurch因背叛而被处决。 在2005年的电影“皮埃尔波因特”中，蒂莫西·斯帕尔描绘了他。   
 > [查看原文](/epic/AIUdTXsoazOsRjqD.html?src=micrology)
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="3017846475"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 -----------------------------
+
+> 内容源自 [维基百科](https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5)  
+> 海纳百川，有容乃大  
+> 人人可编辑的自由百科全书  
+> 维基百科（英语：Wikipedia，/ˌwɪkᵻˈpiːdiə/ 或 /ˌwɪkiˈpiːdiə/）是网络百科全书项目，特点是自由内容、自由编辑。当前是全球网络上最大且最受大众欢迎的参考工具书，名列全球十大最受欢迎的网站。维基百科当前由非营利组织维基媒体基金会负责营运。Wikipedia是混成词，分别取自于网站核心技术“Wiki”以及英文中百科全书之意的“encyclopedia”。  
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- il7YNvMMUbbbz7q8 -->
