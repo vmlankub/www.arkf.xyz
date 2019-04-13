@@ -194,13 +194,10 @@
 
 > **神奇资料在哪里？速速前往[资料专区](information.html?src=blog-selected)**
 
-> #### [Knife_for_File_V1.6](https://cdn.jsdelivr.net/gh/vmlankub/CloudFiles@master/Knife_for_File_V1.6.zip)
-
-> #### [Resource_Hacker.zip](https://cdn.jsdelivr.net/gh/vmlankub/CloudFiles@master/resource_hacker.zip)
-
-> #### [Google Chrome-71-dl](https://cdn.jsdelivr.net/gh/vmlankub/CloudFiles@master/gg/chrome-71-dl.zip)
-
-> #### [Google Chrome-73-dl-x64](https://cdn.jsdelivr.net/gh/vmlankub/CloudFiles@master/gg/chrome-73-dl-x64.zip)
+> #### [Knife_for_File_V1.6](https://cdn.jsdelivr.net/gh/vmlankub/CloudFiles@master/Knife_for_File_V1.6.zip)  
+> #### [Resource_Hacker.zip](https://cdn.jsdelivr.net/gh/vmlankub/CloudFiles@master/resource_hacker.zip)  
+> #### [Google Chrome-71-dl](https://cdn.jsdelivr.net/gh/vmlankub/CloudFiles@master/gg/chrome-71-dl.zip)  
+> #### [Google Chrome-73-dl-x64](https://cdn.jsdelivr.net/gh/vmlankub/CloudFiles@master/gg/chrome-73-dl-x64.zip)  
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- il7YNvMMUbbbz7q8 -->
