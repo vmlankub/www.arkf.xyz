@@ -2,7 +2,7 @@
 
 **欢迎你，访客！**
 
-> ## [前往博客](/blog/?src=homepage)
+> ## [前往博客](/blog/)
 > ### [博客新专题『资料专区』](/blog/information.html?src=homepage)
 
 > ## 博客内容推荐
