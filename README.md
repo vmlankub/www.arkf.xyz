@@ -3,6 +3,7 @@
 **欢迎你，访客！**
 
 > ## [前往博客](/blog/?src=homepage)
+> ### [博客新专题『资料专区』](/blog/information.html?src=homepage)
 
 > ## 博客内容推荐
 > **[如何看待国家鼓励人们生二胎，但效果甚微？](/blog/zhihu/86jvKAlzT4jhMOG0?src=homepage)**  
