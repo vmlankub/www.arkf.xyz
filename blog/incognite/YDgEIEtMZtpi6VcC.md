@@ -3,7 +3,7 @@
       <p data-role="original-title" style="display:none">原标题：期末考试复习的注意事项（老师家长赶紧收藏）！</p>
             <p><span style="font-size: 16px;"><span>来源 |</span><span>好教师（公众号ID:haojsh）</span></span></p> 
 <p style="text-align: justify;"><span style="font-size: 16px;"><strong>期末考试神助攻，方法都在这里了，赶快替孩子收藏！</strong></span></p> 
-<p><img src="//5b0988e595225.cdn.sohucs.com/images/20171228/ed0d17045bb24cd18fd0b31012e1b0ed.jpeg"></p> 
+<p><img src="https://ww2.sinaimg.cn/large/005BYqpggy1g289nqgchmj30zk0qodj8.jpg"></p> 
 <p>期末考试马上就要来临了，各年级也马上进入到紧张的复习阶段，复习是巩固和强化所学知识必不可少的手段，是学习过程中至关重要的环节。</p> 
 <p>如何有效利用时间？如何提高复习效率？复习又有哪些注意事项呢？</p> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- il7YNvMMUbbbz7q8 -->
