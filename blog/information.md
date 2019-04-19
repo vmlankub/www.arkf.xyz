@@ -2,6 +2,26 @@
 
 -----------------------------
 
+> ## [【下载】杭州学而思英语.pdf](/epic/sV82QvW88DDuC6Rb/%E6%9D%AD%E5%B7%9E%E5%AD%A6%E8%80%8C%E6%80%9D%E8%8B%B1%E8%AF%AD.pdf)   
+> [【备用】杭州学而思英语-2.pdf](/epic/sV82QvW88DDuC6Rb/%E6%9D%AD%E5%B7%9E%E5%AD%A6%E8%80%8C%E6%80%9D%E8%8B%B1%E8%AF%AD-2.pdf)   
+> [【预览】](/epic/sV82QvW88DDuC6Rb/)   
+
+> 考试是一种严格的知识水平鉴定方法。通过考试可以检查学生的学习能力和其它能力，为了保证结果的公平，考场必须要求有很强的纪律约束，并且专门设有主考、监考等监督考试过程，绝对禁止任何作弊行为，否则将要承担法律和刑事责任。考试就是让一群拥有不同教育资源的人在一定的时间内完成一份相同的答卷。然而考试的意义并不局限于此，考试也可以是对于一个目标对一个人进行全方位的考核。因此这样的考试其实就是让社会中来自不同社会地位的人拥有改变自己的机会。
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- il7YNvMMUbbbz7q8 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="9948532008"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+-----------------------------
+
 > ## [【下载】2019年上城区一模试卷.pdf](/epic/zfAmCGZMZ2ge9CCX/2019%E5%B9%B4%E4%B8%8A%E5%9F%8E%E5%8C%BA%E4%B8%80%E6%A8%A1%E8%AF%95%E5%8D%B7.pdf)  
 
 > 应考时，思想上不要把考场看成多么特别的地方，想一想我们都”身经百战“，这次考试不也是我们经常经历过的考试中的一场吗。答题时，应遵循先易后难的规律。遇到难题时若已仔细读题三遍还没一点思路，就应跳过去做下一道。答题间隙也可看一看窗外景色，调节一下紧张的情绪。若一道题花了10分钟还做不出来，那就放弃，因为你不会，别人也不一定会，扔一道题没什么。最后当其他题目均已完成时，还可以换一个角度重读一遍该题，说不定会有”柳暗花明又一村“的可能呢。
