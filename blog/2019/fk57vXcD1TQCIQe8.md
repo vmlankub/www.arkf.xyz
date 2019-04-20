@@ -1,5 +1,5 @@
 # 微信约人去酒店房间，来的竟是我的女老板...
-![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/sexyC8jW4Uk3OULL.jpg)
+![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/index-3.jpg)
 
 我是一个公司的小小男职员，为了赚外快，我工作之余做起了代驾。这天晚上跑完一趟车后，已经是凌晨一点了，我正打算收工睡觉，没想到又接到一个顾客电话。
 
