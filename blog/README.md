@@ -193,7 +193,6 @@
 > ## 资料集锦
 
 > **神奇资料在哪里？速速前往[资料专区](information.html?src=blog-selected)**   
-> **前往[Blog::Illegal](/blog/illegal.html)**   
 
 > #### [Knife_for_File_V1.6](https://cdn.jsdelivr.net/gh/vmlankub/CloudFiles@master/Knife_for_File_V1.6.zip)  
 > #### [Resource_Hacker.zip](https://cdn.jsdelivr.net/gh/vmlankub/CloudFiles@master/resource_hacker.zip)  
@@ -215,6 +214,7 @@
 -----------------------------
 
 > ## [打赏](/donations?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
+> ## 前往[Blog::Illegal](/blog/illegal.html)   
 
 ![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
