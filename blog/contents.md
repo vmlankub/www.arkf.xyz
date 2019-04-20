@@ -70,7 +70,8 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-> ## [打赏](/donations?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)
+> ## [打赏](/donations?src=www.arkf.xyz&token=RDf5UV2Y2FsFrizY)   
+> ## 前往[Blog::Illegal](/blog/illegal.html)    
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- K8wRjJg0lgYP1und -->
