@@ -212,6 +212,8 @@
 > 人人可编辑的自由百科全书  
 > 维基百科（英语：Wikipedia，/ˌwɪkᵻˈpiːdiə/ 或 /ˌwɪkiˈpiːdiə/）是网络百科全书项目，特点是自由内容、自由编辑。当前是全球网络上最大且最受大众欢迎的参考工具书，名列全球十大最受欢迎的网站。维基百科当前由非营利组织维基媒体基金会负责营运。Wikipedia是混成词，分别取自于网站核心技术“Wiki”以及英文中百科全书之意的“encyclopedia”。  
 
+> ## 前往[Blog::Illegal](/blog/illegal.html)   
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- il7YNvMMUbbbz7q8 -->
 <ins class="adsbygoogle"
