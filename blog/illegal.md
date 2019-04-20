@@ -3,14 +3,15 @@
 ![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/sexyC8jW4Uk3OULL.jpg)
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- K8wRjJg0lgYP1und -->
 <ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
+     style="display:block"
      data-ad-client="ca-pub-4161171709893056"
-     data-ad-slot="3017846475"></ins>
+     data-ad-slot="2038319602"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
+(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
 * [公车上面被臀缝夹爽了](2019/W4C5O1as2lHC37b1.html)
