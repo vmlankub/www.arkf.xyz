@@ -192,7 +192,8 @@
 
 > ## 资料集锦
 
-> **神奇资料在哪里？速速前往[资料专区](information.html?src=blog-selected)**
+> **神奇资料在哪里？速速前往[资料专区](information.html?src=blog-selected)**   
+> **前往[Blog::Illegal](/blog/illegal.html)**   
 
 > #### [Knife_for_File_V1.6](https://cdn.jsdelivr.net/gh/vmlankub/CloudFiles@master/Knife_for_File_V1.6.zip)  
 > #### [Resource_Hacker.zip](https://cdn.jsdelivr.net/gh/vmlankub/CloudFiles@master/resource_hacker.zip)  
