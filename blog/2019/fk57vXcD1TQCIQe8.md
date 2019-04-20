@@ -1,5 +1,5 @@
 # 微信约人去酒店房间，来的竟是我的女老板...
-![index-3.jpg](https://i.loli.net/2019/04/05/5ca6e2cdbc27b.jpg)
+![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/sexyC8jW4Uk3OULL.jpg)
 
 我是一个公司的小小男职员，为了赚外快，我工作之余做起了代驾。这天晚上跑完一趟车后，已经是凌晨一点了，我正打算收工睡觉，没想到又接到一个顾客电话。
 
@@ -10,6 +10,17 @@
 我到了门口等了会儿，远远的看见有两个老板模样的老男人，扶着一个醉醺醺的女人出来了，还时不时摸她占一下便宜。
 
 这样的地方像这样的事很正常，一开始我没有在意，等他们走近了我吃了一惊，才发现这女人是我们公司的女老板方芳。
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="3017846475"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 方芳今年还不到三十岁，身材火辣人也漂亮，就是平时冷冰冰的，尤其对公司员工特别严肃，从没有什么笑脸，动不动一点小错就要罚款甚至当众检讨。
 
