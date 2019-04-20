@@ -223,6 +223,7 @@
 -----------------------------
 
 > ## [打赏](/donations?src=homepage&token=RDf5UV2Y2FsFrizY)
+> ## 前往[Blog::Illegal](/blog/illegal.html)   
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
