@@ -2,6 +2,23 @@
 
 -----------------------------
 
+> ## [【下载】杭州中考名著阅读(最基本版).pdf](/epic/HjWF1V0mMEwYCqQQ/%E6%9D%AD%E5%B7%9E%E4%B8%AD%E8%80%83%E5%90%8D%E8%91%97%E9%98%85%E8%AF%BB(%E6%9C%80%E5%9F%BA%E6%9C%AC%E7%89%88).pdf)   
+> [【备用】杭州中考名著阅读(最基本版).docx](/epic/HjWF1V0mMEwYCqQQ/%E6%9D%AD%E5%B7%9E%E4%B8%AD%E8%80%83%E5%90%8D%E8%91%97%E9%98%85%E8%AF%BB(%E6%9C%80%E5%9F%BA%E6%9C%AC%E7%89%88).docx)   
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- il7YNvMMUbbbz7q8 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4161171709893056"
+     data-ad-slot="9948532008"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+-----------------------------
+
 > ## [【下载】杭州学而思英语.pdf](/epic/sV82QvW88DDuC6Rb/%E6%9D%AD%E5%B7%9E%E5%AD%A6%E8%80%8C%E6%80%9D%E8%8B%B1%E8%AF%AD.pdf)   
 > [【备用】杭州学而思英语-2.pdf](/epic/sV82QvW88DDuC6Rb/%E6%9D%AD%E5%B7%9E%E5%AD%A6%E8%80%8C%E6%80%9D%E8%8B%B1%E8%AF%AD-2.pdf)   
 > [【预览】](/epic/sV82QvW88DDuC6Rb/)   
