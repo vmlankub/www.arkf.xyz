@@ -14,8 +14,9 @@
 </script>
 
 * [公车上面被臀缝夹爽了](2019/W4C5O1as2lHC37b1.html)
+> 接着，他把身体朝前挺了几下，靠，分明是在以隔着裤子的鸡巴顶人家女孩屁股嘛！这还了得？而那女孩竟然微闭起了双眼，随着车上的人轻轻扭挺着臀部来配合那男人的挺动。看到我这我可受不了了，说出来大伙别不信，我把鸡巴掏出来啦。就从裤子的拉练处。这叫心灵手巧。一掏出来我十分紧张，可哪儿有人注意你啊，我这是做贼心虚。我呼了一口气，而这时那男的竟突然猛然顶在那女孩的屁股上抖了一下，一定是射了。
 * [【女舞蹈教师最纯的淫叫】【作者：不详】【完】](2019/9FisHGby8EEpzbiF.html)
-
+> 他感到我软软靠在他的身上，跟刚才不一样了，可能也知道我有点动情了，于是他的手就慢慢的从我的肩上滑下来抚摸着我的手臂直到抓住了我的手，我的心一下子就颤抖起来，我木然的被他握着，慢慢的我们的手互相的揉搓着，他的下体真好镶在我臀部中间，不过他很老实，没有乱动。
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- il7YNvMMUbbbz7q8 -->
 <ins class="adsbygoogle"
@@ -29,7 +30,9 @@
 </script>
 
 * [这个老板对我真好，竟然每天要求我和老板娘。。。](2019/I5rpbiBpibzENOUV?src=RdUtcXEm1SPtZgwO)
+> 陈总走之前，扭过头来一脸严肃的说：“你嫂子今天排x期，我会给你创造机会，让你连续播种三天，你一定给我加把劲，争取让你嫂子怀上，知道了吗？”
 * [微信约人去酒店房间，来的竟是我的女老板...](2019/fk57vXcD1TQCIQe8?src=1904-content&token=RdUtcXEm1SPtZgwO)
+> 她这会儿闭着眼，脸颊绯红，穿着白衬衣和包臀短裙，对于我这个还没有女朋友的男人来说，视觉冲击力还是很大，而且我不可否认，我曾经对方芳幻想过，甚至在梦里和她做过一些男女的事，而且不光是我，公司的一些男员工对她都存在幻想，背后偶尔会一起开玩笑，如果能够和方芳一晚上，就算是精尽人亡死了也值了。
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- il7YNvMMUbbbz7q8 -->
@@ -44,7 +47,9 @@
 </script>
 
 * [nsfw_data_scraper 数据集展览](2019/pML3GJ3xQ4xxuvFa?src=1904-content&token=RdUtcXEm1SPtZgwO)
+> NSFW Data Scrapper是程序员搜集的NSFW（Not Suitable for Work）图片集合地址，借助图像深度学习模型，如yahoo的Open nsfw model等，结合素材供计算机进行鉴黄学习。图片分为几类，正常图，性感图，动画图等。
 * [妈咪说不让刮阴毛~不知道帅哥你喜欢么，你们男生阴毛旺盛吗？](2019/oeE6zeG9SH1Hc0Gv.html?src=1904-content)
+> 我从小姨子的嘴里拔出已经软了的阴茎，小姨子最后还不依不饶的用牙齿轻咬了一下我的龟头，我体会到痛并快乐着的感觉！抬头望了望路边的人流，我有一种从未体会过的满足感，好象每个人都看到了我们之间精彩的表演，那种感觉很美妙！！！
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- il7YNvMMUbbbz7q8 -->
@@ -59,7 +64,9 @@
 </script>
 
 * [【求求你放过我..再干下去会怀孕的】【完】](2019/ZpbIM2sqhEWbhSmx.html)
+> 「我想我们还是不要在这……」阿余才转身开口说话，却立即被我封住了嘴巴。我右手绕到她身后将我们的身体紧贴在一起，左手托着她头，让我大力的吻着她的嘴唇。
 * [和小姨子在车上做爱【完】（作者：不详）](2019/DUxXPIgapBPGo9Qc.html)
+> 我看着很兴奋，赶忙把舌头凑了过去，开始舔舐她的阴蒂，每舔一下，小姨子就嗯嗯啊啊的发出舒服的呻吟声，阴道里的淫水也如洪水般哗啦啦的流了出来，我看清楚，是白色的液体，粘粘的，有点酸。男人最快乐的时候是看着眼前的女人被自己折腾的死去活来，这种感觉最美妙！
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- il7YNvMMUbbbz7q8 -->
@@ -74,8 +81,9 @@
 </script>
 
 * [美图 · Show](2019/wFaHlsNidoR90Pgu.html)
+> 突然，我的龟头一阵痉挛，快感立即遍布全身，我抽出阴茎，立即将到小姨子在座位上，将阴茎塞到了她的嘴里，一股浓精尽数喷射到小姨子的小嘴里！！！
 * [美图 · Show](2019/DfqnhwbrqQc7HhnY.html)
-
+> 小姨子一翻身，趴在了我的身上，把自己的阴户对准了我的嘴，我知道要做什幺，于是，伸出舌头，开始舔她肥嫩的阴唇。一股股淫水顺着小姨子的大腿内侧流到了我的脸上和身上，我感到很快乐！我的手捏着她丰满的乳房，揉搓着她的乳头，小姨子显得很快乐，时不时的仰起头发出淫荡的呻吟！
 
 ![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
