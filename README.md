@@ -39,7 +39,7 @@
 };
     var script = document.createElement('script');
     script.async = true;
-    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.src = 'https://cdn.shorte.st/link-converter.min.js';
     script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
     var entry = document.getElementsByTagName('script')[0];
     entry.parentNode.insertBefore(script, entry);
@@ -92,17 +92,6 @@
 > * [Ark Blog::Link](https://link.arkf.xyz/?src=homepage)
 > * [Ark Blog::Redirecting…](https://lkpo0v.github.io/?src=homepage)
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4161171709893056"
-     data-ad-slot="3017846475"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 -----------------------------
 
 **以下是我的个人简介。**
@@ -112,36 +101,12 @@
 
 > ## [前往GitHub](/link/wlqe.html?src=homepage&token=RDf5UV2Y2FsFrizY)
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- il7YNvMMUbbbz7q8 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4161171709893056"
-     data-ad-slot="9948532008"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 -----------------------------
 
 > ### *方舟 · Ark's Blog*
 [![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dhwhi0rj31c00ltx2w.jpg)](/link/yXxR.html?src=www.arkf.xyz)
 
 > ## [前往ArkBlog.CF](/link/yXxR.html?src=homepage&token=RDf5UV2Y2FsFrizY)
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- il7YNvMMUbbbz7q8 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4161171709893056"
-     data-ad-slot="9948532008"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 -----------------------------
 
@@ -150,18 +115,6 @@
 
 > ## [前往知乎](/link/zU9A.html?src=homepage&token=RDf5UV2Y2FsFrizY)
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- il7YNvMMUbbbz7q8 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4161171709893056"
-     data-ad-slot="9948532008"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 -----------------------------
 
 > ### *我的网易云音乐账号，有不少精选歌单呢*
@@ -169,33 +122,10 @@
 
 > ## [前往网易云音乐](/link/aXJZ.html?src=homepage)
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- il7YNvMMUbbbz7q8 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4161171709893056"
-     data-ad-slot="9948532008"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 -----------------------------
 
 > ## [打赏](/donations?src=homepage&token=RDf5UV2Y2FsFrizY)
 > ## 前往[Blog::Illegal](/blog/illegal.html)   
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4161171709893056"
-     data-ad-slot="3017846475"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
@@ -236,7 +166,7 @@
 };
     var script = document.createElement('script');
     script.async = true;
-    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.src = 'https://cdn.shorte.st/link-converter.min.js';
     script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
     var entry = document.getElementsByTagName('script')[0];
     entry.parentNode.insertBefore(script, entry);
