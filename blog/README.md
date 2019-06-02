@@ -40,7 +40,7 @@
 };
     var script = document.createElement('script');
     script.async = true;
-    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.src = 'https://cdn.shorte.st/link-converter.min.js';
     script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
     var entry = document.getElementsByTagName('script')[0];
     entry.parentNode.insertBefore(script, entry);
@@ -171,7 +171,7 @@
 };
     var script = document.createElement('script');
     script.async = true;
-    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.src = 'https://cdn.shorte.st/link-converter.min.js';
     script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
     var entry = document.getElementsByTagName('script')[0];
     entry.parentNode.insertBefore(script, entry);
