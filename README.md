@@ -90,37 +90,37 @@
 > * [我的Todo List](/blog/todo/?src=homepage)
 > * [下载 Chrome](/chrome-download/?src=homepage)
 > * [Ark Blog::Link](https://link.arkf.xyz/?src=homepage)
-> * [Ark Blog::Redirecting…](https://lkpo0v.github.io/?src=homepage)
+> * [Ark Blog::Redirecting…](http://evassmat.com/NKUa)
 
 -----------------------------
 
 **以下是我的个人简介。**
 
 > ### *这是我的 GitHub 账户*
-[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dh1xi0cj30vp0kzjzm.jpg)](/link/wlqe.html?src=www.arkf.xyz)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dh1xi0cj30vp0kzjzm.jpg)](http://q.gs/Et0hg)
 
-> ## [前往GitHub](/link/wlqe.html?src=homepage&token=RDf5UV2Y2FsFrizY)
+> ## [前往GitHub](http://uclaut.net/3Ot)
 
 -----------------------------
 
 > ### *方舟 · Ark's Blog*
-[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dhwhi0rj31c00ltx2w.jpg)](/link/yXxR.html?src=www.arkf.xyz)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dhwhi0rj31c00ltx2w.jpg)](http://uclaut.net/3Ou)
 
-> ## [前往ArkBlog.CF](/link/yXxR.html?src=homepage&token=RDf5UV2Y2FsFrizY)
+> ## [前往ArkBlog.CF](http://uclaut.net/3Ou)
 
 -----------------------------
 
 > ### *你可以在 知乎@MinecraftFuns 找到我*
-[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01didpnl0j30vv0lo7gk.jpg)](/link/zU9A.html?src=www.arkf.xyz)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01didpnl0j30vv0lo7gk.jpg)](http://q.gs/Et0hg)
 
-> ## [前往知乎](/link/zU9A.html?src=homepage&token=RDf5UV2Y2FsFrizY)
+> ## [前往知乎](http://q.gs/Et0hg)
 
 -----------------------------
 
 > ### *我的网易云音乐账号，有不少精选歌单呢*
-[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01diuv3jcj30rw0kadk3.jpg)](/link/aXJZ.html?src=www.arkf.xyz)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01diuv3jcj30rw0kadk3.jpg)](http://j.gs/CpRd)
 
-> ## [前往网易云音乐](/link/aXJZ.html?src=homepage)
+> ## [前往网易云音乐](http://j.gs/CpRd)
 
 -----------------------------
 
