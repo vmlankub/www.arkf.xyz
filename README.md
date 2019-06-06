@@ -99,7 +99,7 @@
 > ### *这是我的 GitHub 账户*
 [![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dh1xi0cj30vp0kzjzm.jpg)](http://q.gs/Et0hg)
 
-> ## [前往GitHub](http://uclaut.net/3Ot)
+> ## [前往GitHub](http://q.gs/Et0hg)
 
 -----------------------------
 
