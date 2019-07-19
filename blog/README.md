@@ -12,41 +12,6 @@
 > 周六到周日这个晚上绝大多数人都过周末，所以调一下大家也不会有什么问题。当然了，对于不熟悉的人来说自然就出乱子了。   
 > 夏令时制从上世纪初就开始了，那时候大家都手动调，现在手机电脑都有选项，可以自动调整了（如果你生活的地区不适用夏令时，而又把自己的所在地选择成了夏令时地区，又没有取消“自动夏令时”的选项，那么时间就乱了。）   
 
-<script type="text/javascript">//<![CDATA[ 
-(function() {
-    var configuration = {
-    "token": "f923c06b35851b1626cb7ac3f6ccc5da",
-    "excludeDomains": [
-        ""
-    ],
-    "capping": {
-        "limit": 5,
-        "timeout": 24
-    },
-    "entryScript": {
-        "type": "timeout",
-        "timeout": "2000",
-        "capping": {
-            "limit": 5,
-            "timeout": 24
-        }
-    },
-    "exitScript": {
-        "enabled": true
-    },
-    "popUnder": {
-        "enabled": true
-    }
-};
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://cdn.shorte.st/link-converter.min.js';
-    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
-    var entry = document.getElementsByTagName('script')[0];
-    entry.parentNode.insertBefore(script, entry);
-})();
-//]]></script>
-
 > [**如何看待 996ICU 项目中正在讨论的反 996 许可证 (Anti-996 License)?**](2019/F1FeB3yZBSGdtJcc)   
 > 有个悖论。    
 > 一个公然违反劳动法的公司，还怕违反license吗。  
@@ -142,38 +107,3 @@
   gtag('js', new Date());
   gtag('config', 'UA-116309064-2');
 </script>
-
-<script type="text/javascript">//<![CDATA[ 
-(function() {
-    var configuration = {
-    "token": "f923c06b35851b1626cb7ac3f6ccc5da",
-    "excludeDomains": [
-        ""
-    ],
-    "capping": {
-        "limit": 5,
-        "timeout": 24
-    },
-    "entryScript": {
-        "type": "timeout",
-        "timeout": "2000",
-        "capping": {
-            "limit": 5,
-            "timeout": 24
-        }
-    },
-    "exitScript": {
-        "enabled": true
-    },
-    "popUnder": {
-        "enabled": true
-    }
-};
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://cdn.shorte.st/link-converter.min.js';
-    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
-    var entry = document.getElementsByTagName('script')[0];
-    entry.parentNode.insertBefore(script, entry);
-})();
-//]]></script>
