@@ -1,0 +1,443 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+    <!-- start #optimize -->
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="//secure.gravatar.com" />
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info" />
+    <link rel="dns-prefetch" href="//cdn.bootcss.com" />
+
+    <!-- 关闭百度转码 -->
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <!-- end #optimize -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- css3-mediaqueries-js 用于尝试在上古浏览器支持自适应viewport函数 -->
+    <!--[if lt IE 9]>
+    　　<script src="https://cdn.jsdelivr.net/gh/livingston/css3-mediaqueries-js@master/css3-mediaqueries.min.js"></script>
+    <![endif]-->
+    <title>BZOJ5403 marshland - memset0 的博客</title>
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/necolas/normalize.css@latest/normalize.min.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/grid.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/style.css">
+    <!-- <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/ripple.css"> -->
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cinzel Decorative:700"> -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+    
+    <!--[if lt IE 9]>
+    <script src="//cdn.jsdelivr.net/gh/aFarkas/html5shiv@latest/dist/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/scottjehl/Respond@latest/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <meta name="description" content="这个数据范围容易让人想到网络流，问题在于这个网络流怎么流？首先可以发现，如果我们要放石头，一定只会放在 x + y 为奇数的格子，否则放了不如不放。所以把这些点拆点，连一条费用为 a[x][y]..." />
+<meta name="keywords" content="网络流" />
+<meta name="generator" content="Typecho 1.1/17.10.30" />
+<meta name="template" content="ringo" />
+<link rel="pingback" href="https://memset0.cn/action/xmlrpc" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://memset0.cn/action/xmlrpc?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://memset0.cn/action/xmlrpc?wlw" />
+<link rel="alternate" type="application/rss+xml" title="BZOJ5403 marshland &raquo; memset0 的博客 &raquo; RSS 2.0" href="https://memset0.cn/feed/bzoj5403" />
+<link rel="alternate" type="application/rdf+xml" title="BZOJ5403 marshland &raquo; memset0 的博客 &raquo; RSS 1.0" href="https://memset0.cn/feed/rss/bzoj5403" />
+<link rel="alternate" type="application/atom+xml" title="BZOJ5403 marshland &raquo; memset0 的博客 &raquo; ATOM 1.0" href="https://memset0.cn/feed/atom/bzoj5403" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-21'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-21'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-21'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _HnKRqc = //'WR'
+'WR'+''///*'I'*/'I'
++'9c'//'9C7'
++'e0'//'y'
++''///*'9'*/'9'
++''///*'5'*/'5'
++//'uM'
+'66f'+'1'//'3Z'
++//'lZ'
+'6a7'+//'D'
+'D'+'816'//'T0z'
++'0b4'//'sZ'
++//'C0'
+'C0'+'b'//'JRV'
++//'3d'
+'535'+'8'//'Fn'
++''///*'M'*/'M'
++//'Vvh'
+'Vvh'+'d8d'//'J'
++/* 'j'//'j' */''+'dg'//'dg'
++//'OZc'
+'ba'+//'NO'
+'9'+//'P'
+'1'+'c42'//'Qy'
+, _wul8iZ = [[0,2],[11,12],[17,19],[22,25],[25,27]];
+    
+    for (var i = 0; i < _wul8iZ.length; i ++) {
+        _HnKRqc = _HnKRqc.substring(0, _wul8iZ[i][0]) + _HnKRqc.substring(_wul8iZ[i][1]);
+    }
+
+    return _HnKRqc;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script></head>
+<body>
+
+<!--[if lt IE 8]>
+    <div class="browsehappy" role="dialog">当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>.</div>
+<![endif]-->
+
+<!-- 移动端适配 -->
+<link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/compatible.css">
+
+<!-- 也显示出一遍正常标题来以便适配移动端 -->
+<div style="display:none" class="compatible">
+            <a id="logo" class="site-title">
+                memset0 的博客 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时 那人却已不在灯火阑珊处            </p>
+</div>
+
+<header id="header" class="clearfix" onclick="window.open('https://memset0.cn/','_self')">
+    <div class="container">
+        <div class="site-name">
+                    <a id="logo" class="site-title">
+                memset0's<br />Notebook 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时<br>那人却已不在灯火阑珊处            </p>
+        
+        
+        
+        <!-- <div class="col-mb-12">
+            <nav id="nav-menu" class="clearfix" role="navigation">
+                <a  href="https://memset0.cn/">首页</a>
+                                                <a  href="https://memset0.cn/about" title="关于我">关于我</a>
+                                <a  href="https://memset0.cn/friends" title="友情链接">友情链接</a>
+                                <a  href="https://memset0.cn/archive" title="文章聚合">文章聚合</a>
+                            </nav>
+        </div> -->
+    </div>
+</header><!-- end #header -->
+
+<div id="sidebar" role="complementary">
+        <section class="widget">
+        <ul class="widget-list">
+                                    <li><a href="https://memset0.cn/about" title="关于我">关于我</a></li>
+                        <li><a href="https://memset0.cn/friends" title="友情链接">友情链接</a></li>
+                        <li><a href="https://memset0.cn/archive" title="文章聚合">文章聚合</a></li>
+                    </ul>
+    </section>
+    
+	<section class="widget sidebar-foot">
+        <ul class="widget-list">
+            <li>Theme <a rel="nofollow" target="_blank" href="https://github.com/memset0/typecho-theme-ringo">Ringo</a> by <a  target="_blank" href="https://memset0.cn">memset0</a></li>
+            <li>Proudly powered by <a rel="nofollow" target="_blank" href="http://www.typecho.org">Typecho</a></li>
+        </ul>
+    </section>
+</div><!--end #sidebar -->
+
+<div id="helpbar">
+    <div class="back-to-top">
+        <button id="back2top">↑</button>
+        <script>
+            back2top.onclick = function() {
+                var movement = document.body.scrollTop || document.documentElement.scrollTop;
+                scrollBy(0, -movement);
+            }
+        </script>
+    </div>
+</div><!--end #helpbar -->
+<div id="body">
+    <div class="container">
+
+
+<div class="col-12" id="main" role="main">
+    <article class="post post-atpage" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title post-title-atpage" itemprop="name headline"><a itemprop="url" href="https://memset0.cn/bzoj5403">BZOJ5403 marshland</a></h1>
+        <ul class="post-meta post-meta-atpage">
+            <li><time datetime="2019-01-10T13:41:00+00:00" itemprop="datePublished">2019-01-10</time></li>
+            <li><a href="https://memset0.cn/solution/">题解</a></li>
+                    </ul>
+        <div class="post-content" itemprop="articleBody">
+            <p>这个数据范围容易让人想到网络流，问题在于这个网络流怎么流？</p>
+<p>首先可以发现，如果我们要放石头，一定只会放在 <katex-inline>x + y</katex-inline> 为奇数的格子，否则放了不如不放。所以把这些点拆点，连一条费用为 <katex-inline>a[x][y]</katex-inline> ，流量为 <katex-inline>1</katex-inline>  的边。</p>
+<p>接下来，我们可以构造一种对 <katex-inline>x + y</katex-inline> 为偶数的格子的黑白染色方案，使得一个 L 型石头的两个 <katex-inline>x + y</katex-inline> 为偶数的格子异色。容易发现，我们只需要对所有 <katex-inline>x</katex-inline> 和 <katex-inline>y</katex-inline> 都是奇数的格子染黑， <katex-inline>x</katex-inline> 和 <katex-inline>y</katex-inline> 都是偶数的格子染白。同理，拆成两个点，中间连一条费用为 <katex-inline>0</katex-inline> ，流量为 <katex-inline>1</katex-inline> 的边。</p>
+<p>同时，为了使得总放置的石头数为 <katex-inline>m</katex-inline> ，我们还需要再建一个点 <katex-inline>P</katex-inline> 。</p>
+<p>于是源点 <katex-inline>S</katex-inline> 向 <katex-inline>P</katex-inline> 连边， <katex-inline>P</katex-inline> 向黑点连边，黑点向 <katex-inline>x + y</katex-inline> 为奇数的点连边， <katex-inline>x + y</katex-inline> 为奇数的点向白点连边，白点向汇点 <katex-inline>E</katex-inline> 连边即可。</p>
+<p>需要注意的是，我们跑最大费用最大流，但是我们只需要费用最大，而不是流量。由于我们采用增广路算法，每次新增的流量的花费一定递减，所以当花费是负数时直接跳出即可。</p>
+<!--more-->
+<pre><code class="cpp">// =================================
+//   author: memset0
+//   date: 2019.01.10 08:14:13
+//   website: https://memset0.cn/
+// =================================
+#include &lt;bits/stdc++.h&gt;
+#define ll long long
+namespace ringo {
+template &lt;class T&gt; inline void read(T &amp;x) {
+    x = 0; register char c = getchar(); register bool f = 0;
+    while (!isdigit(c)) f ^= c == '-', c = getchar();
+    while (isdigit(c)) x = x * 10 + c - '0', c = getchar();
+    if (f) x = -x;
+}
+template &lt;class T&gt; inline void print(T x) {
+    if (x &lt; 0) putchar('-'), x = -x;
+    if (x &gt; 9) print(x / 10);
+    putchar('0' + x % 10);
+}
+template &lt;class T&gt; inline void print(T x, char c) { print(x), putchar(c); }
+
+const int N = 55, Nd = 5010, Ed = 1000010;
+int n, m, k, l, r, u, s, e, ts, nod, flow, cost;
+int a[N][N], id[N][N], id2[N][N], pre[Nd], dis[Nd], q[Nd];
+int tot = 2, hed[Nd], nxt[Ed], to[Ed], val[Ed], cst[Ed];
+bool b[N][N], inq[Nd];
+ll ans;
+
+inline void add_edge(int u, int v, int w, int c) {
+    nxt[tot] = hed[u], to[tot] = v, val[tot] = w, cst[tot] = c, hed[u] = tot++;
+    nxt[tot] = hed[v], to[tot] = u, val[tot] = 0, cst[tot] =-c, hed[v] = tot++;
+}
+
+bool spfa() {
+    memset(pre, 0, sizeof(pre));
+    memset(dis, -63, sizeof(dis));
+    q[l = r = 0] = s, dis[s] = 0, inq[s] = 1;
+    while (l &lt;= r) {
+        u = q[(l++) % Nd], inq[u] = 0;
+        for (int i = hed[u], v = to[i]; i; i = nxt[i], v = to[i])
+            if (val[i] &amp;&amp; dis[u] + cst[i] &gt; dis[v]) {
+                dis[v] = dis[u] + cst[i], pre[v] = i;
+                if (!inq[v]) inq[q[(++r) % Nd] = v] = 1;
+            }
+    }
+    return pre[e];
+}
+
+void main() {
+    read(n), read(m), read(k);
+    for (int i = 1; i &lt;= n; i++) for (int j = 1; j &lt;= n; j++) read(a[i][j]), ans += a[i][j];
+    for (int i = 1, x, y; i &lt;= k; i++) read(x), read(y), b[x][y] = 1;
+    s = ++nod, e = ++nod, ts = ++nod;
+    add_edge(s, ts, m, 0);
+    for (int i = 1; i &lt;= n; i++) for (int j = 1; j &lt;= n; j++) id[i][j] = ++nod, id2[i][j] = ++nod;
+    for (int i = 1; i &lt;= n; i++)
+        for (int j = 1; j &lt;= n; j++) {
+            static const int nxt[4][2] = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+            if (b[i][j]) continue;
+            if ((i + j) &amp; 1) {
+                add_edge(id[i][j], id2[i][j], 1, a[i][j]);
+                for (int t = 0, x, y; t &lt; 4; t++) {
+                    x = i + nxt[t][0], y = j + nxt[t][1];
+                    if (b[x][y] || x &lt; 1 || y &lt; 1 || x &gt; n || y &gt; n) continue;
+                    if (x &amp; 1) add_edge(id2[x][y], id[i][j], 1, 0);
+                    else add_edge(id2[i][j], id[x][y], 1, 0);
+                }
+            } else {
+                add_edge(id[i][j], id2[i][j], 1, 0);
+                if (i &amp; 1) add_edge(ts, id[i][j], 1, 0);
+                else add_edge(id2[i][j], e, 1, 0);
+            }
+        }
+    while (spfa()) {
+        flow = 1e9, cost = 0;
+        for (int i = pre[e]; i; i = pre[to[i ^ 1]]) flow = std::min(flow, val[i]);
+        for (int i = pre[e]; i; i = pre[to[i ^ 1]]) val[i] -= flow, val[i ^ 1] += flow;
+        for (int i = pre[e]; i; i = pre[to[i ^ 1]]) cost += flow * cst[i];
+        if (cost &lt;= 0) break;
+        ans -= cost;
+    }
+    print(ans, '\n');
+}
+
+} signed main() { return ringo::main(), 0; }</code></pre>        </div>
+                <p itemprop="keywords" class="tags"><a href="https://memset0.cn/tag/%E7%BD%91%E7%BB%9C%E6%B5%81/">网络流</a></p>
+            </article>
+
+    <div id="comments">
+        
+        <div id="respond-post-21" class="respond">
+        <div class="cancel-comment-reply">
+        <a id="cancel-comment-reply-link" href="https://memset0.cn/bzoj5403#respond-post-21" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>        </div>
+    
+        <form method="post" action="https://memset0.cn/bzoj5403/comment" id="comment-form" role="form">
+                        <div class="submit-area">
+                <input type="text" name="author" id="author" class="text" placeholder="用户名" value="" required />
+                <input type="email" name="mail" id="mail" class="text" placeholder="邮箱" value="" required />
+                <input type="url" name="url" id="url" class="text" placeholder="网址 (选填) " value="" />
+                            <textarea rows="8" cols="50" name="text" id="textarea" class="textarea" placeholder="可以在这里写评论哦 ~" required ></textarea>
+                <button type="submit" class="ripple submit">提交评论</button>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <div class="post-near">
+        <div class="post-near-child post-near-child-left "><a href="https://memset0.cn/22" title="BZOJ5405 platform">BZOJ5405 platform</a> <br /> 上一篇 &laquo;</div>
+        <div class="post-near-child post-near-child-right"><a href="https://memset0.cn/bzoj4179" title="BZOJ4179 B">BZOJ4179 B</a> <br /> &raquo; 下一篇</div>
+    </div>
+</div><!-- end #main-->
+
+
+<footer id="footer" role="contentinfo">
+
+	&copy; 2017 - 2019 <a href="https://memset0.cn/">memset0 的博客</a>.
+	<br />
+			<a rel="nofollow" href="http://beian.miit.gov.cn"> 浙ICP备19006255号-1 </a>
+		<br />
+	
+			<span id="busuanzi_value_site_pv">......</span> visits ·
+		<span id="busuanzi_value_site_uv">......</span> visitors 
+			·
+				<span id="words_counter">73.80 W</span> words
+	
+</footer><!-- end #footer -->
+
+<div class="site-search">
+	<form id="search" method="post" action="https://memset0.cn/" role="search">
+		<label for="s" class="sr-only">搜索关键字</label>
+		<input type="text" id="s" name="s" class="text" placeholder="在这里输入关键字哦 ~ (回车搜索)" />
+		<!-- <button type="submit" class="submit">搜索</button> -->
+	</form>
+</div>
+	</div>
+
+</div><!-- end #body -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- <style>.MathJax:focus {outline: none;}</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	extensions: ["tex2jax.js"],
+	jax: ["input/TeX","output/HTML-CSS"],
+	"fast-preview": {disabled: true},
+	tex2jax: {inlineMath:[ ["$", "$"] ],displayMath:[ ["$$","$$"] ],processEscapes: true},
+	"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.12.0/highlight.pack.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+
+	<div style="display:none">
+<script> var _hmt = _hmt || []; (function() { 	var hm = document.createElement("script"); 	hm.src = "https://hm.baidu.com/hm.js?d8c0a4185322e94013582201484f9131"; 	var s = document.getElementsByTagName("script")[0];  	s.parentNode.insertBefore(hm, s); })(); </script>	</div>
+
+<link href="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.css" rel="stylesheet">
+<script src="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.js"></script>
+<script>
+var tmp = document.getElementsByTagName('katex-inline');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: false, throwOnError: false})); }
+tmp = document.getElementsByTagName('katex');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: true, throwOnError: false})); }
+</script>
+</body>
+</html>

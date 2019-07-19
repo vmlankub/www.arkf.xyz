@@ -1,0 +1,482 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+    <!-- start #optimize -->
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="//secure.gravatar.com" />
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info" />
+    <link rel="dns-prefetch" href="//cdn.bootcss.com" />
+
+    <!-- 关闭百度转码 -->
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <!-- end #optimize -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- css3-mediaqueries-js 用于尝试在上古浏览器支持自适应viewport函数 -->
+    <!--[if lt IE 9]>
+    　　<script src="https://cdn.jsdelivr.net/gh/livingston/css3-mediaqueries-js@master/css3-mediaqueries.min.js"></script>
+    <![endif]-->
+    <title>UOJ14 【UER #1】DZY Loves Graph - memset0 的博客</title>
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/necolas/normalize.css@latest/normalize.min.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/grid.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/style.css">
+    <!-- <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/ripple.css"> -->
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cinzel Decorative:700"> -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+    
+    <!--[if lt IE 9]>
+    <script src="//cdn.jsdelivr.net/gh/aFarkas/html5shiv@latest/dist/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/scottjehl/Respond@latest/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <meta name="description" content="DZY 开始有 n 个点，现在他对这 n 个点进行了 m 次操作，对于第 i 个操作（从 1 开始编号）有可能的三种情况：Add a b： 表示在 a 与 b 之间连了一条长度为 i 的边（注意..." />
+<meta name="keywords" content="最小生成树,克鲁斯卡尔,并查集按秩合并,离线查询" />
+<meta name="generator" content="Typecho 1.1/17.10.30" />
+<meta name="template" content="ringo" />
+<link rel="pingback" href="https://memset0.cn/action/xmlrpc" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://memset0.cn/action/xmlrpc?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://memset0.cn/action/xmlrpc?wlw" />
+<link rel="alternate" type="application/rss+xml" title="UOJ14 【UER #1】DZY Loves Graph &raquo; memset0 的博客 &raquo; RSS 2.0" href="https://memset0.cn/feed/uoj14" />
+<link rel="alternate" type="application/rdf+xml" title="UOJ14 【UER #1】DZY Loves Graph &raquo; memset0 的博客 &raquo; RSS 1.0" href="https://memset0.cn/feed/rss/uoj14" />
+<link rel="alternate" type="application/atom+xml" title="UOJ14 【UER #1】DZY Loves Graph &raquo; memset0 的博客 &raquo; ATOM 1.0" href="https://memset0.cn/feed/atom/uoj14" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-657'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-657'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-657'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _uX8H = //'i'
+'6'+//'XQ'
+'6fb'+''///*'2cD'*/'2cD'
++'9b'//'uZz'
++'d8'//'RJ'
++//'Dy'
+'a0'+'bf'//'SF'
++//'O'
+'9f'+//'NN'
+'NN'+'8'//'4'
++//'4'
+'5'+//'jF'
+'e68'+'b7'//'UlB'
++'36'//'82'
++'d5'//'P'
++//'Wc8'
+'f9'+//'3k'
+'3k'+'0f'//'tI'
++''///*'m'*/'m'
++//'V'
+'d3a', _4uF2b = [[14,16],[27,29]];
+    
+    for (var i = 0; i < _4uF2b.length; i ++) {
+        _uX8H = _uX8H.substring(0, _4uF2b[i][0]) + _uX8H.substring(_4uF2b[i][1]);
+    }
+
+    return _uX8H;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script></head>
+<body>
+
+<!--[if lt IE 8]>
+    <div class="browsehappy" role="dialog">当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>.</div>
+<![endif]-->
+
+<!-- 移动端适配 -->
+<link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/compatible.css">
+
+<!-- 也显示出一遍正常标题来以便适配移动端 -->
+<div style="display:none" class="compatible">
+            <a id="logo" class="site-title">
+                memset0 的博客 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时 那人却已不在灯火阑珊处            </p>
+</div>
+
+<header id="header" class="clearfix" onclick="window.open('https://memset0.cn/','_self')">
+    <div class="container">
+        <div class="site-name">
+                    <a id="logo" class="site-title">
+                memset0's<br />Notebook 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时<br>那人却已不在灯火阑珊处            </p>
+        
+        
+        
+        <!-- <div class="col-mb-12">
+            <nav id="nav-menu" class="clearfix" role="navigation">
+                <a  href="https://memset0.cn/">首页</a>
+                                                <a  href="https://memset0.cn/about" title="关于我">关于我</a>
+                                <a  href="https://memset0.cn/friends" title="友情链接">友情链接</a>
+                                <a  href="https://memset0.cn/archive" title="文章聚合">文章聚合</a>
+                            </nav>
+        </div> -->
+    </div>
+</header><!-- end #header -->
+
+<div id="sidebar" role="complementary">
+        <section class="widget">
+        <ul class="widget-list">
+                                    <li><a href="https://memset0.cn/about" title="关于我">关于我</a></li>
+                        <li><a href="https://memset0.cn/friends" title="友情链接">友情链接</a></li>
+                        <li><a href="https://memset0.cn/archive" title="文章聚合">文章聚合</a></li>
+                    </ul>
+    </section>
+    
+	<section class="widget sidebar-foot">
+        <ul class="widget-list">
+            <li>Theme <a rel="nofollow" target="_blank" href="https://github.com/memset0/typecho-theme-ringo">Ringo</a> by <a  target="_blank" href="https://memset0.cn">memset0</a></li>
+            <li>Proudly powered by <a rel="nofollow" target="_blank" href="http://www.typecho.org">Typecho</a></li>
+        </ul>
+    </section>
+</div><!--end #sidebar -->
+
+<div id="helpbar">
+    <div class="back-to-top">
+        <button id="back2top">↑</button>
+        <script>
+            back2top.onclick = function() {
+                var movement = document.body.scrollTop || document.documentElement.scrollTop;
+                scrollBy(0, -movement);
+            }
+        </script>
+    </div>
+</div><!--end #helpbar -->
+<div id="body">
+    <div class="container">
+
+
+<div class="col-12" id="main" role="main">
+    <article class="post post-atpage" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title post-title-atpage" itemprop="name headline"><a itemprop="url" href="https://memset0.cn/uoj14">UOJ14 【UER #1】DZY Loves Graph</a></h1>
+        <ul class="post-meta post-meta-atpage">
+            <li><time datetime="2019-06-23T15:59:00+00:00" itemprop="datePublished">2019-06-23</time></li>
+            <li><a href="https://memset0.cn/solution/">题解</a></li>
+                    </ul>
+        <div class="post-content" itemprop="articleBody">
+            <blockquote>
+<p>DZY 开始有 <katex-inline>n</katex-inline> 个点，现在他对这 <katex-inline>n</katex-inline> 个点进行了 <katex-inline>m</katex-inline> 次操作，对于第 <katex-inline>i</katex-inline> 个操作（从 <katex-inline>1</katex-inline> 开始编号）有可能的三种情况：</p>
+<ul>
+<li><code>Add a b</code>： 表示在 <katex-inline>a</katex-inline> 与 <katex-inline>b</katex-inline> 之间连了一条长度为 <katex-inline>i</katex-inline> 的边（注意，<katex-inline>i</katex-inline> 是操作编号）。保证 <katex-inline>1 \leq a,b \leq n</katex-inline> 。</li>
+<li><code>Delete k</code>： 表示删除了当前图中边权最大的 <katex-inline>k</katex-inline> 条边。保证 <katex-inline>k</katex-inline> 一定不会比当前图中边的条数多。</li>
+<li><code>Return</code>： 表示撤销第 <katex-inline>i−1</katex-inline> 次操作。保证第 <katex-inline>1</katex-inline> 次操作不是 Return 且第 <katex-inline>i−1</katex-inline> 次不是 Return 操作。</li>
+</ul>
+<p>请你在每次操作后告诉 DZY 当前图的最小生成树边权和。如果最小生成树不存在则输出 <katex-inline>0</katex-inline>。</p>
+<p><katex-inline>n \leq 3\times10^5, m \leq 5\times10^5</katex-inline> 。</p>
+</blockquote>
+<p><a href="https://uoj.ac/problem/14">Link</a></p>
+<!--more-->
+<p>不难发现我们只需要维护一个并查集支持</p>
+<ul>
+<li>加边</li>
+<li>删边，连续若干条最末端插入的</li>
+<li>撤回上一次操作，保证不会连续撤回</li>
+</ul>
+<p>考虑一个按秩合并的并查集，保证每个点到根节点的路径长度为 <katex-inline>\log n</katex-inline> 的级别且并查集上的每条边都是原图中实际存在的边。在这个并查集上的单次加边和删边都是 <katex-inline>O(\log n)</katex-inline> 的。</p>
+<p>对于每次加边和删边，我们可以离线出这次操作会不会被 return （如果下个操作不是 return 那么这条边之后也不会被 return ）。</p>
+<p>对于加边操作的 return ，我们直接暴力加边和删边即可。</p>
+<p>对于删边操作的 return ，我们可以直接调用之前的答案，不对并查集进行任何操作。</p>
+<p>总时间复杂度为 <katex-inline>O(n \log n)</katex-inline> ，假设 <katex-inline>n, m</katex-inline> 同阶。</p>
+<!--more-->
+<p>代码：</p>
+<pre><code class="cpp">// =================================
+//   author: memset0
+//   date: 2019.06.23 16:00:36
+//   website: https://memset0.cn/
+// =================================
+#include &lt;bits/stdc++.h&gt;
+#define ll long long
+#define int long long
+#define debug(...) ((void)0)
+#ifndef debug
+#define debug(...) fprintf(stderr,__VA_ARGS__)
+#endif
+namespace ringo {
+template &lt;class T&gt; inline void read(T &amp;x) {
+    x = 0; char c = getchar(); bool f = 0;
+    while (!isdigit(c)) f ^= c == '-', c = getchar();
+    while (isdigit(c)) x = x * 10 + c - '0', c = getchar();
+    if (f) x = -x;
+}
+template &lt;class T&gt; inline void print(T x) {
+    if (x &lt; 0) putchar('-'), x = -x;
+    if (x &gt; 9) print(x / 10);
+    putchar('0' + x % 10);
+}
+template &lt;class T&gt; inline void print(T x, char c) { print(x), putchar(c); }
+template &lt;class T&gt; inline void print(T a, int l, int r, std::string s = "") {
+    if (s != "") std::cout &lt;&lt; s &lt;&lt; ": ";
+    for (int i = l; i &lt;= r; i++) print(a[i], " \n"[i == r]);
+}
+
+const int N = 5e5 + 10;
+std::vector&lt;int&gt; edge;
+std::pair&lt;int, int&gt; did[N];
+int n, m, cnt, now, ins[N], fa[N], siz[N], ans[N];
+
+struct query {
+    int c, x, y;
+} qry[N];
+
+inline int get() { return cnt == n - 1 ? now : 0; }
+inline int find(int x) { return fa[x] == x ? x : find(fa[x]); }
+
+inline void link(int u, int v) {
+    // printf("   link %d %d\n", u, v);
+    if (siz[u] &gt; siz[v]) std::swap(u, v);
+    fa[u] = v;
+    for (int t = v; ; t = fa[t]) { siz[t] += siz[u]; if (t == fa[t]) break; }
+}
+
+inline void cut(int u, int v) {
+    // printf("   cut %d %d\n", u, v);
+    if (fa[v] == u) std::swap(u, v);
+    fa[u] = u;
+    for (int t = v; ; t = fa[t]) { siz[t] -= siz[u]; if (t == fa[t]) break; }
+}
+
+inline void append(int i, int u, int v) {
+    // printf("&gt;&gt; append %d =&gt; %d %d\n", i, u, v);
+    int fu = find(u), fv = find(v);
+    if (fu != fv) {
+        link(fu, fv), did[i] = std::make_pair(fu, fv);
+        ins[i] = 1, ++cnt, now += i;
+    }
+    edge.push_back(i);
+}
+
+inline void remove() {
+    int i = *edge.rbegin();
+    // printf("&gt;&gt; remove %d =&gt; %d %d\n", u, qry[u].x, qry[u].y);
+    if (ins[i]) {
+        cut(did[i].first, did[i].second);
+        ins[i] = 0, --cnt, now -= i;
+    }
+    edge.pop_back();
+}
+
+void main() {
+    read(n), read(m);
+    for (int i = 1; i &lt;= n; i++) fa[i] = i, siz[i] = 1;
+    for (int i = 1; i &lt;= m; i++) {
+        while (qry[i].c = getchar(), !isupper(qry[i].c));
+        if (qry[i].c == 'A') read(qry[i].x), read(qry[i].y);
+        else if (qry[i].c == 'D') read(qry[i].x);
+    }
+    for (int i = 1; i &lt;= m; i++) {
+        query &amp;it = qry[i];
+        if (it.c == 'A') {
+            append(i, it.x, it.y), ans[i] = get();
+            if (i &lt; m &amp;&amp; qry[i + 1].c == 'R')
+                remove(), ans[i + 1] = get();
+        } else if (it.c == 'D') {
+            if (i &lt; m &amp;&amp; qry[i + 1].c == 'R') {
+                ans[i] = it.x &lt; edge.size() ? ans[edge[edge.size() - it.x - 1]] : 0;
+                ans[i + 1] = ans[i - 1];
+            } else {
+                while (it.x--) remove();
+                ans[i] = get();
+            }
+        }
+        // printf("[cnt=%d now=%d]\n", cnt, now);
+    }
+    for (int i = 1; i &lt;= m; i++) print(ans[i], '\n');
+}
+
+} signed main() {
+#ifdef MEMSET0_LOCAL_ENVIRONMENT
+    freopen("1.in", "r", stdin);
+#endif
+    return ringo::main(), 0;
+}</code></pre>        </div>
+                <p itemprop="keywords" class="tags"><a href="https://memset0.cn/tag/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91/">最小生成树</a> <a href="https://memset0.cn/tag/%E5%85%8B%E9%B2%81%E6%96%AF%E5%8D%A1%E5%B0%94/">克鲁斯卡尔</a> <a href="https://memset0.cn/tag/%E5%B9%B6%E6%9F%A5%E9%9B%86%E6%8C%89%E7%A7%A9%E5%90%88%E5%B9%B6/">并查集按秩合并</a> <a href="https://memset0.cn/tag/%E7%A6%BB%E7%BA%BF%E6%9F%A5%E8%AF%A2/">离线查询</a></p>
+            </article>
+
+    <div id="comments">
+        
+        <div id="respond-post-657" class="respond">
+        <div class="cancel-comment-reply">
+        <a id="cancel-comment-reply-link" href="https://memset0.cn/uoj14#respond-post-657" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>        </div>
+    
+        <form method="post" action="https://memset0.cn/uoj14/comment" id="comment-form" role="form">
+                        <div class="submit-area">
+                <input type="text" name="author" id="author" class="text" placeholder="用户名" value="" required />
+                <input type="email" name="mail" id="mail" class="text" placeholder="邮箱" value="" required />
+                <input type="url" name="url" id="url" class="text" placeholder="网址 (选填) " value="" />
+                            <textarea rows="8" cols="50" name="text" id="textarea" class="textarea" placeholder="可以在这里写评论哦 ~" required ></textarea>
+                <button type="submit" class="ripple submit">提交评论</button>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <div class="post-near">
+        <div class="post-near-child post-near-child-left "><a href="https://memset0.cn/luogu3779" title="洛谷3779 [SDOI2017]龙与地下城">洛谷3779 [SDOI2017]龙与地下城</a> <br /> 上一篇 &laquo;</div>
+        <div class="post-near-child post-near-child-right"><a href="https://memset0.cn/luogu3343" title="洛谷3343 [ZJOI2015]地震后的幻想乡">洛谷3343 [ZJOI2015]地震后的幻想乡</a> <br /> &raquo; 下一篇</div>
+    </div>
+</div><!-- end #main-->
+
+
+<footer id="footer" role="contentinfo">
+
+	&copy; 2017 - 2019 <a href="https://memset0.cn/">memset0 的博客</a>.
+	<br />
+			<a rel="nofollow" href="http://beian.miit.gov.cn"> 浙ICP备19006255号-1 </a>
+		<br />
+	
+			<span id="busuanzi_value_site_pv">......</span> visits ·
+		<span id="busuanzi_value_site_uv">......</span> visitors 
+			·
+				<span id="words_counter">73.80 W</span> words
+	
+</footer><!-- end #footer -->
+
+<div class="site-search">
+	<form id="search" method="post" action="https://memset0.cn/" role="search">
+		<label for="s" class="sr-only">搜索关键字</label>
+		<input type="text" id="s" name="s" class="text" placeholder="在这里输入关键字哦 ~ (回车搜索)" />
+		<!-- <button type="submit" class="submit">搜索</button> -->
+	</form>
+</div>
+	</div>
+
+</div><!-- end #body -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- <style>.MathJax:focus {outline: none;}</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	extensions: ["tex2jax.js"],
+	jax: ["input/TeX","output/HTML-CSS"],
+	"fast-preview": {disabled: true},
+	tex2jax: {inlineMath:[ ["$", "$"] ],displayMath:[ ["$$","$$"] ],processEscapes: true},
+	"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.12.0/highlight.pack.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+
+	<div style="display:none">
+<script> var _hmt = _hmt || []; (function() { 	var hm = document.createElement("script"); 	hm.src = "https://hm.baidu.com/hm.js?d8c0a4185322e94013582201484f9131"; 	var s = document.getElementsByTagName("script")[0];  	s.parentNode.insertBefore(hm, s); })(); </script>	</div>
+
+<link href="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.css" rel="stylesheet">
+<script src="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.js"></script>
+<script>
+var tmp = document.getElementsByTagName('katex-inline');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: false, throwOnError: false})); }
+tmp = document.getElementsByTagName('katex');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: true, throwOnError: false})); }
+</script>
+</body>
+</html>

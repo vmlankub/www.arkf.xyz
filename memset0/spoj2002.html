@@ -1,0 +1,432 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+    <!-- start #optimize -->
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="//secure.gravatar.com" />
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info" />
+    <link rel="dns-prefetch" href="//cdn.bootcss.com" />
+
+    <!-- 关闭百度转码 -->
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <!-- end #optimize -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- css3-mediaqueries-js 用于尝试在上古浏览器支持自适应viewport函数 -->
+    <!--[if lt IE 9]>
+    　　<script src="https://cdn.jsdelivr.net/gh/livingston/css3-mediaqueries-js@master/css3-mediaqueries.min.js"></script>
+    <![endif]-->
+    <title>SPOJ2002 Random Number Generator - memset0 的博客</title>
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/necolas/normalize.css@latest/normalize.min.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/grid.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/style.css">
+    <!-- <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/ripple.css"> -->
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cinzel Decorative:700"> -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+    
+    <!--[if lt IE 9]>
+    <script src="//cdn.jsdelivr.net/gh/aFarkas/html5shiv@latest/dist/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/scottjehl/Respond@latest/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <meta name="description" content="给定一个 n (n \leq 10) 个整数 a_i (0 \leq a_i \leq 10) ，连续随机变量 \xi_i 在 [-a_i, a_i] 的范围内随机生成，定义 \displays..." />
+<meta name="keywords" content="巧妙的思路,概率论,概率区间平移,微积分,多重积分" />
+<meta name="generator" content="Typecho 1.1/17.10.30" />
+<meta name="template" content="ringo" />
+<link rel="pingback" href="https://memset0.cn/action/xmlrpc" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://memset0.cn/action/xmlrpc?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://memset0.cn/action/xmlrpc?wlw" />
+<link rel="alternate" type="application/rss+xml" title="SPOJ2002 Random Number Generator &raquo; memset0 的博客 &raquo; RSS 2.0" href="https://memset0.cn/feed/spoj2002" />
+<link rel="alternate" type="application/rdf+xml" title="SPOJ2002 Random Number Generator &raquo; memset0 的博客 &raquo; RSS 1.0" href="https://memset0.cn/feed/rss/spoj2002" />
+<link rel="alternate" type="application/atom+xml" title="SPOJ2002 Random Number Generator &raquo; memset0 的博客 &raquo; ATOM 1.0" href="https://memset0.cn/feed/atom/spoj2002" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-668'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-668'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-668'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _Q6Y0tU6 = //'i'
+'b4b'+//'JmZ'
+'1'+//'Yq'
+'695'+//'6K'
+'9d'+//'Me'
+'9d'+'25'//'ZM'
++//'Pn'
+'Pn'+''///*'hd5'*/'hd5'
++'b4'//'o'
++'bbb'//'e'
++//'gW'
+'56'+'58'//'v'
++//'Wt'
+'af'+'2'//'2'
++//'s'
+'7ff'+'98f'//'2u'
++''///*'TW'*/'TW'
++//'CT'
+'6'+//'qE'
+'1', _yVfqgv = [[13,15],[24,25]];
+    
+    for (var i = 0; i < _yVfqgv.length; i ++) {
+        _Q6Y0tU6 = _Q6Y0tU6.substring(0, _yVfqgv[i][0]) + _Q6Y0tU6.substring(_yVfqgv[i][1]);
+    }
+
+    return _Q6Y0tU6;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script></head>
+<body>
+
+<!--[if lt IE 8]>
+    <div class="browsehappy" role="dialog">当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>.</div>
+<![endif]-->
+
+<!-- 移动端适配 -->
+<link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/compatible.css">
+
+<!-- 也显示出一遍正常标题来以便适配移动端 -->
+<div style="display:none" class="compatible">
+            <a id="logo" class="site-title">
+                memset0 的博客 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时 那人却已不在灯火阑珊处            </p>
+</div>
+
+<header id="header" class="clearfix" onclick="window.open('https://memset0.cn/','_self')">
+    <div class="container">
+        <div class="site-name">
+                    <a id="logo" class="site-title">
+                memset0's<br />Notebook 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时<br>那人却已不在灯火阑珊处            </p>
+        
+        
+        
+        <!-- <div class="col-mb-12">
+            <nav id="nav-menu" class="clearfix" role="navigation">
+                <a  href="https://memset0.cn/">首页</a>
+                                                <a  href="https://memset0.cn/about" title="关于我">关于我</a>
+                                <a  href="https://memset0.cn/friends" title="友情链接">友情链接</a>
+                                <a  href="https://memset0.cn/archive" title="文章聚合">文章聚合</a>
+                            </nav>
+        </div> -->
+    </div>
+</header><!-- end #header -->
+
+<div id="sidebar" role="complementary">
+        <section class="widget">
+        <ul class="widget-list">
+                                    <li><a href="https://memset0.cn/about" title="关于我">关于我</a></li>
+                        <li><a href="https://memset0.cn/friends" title="友情链接">友情链接</a></li>
+                        <li><a href="https://memset0.cn/archive" title="文章聚合">文章聚合</a></li>
+                    </ul>
+    </section>
+    
+	<section class="widget sidebar-foot">
+        <ul class="widget-list">
+            <li>Theme <a rel="nofollow" target="_blank" href="https://github.com/memset0/typecho-theme-ringo">Ringo</a> by <a  target="_blank" href="https://memset0.cn">memset0</a></li>
+            <li>Proudly powered by <a rel="nofollow" target="_blank" href="http://www.typecho.org">Typecho</a></li>
+        </ul>
+    </section>
+</div><!--end #sidebar -->
+
+<div id="helpbar">
+    <div class="back-to-top">
+        <button id="back2top">↑</button>
+        <script>
+            back2top.onclick = function() {
+                var movement = document.body.scrollTop || document.documentElement.scrollTop;
+                scrollBy(0, -movement);
+            }
+        </script>
+    </div>
+</div><!--end #helpbar -->
+<div id="body">
+    <div class="container">
+
+
+<div class="col-12" id="main" role="main">
+    <article class="post post-atpage" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title post-title-atpage" itemprop="name headline"><a itemprop="url" href="https://memset0.cn/spoj2002">SPOJ2002 Random Number Generator</a></h1>
+        <ul class="post-meta post-meta-atpage">
+            <li><time datetime="2019-06-24T14:56:00+00:00" itemprop="datePublished">2019-06-24</time></li>
+            <li><a href="https://memset0.cn/solution/">题解</a></li>
+                    </ul>
+        <div class="post-content" itemprop="articleBody">
+            <blockquote>
+<p>给定一个 <katex-inline>n (n \leq 10)</katex-inline> 个整数 <katex-inline>a_i (0 \leq a_i \leq 10)</katex-inline> ，连续随机变量 <katex-inline>\xi_i</katex-inline> 在 <katex-inline>[-a_i, a_i]</katex-inline> 的范围内随机生成，定义 <katex-inline>\displaystyle S = \sum_{i=1}^n \xi_i</katex-inline> ，求 <katex-inline>Pr[A \leq S \leq B] (-100 \leq A, B \leq 100)</katex-inline> 。</p>
+</blockquote>
+<p><a href="https://cn.vjudge.net/problem/SPOJ-RNG">Vjudge Link</a> | <a href="https://cn.vjudge.net/problem/10571/origin">SPOJ Link</a></p>
+<!--more-->
+<p>可以发现 <katex-inline>\xi_i : [-a_i, a_i]</katex-inline> 处理起来较为复杂，我们可以将区间整体平移 <katex-inline>a_i</katex-inline> ，即令 <katex-inline>\displaystyle a'_i = 2 a_i, A' = A + \sum_{i=1}^n a_i, B' = B + \sum_{i=1}^n a_i</katex-inline> 。题意转变为 <katex-inline>\xi_i : [0, a'_i]</katex-inline> ，求 <katex-inline>\displaystyle Pr[A' \leq \sum_{i=1}^n \xi_i \leq B']</katex-inline> 。下文中我们直接用 <katex-inline>a</katex-inline> 指代 <katex-inline>a'</katex-inline> ，以此类推。同时，我们可以把 <katex-inline>Pr[A \leq S \leq B]</katex-inline> 拆为 <katex-inline>Pr[S \leq B] - Pr[S \leq A]</katex-inline> 此题中我们需要多次用到类似的思路。</p>
+<p>定义多面体</p>
+<katex>
+A(a) = \int_0^{a_1} \int_0^{a_2} \cdots \int_0^{a_n} 1 \mathrm dx_1 \mathrm dx_2 \cdots \mathrm dx_n</katex>
+<katex>
+B(a) = \int_{a_1}^{+\infty} \int_{a_2}^{+\infty} \cdots \int_{a_n}^{+\infty} 1 \mathrm dx_1 \mathrm dx_2 \cdots \mathrm dx_n</katex>
+<katex>
+T(x) = \int_0^{+\infty} \int_0^{+\infty} \cdots \int_0^{+\infty} \left[\sum_{i=1}^n x_i \leq K \right] \mathrm dx_1 \mathrm dx_2 \cdots \mathrm dx_n</katex>
+<p>相当于我们需要求 <katex-inline>A(a)</katex-inline> 与 <katex-inline>T(K \in \{A, B\})</katex-inline> 的高维体积交，记为 <katex-inline>A(a) \cup T(K)</katex-inline>。</p>
+<p>这不好算，考虑容斥，我们硬点一个点集 <katex-inline>S \subseteq [1, n]</katex-inline> ，定义 <katex-inline>b_{S, i} = \left\{ \begin{aligned} &amp;a_i &amp;(x \in S) \\ &amp;0 &amp; (x \not\in S)\end{aligned} \right.</katex-inline> ，则对 <katex-inline>A(a)</katex-inline> 与 <katex-inline>T(K)</katex-inline> 的体积并的贡献等于多面体 <katex-inline>B(b)</katex-inline> 和 <katex-inline>T</katex-inline> 的高维体积并乘以 <katex-inline>(-1)^{|S|}</katex-inline> 。显然 <katex-inline>B(b) \cup T(K) = B(0) \cup T(K - \sum b_i)</katex-inline> ，而 <katex-inline>\displaystyle B(0) \cup T(x) = \frac {x^n} {n!}</katex-inline> ，于是我们就可以通过枚举集合 <katex-inline>S</katex-inline> 来快速计算了。</p>
+<p>时间复杂度 <katex-inline>O(T n 2^n)</katex-inline> 。</p>
+<p>注意此题卡精度。</p>
+<pre><code class="cpp">// =================================
+//   author: memset0
+//   date: 2019.06.24 14:31:07
+//   website: https://memset0.cn/
+// =================================
+#include &lt;bits/stdc++.h&gt;
+#define ll long long
+#define debug(...) ((void)0)
+#ifndef debug
+#define debug(...) fprintf(stderr,__VA_ARGS__)
+#endif
+namespace ringo {
+template &lt;class T&gt; inline void read(T &amp;x) {
+    x = 0; char c = getchar(); bool f = 0;
+    while (!isdigit(c)) f ^= c == '-', c = getchar();
+    while (isdigit(c)) x = x * 10 + c - '0', c = getchar();
+    if (f) x = -x;
+}
+template &lt;class T&gt; inline void print(T x) {
+    if (x &lt; 0) putchar('-'), x = -x;
+    if (x &gt; 9) print(x / 10);
+    putchar('0' + x % 10);
+}
+template &lt;class T&gt; inline void print(T x, char c) { print(x), putchar(c); }
+template &lt;class T&gt; inline void print(T a, int l, int r, std::string s = "") {
+    if (s != "") std::cout &lt;&lt; s &lt;&lt; ": ";
+    for (int i = l; i &lt;= r; i++) print(a[i], " \n"[i == r]);
+}
+
+const int N = 15;
+ll tmp;
+long double ans;
+int n, T, A, B, a[N];
+
+inline long double get(int x) {
+    if (x &lt; 0) return 0;
+    long double res = 1;
+    for (int i = 1; i &lt;= n; i++)
+        res *= x / (long double)i;
+    return res;
+}
+
+void main() {
+    for (read(T); T--; ) {
+        tmp = 1, ans = 0;
+        read(n), read(A), read(B);
+        for (int i = 1; i &lt;= n; i++) {
+            read(a[i]);
+            A += a[i], B += a[i], a[i] &lt;&lt;= 1, tmp *= a[i];
+        }
+        for (int S = 0; S &lt; (1 &lt;&lt; n); S++) {
+            int sum = 0, cnt = 0;
+            for (int i = 1; i &lt;= n; i++)
+                if ((S &gt;&gt; (i - 1)) &amp; 1)
+                    sum += a[i], ++cnt;
+            // printf("&gt;&gt; %d &gt;&gt; %d &gt;&gt; %.2lf %.2lf\n", S, sum, get(B - sum), get(A - sum));
+            ans += (cnt &amp; 1 ? -1 : 1) * (get(B - sum) - get(A - sum));
+        }
+        printf("%.9Lf\n", ans / tmp);
+    }
+}
+
+} signed main() {
+#ifdef MEMSET0_LOCAL_ENVIRONMENT
+    freopen("1.in", "r", stdin);
+    // freopen("1.out", "w", stdout) ;
+#endif
+    return ringo::main(), 0;
+}</code></pre>        </div>
+                <p itemprop="keywords" class="tags"><a href="https://memset0.cn/tag/%E5%B7%A7%E5%A6%99%E7%9A%84%E6%80%9D%E8%B7%AF/">巧妙的思路</a> <a href="https://memset0.cn/tag/%E6%A6%82%E7%8E%87%E8%AE%BA/">概率论</a> <a href="https://memset0.cn/tag/%E6%A6%82%E7%8E%87%E5%8C%BA%E9%97%B4%E5%B9%B3%E7%A7%BB/">概率区间平移</a> <a href="https://memset0.cn/tag/%E5%BE%AE%E7%A7%AF%E5%88%86/">微积分</a> <a href="https://memset0.cn/tag/%E5%A4%9A%E9%87%8D%E7%A7%AF%E5%88%86/">多重积分</a></p>
+            </article>
+
+    <div id="comments">
+        
+        <div id="respond-post-668" class="respond">
+        <div class="cancel-comment-reply">
+        <a id="cancel-comment-reply-link" href="https://memset0.cn/spoj2002#respond-post-668" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>        </div>
+    
+        <form method="post" action="https://memset0.cn/spoj2002/comment" id="comment-form" role="form">
+                        <div class="submit-area">
+                <input type="text" name="author" id="author" class="text" placeholder="用户名" value="" required />
+                <input type="email" name="mail" id="mail" class="text" placeholder="邮箱" value="" required />
+                <input type="url" name="url" id="url" class="text" placeholder="网址 (选填) " value="" />
+                            <textarea rows="8" cols="50" name="text" id="textarea" class="textarea" placeholder="可以在这里写评论哦 ~" required ></textarea>
+                <button type="submit" class="ripple submit">提交评论</button>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <div class="post-near">
+        <div class="post-near-child post-near-child-left "><a href="https://memset0.cn/loj6569" title="LOJ6569 仙人掌计数">LOJ6569 仙人掌计数</a> <br /> 上一篇 &laquo;</div>
+        <div class="post-near-child post-near-child-right"><a href="https://memset0.cn/luogu3779" title="洛谷3779 [SDOI2017]龙与地下城">洛谷3779 [SDOI2017]龙与地下城</a> <br /> &raquo; 下一篇</div>
+    </div>
+</div><!-- end #main-->
+
+
+<footer id="footer" role="contentinfo">
+
+	&copy; 2017 - 2019 <a href="https://memset0.cn/">memset0 的博客</a>.
+	<br />
+			<a rel="nofollow" href="http://beian.miit.gov.cn"> 浙ICP备19006255号-1 </a>
+		<br />
+	
+			<span id="busuanzi_value_site_pv">......</span> visits ·
+		<span id="busuanzi_value_site_uv">......</span> visitors 
+			·
+				<span id="words_counter">73.80 W</span> words
+	
+</footer><!-- end #footer -->
+
+<div class="site-search">
+	<form id="search" method="post" action="https://memset0.cn/" role="search">
+		<label for="s" class="sr-only">搜索关键字</label>
+		<input type="text" id="s" name="s" class="text" placeholder="在这里输入关键字哦 ~ (回车搜索)" />
+		<!-- <button type="submit" class="submit">搜索</button> -->
+	</form>
+</div>
+	</div>
+
+</div><!-- end #body -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- <style>.MathJax:focus {outline: none;}</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	extensions: ["tex2jax.js"],
+	jax: ["input/TeX","output/HTML-CSS"],
+	"fast-preview": {disabled: true},
+	tex2jax: {inlineMath:[ ["$", "$"] ],displayMath:[ ["$$","$$"] ],processEscapes: true},
+	"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.12.0/highlight.pack.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+
+	<div style="display:none">
+<script> var _hmt = _hmt || []; (function() { 	var hm = document.createElement("script"); 	hm.src = "https://hm.baidu.com/hm.js?d8c0a4185322e94013582201484f9131"; 	var s = document.getElementsByTagName("script")[0];  	s.parentNode.insertBefore(hm, s); })(); </script>	</div>
+
+<link href="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.css" rel="stylesheet">
+<script src="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.js"></script>
+<script>
+var tmp = document.getElementsByTagName('katex-inline');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: false, throwOnError: false})); }
+tmp = document.getElementsByTagName('katex');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: true, throwOnError: false})); }
+</script>
+</body>
+</html>

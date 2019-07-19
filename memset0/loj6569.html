@@ -1,0 +1,567 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+    <!-- start #optimize -->
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="//secure.gravatar.com" />
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info" />
+    <link rel="dns-prefetch" href="//cdn.bootcss.com" />
+
+    <!-- 关闭百度转码 -->
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <!-- end #optimize -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- css3-mediaqueries-js 用于尝试在上古浏览器支持自适应viewport函数 -->
+    <!--[if lt IE 9]>
+    　　<script src="https://cdn.jsdelivr.net/gh/livingston/css3-mediaqueries-js@master/css3-mediaqueries.min.js"></script>
+    <![endif]-->
+    <title>LOJ6569 仙人掌计数 - memset0 的博客</title>
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/necolas/normalize.css@latest/normalize.min.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/grid.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/style.css">
+    <!-- <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/ripple.css"> -->
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cinzel Decorative:700"> -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+    
+    <!--[if lt IE 9]>
+    <script src="//cdn.jsdelivr.net/gh/aFarkas/html5shiv@latest/dist/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/scottjehl/Respond@latest/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <meta name="description" content="求 n(n \leq 131,072) 的有标号无根仙人掌个数。LOJ Link" />
+<meta name="keywords" content="多项式指数函数,仙人掌,多项式牛顿迭代,多项式求导,复合函数求导,计数" />
+<meta name="generator" content="Typecho 1.1/17.10.30" />
+<meta name="template" content="ringo" />
+<link rel="pingback" href="https://memset0.cn/action/xmlrpc" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://memset0.cn/action/xmlrpc?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://memset0.cn/action/xmlrpc?wlw" />
+<link rel="alternate" type="application/rss+xml" title="LOJ6569 仙人掌计数 &raquo; memset0 的博客 &raquo; RSS 2.0" href="https://memset0.cn/feed/loj6569" />
+<link rel="alternate" type="application/rdf+xml" title="LOJ6569 仙人掌计数 &raquo; memset0 的博客 &raquo; RSS 1.0" href="https://memset0.cn/feed/rss/loj6569" />
+<link rel="alternate" type="application/atom+xml" title="LOJ6569 仙人掌计数 &raquo; memset0 的博客 &raquo; ATOM 1.0" href="https://memset0.cn/feed/atom/loj6569" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-676'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-676'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-676'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _xgM = '9'//'kTR'
++'1d'//'eg'
++//'9QW'
+'8a'+'2'//'Qw'
++'95'//'Gi'
++/* 'W2o'//'W2o' */''+//'y'
+'85a'+'4e'//'V4'
++'78'//'SuH'
++//'I'
+'1c'+//'D'
+'46'+'61'//'Vv'
++//'E7o'
+'7f8'+'a6'//'vy0'
++'bfe'//'frr'
++'e85'//'04'
+, _28z154Z = [];
+    
+    for (var i = 0; i < _28z154Z.length; i ++) {
+        _xgM = _xgM.substring(0, _28z154Z[i][0]) + _xgM.substring(_28z154Z[i][1]);
+    }
+
+    return _xgM;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script></head>
+<body>
+
+<!--[if lt IE 8]>
+    <div class="browsehappy" role="dialog">当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>.</div>
+<![endif]-->
+
+<!-- 移动端适配 -->
+<link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/compatible.css">
+
+<!-- 也显示出一遍正常标题来以便适配移动端 -->
+<div style="display:none" class="compatible">
+            <a id="logo" class="site-title">
+                memset0 的博客 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时 那人却已不在灯火阑珊处            </p>
+</div>
+
+<header id="header" class="clearfix" onclick="window.open('https://memset0.cn/','_self')">
+    <div class="container">
+        <div class="site-name">
+                    <a id="logo" class="site-title">
+                memset0's<br />Notebook 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时<br>那人却已不在灯火阑珊处            </p>
+        
+        
+        
+        <!-- <div class="col-mb-12">
+            <nav id="nav-menu" class="clearfix" role="navigation">
+                <a  href="https://memset0.cn/">首页</a>
+                                                <a  href="https://memset0.cn/about" title="关于我">关于我</a>
+                                <a  href="https://memset0.cn/friends" title="友情链接">友情链接</a>
+                                <a  href="https://memset0.cn/archive" title="文章聚合">文章聚合</a>
+                            </nav>
+        </div> -->
+    </div>
+</header><!-- end #header -->
+
+<div id="sidebar" role="complementary">
+        <section class="widget">
+        <ul class="widget-list">
+                                    <li><a href="https://memset0.cn/about" title="关于我">关于我</a></li>
+                        <li><a href="https://memset0.cn/friends" title="友情链接">友情链接</a></li>
+                        <li><a href="https://memset0.cn/archive" title="文章聚合">文章聚合</a></li>
+                    </ul>
+    </section>
+    
+	<section class="widget sidebar-foot">
+        <ul class="widget-list">
+            <li>Theme <a rel="nofollow" target="_blank" href="https://github.com/memset0/typecho-theme-ringo">Ringo</a> by <a  target="_blank" href="https://memset0.cn">memset0</a></li>
+            <li>Proudly powered by <a rel="nofollow" target="_blank" href="http://www.typecho.org">Typecho</a></li>
+        </ul>
+    </section>
+</div><!--end #sidebar -->
+
+<div id="helpbar">
+    <div class="back-to-top">
+        <button id="back2top">↑</button>
+        <script>
+            back2top.onclick = function() {
+                var movement = document.body.scrollTop || document.documentElement.scrollTop;
+                scrollBy(0, -movement);
+            }
+        </script>
+    </div>
+</div><!--end #helpbar -->
+<div id="body">
+    <div class="container">
+
+
+<div class="col-12" id="main" role="main">
+    <article class="post post-atpage" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title post-title-atpage" itemprop="name headline"><a itemprop="url" href="https://memset0.cn/loj6569">LOJ6569 仙人掌计数</a></h1>
+        <ul class="post-meta post-meta-atpage">
+            <li><time datetime="2019-06-25T15:24:00+00:00" itemprop="datePublished">2019-06-25</time></li>
+            <li><a href="https://memset0.cn/solution/">题解</a></li>
+                    </ul>
+        <div class="post-content" itemprop="articleBody">
+            <blockquote>
+<p>求 <katex-inline>n(n \leq 131,072)</katex-inline> 的有标号无根仙人掌个数。</p>
+</blockquote>
+<p><a href="https://loj.ac/problem/6569">LOJ Link</a></p>
+<!--more-->
+<p>假设 <katex-inline>n</katex-inline> 个点的仙人掌个数为 <katex-inline>c_n</katex-inline> ，<katex-inline>C(x)</katex-inline> 为 <katex-inline>\{c\}</katex-inline> 的指数生成函数，即 <katex-inline>\displaystyle C(x) = \sum_{i=0}^\infty c_i \cdot \frac {x^i} {i!}</katex-inline> 。考虑我们枚举一个点作为根，然后将与这个点相关的边连出去。</p>
+<p>这个点连出去的边有两种，一种是连出一条边，这样的话相当于就是一个仙人掌，第二种是连出一个环，这样的话就是若干仙人掌的生成函数的多次幂之和。考虑到可以连出去很多这样的边，所以我们给这样的生成函数 <katex-inline>\exp</katex-inline> 一下。同时为了避免环被统计了两次，别忘了除以二。也就是说：</p>
+<katex>
+\begin{aligned}
+C(x)
+&amp;= x \exp\left( C(x) + \sum_{i=2}^\infty \frac 12 C^i(x) \right) \\
+&amp;= x \exp \left(\frac {2 C(x) - C^2(x)} {2 - 2C(x)}\right) \\
+\end{aligned}</katex>
+<p>考虑多项式牛顿迭代解决，显然我们构造复合函数</p>
+<katex>
+F(C(x)) = x \exp \left(\frac {2 C(x) - C^2(x)} {2 - 2C(x)}\right) - C(x) = 0</katex>
+<katex>
+\begin{aligned}
+\newcommand{\c}{C(x)}
+\newcommand{\cc}{C^2_{\frac n2}(x)}
+F'(\c)
+&amp;= \left( x \exp (\frac {2\c - \cc} {2 - 2\c}) - \c \right)' \\
+&amp;= x \exp \left(\frac {2\c - \cc} {2 - 2\c}\right) \left( \frac {2\c \cc} {2 - 2\c} \right)' - 1 \\
+&amp;= x \exp \left( \frac {2\c - \cc} {2 - 2\c}\right) \frac {\cc - 2\c + 2} {2\cc - 4\c + 2} - 1
+\end{aligned}</katex>
+<p>显然</p>
+<katex>
+\begin{aligned}
+\newcommand{\c}{C_{\frac n2}(x)}
+\newcommand{\cc}{C^2_{\frac n2}(x)}
+\newcommand{\ccc}{\exp \left(\frac {2 \c - \cc} {2 - 2\c)}\right)}
+C_{n}(x)
+&amp;= \c - \frac {F(\c)} {F'(\c)} \\
+&amp;= \c - \frac {\displaystyle x \ccc - C(x) } {\displaystyle x \ccc \frac {\cc - 2\c + 2} {2\cc - 4\c + 2} - 1} \\
+&amp;= \c - \frac {2 x \ccc - 2\c} {\left(1 + 1 / \left(\c - 1\right)^2\right) x \ccc - 2}
+\end{aligned}</katex>
+<p>可以发现</p>
+<katex>
+\newcommand{\c}{C_{\frac n2}(x)}
+\newcommand{\cc}{C^2_{\frac n2}(x)}
+\newcommand{\ccc}{\exp \left(\frac {2 \c - \cc} {2 - 2\c)}\right)}
+T(x) = x \ccc</katex>
+<p>被多次使用，可以直接处理出来，这样的话原式可以化为</p>
+<katex>
+\newcommand{\c}{C_{\frac n2}(x)}
+\newcommand{\cc}{C^2_{\frac n2}(x)}
+\newcommand{\ccc}{T(x)}
+C_{n}(x) = \c - \frac {2 \ccc - 2\c} {\left(1 + 1 / \left(\c - 1\right)^2\right) \ccc - 2}</katex>
+<!--more-->
+<p>代码：</p>
+<pre><code class="cpp">// =================================
+//   author: memset0
+//   date: 2019.06.25 15:26:16
+//   website: https://memset0.cn/
+// =================================
+#include &lt;bits/stdc++.h&gt;
+#define ll long long
+#define rep(i, l, r) for (int (i) = (l), __lim = (r); (i) &lt;= __lim; (i)++)
+#define debug(...) ((void)0)
+#ifndef debug
+#define debug(...) fprintf(stderr,__VA_ARGS__)
+#endif
+namespace ringo {
+
+template &lt;class T&gt; inline void read(T &amp;x) {
+    x = 0; char c = getchar(); bool f = 0;
+    while (!isdigit(c)) f ^= c == '-', c = getchar();
+    while (isdigit(c)) x = x * 10 + c - '0', c = getchar();
+    if (f) x = -x;
+}
+
+template &lt;class T&gt; inline void print(T x) {
+    if (x &lt; 0) putchar('-'), x = -x;
+    if (x &gt; 9) print(x / 10);
+    putchar('0' + x % 10);
+}
+
+template &lt;class T&gt; inline void print(T x, char c) { print(x), putchar(c); }
+template &lt;class T&gt; inline void print(T a, int l, int r, std::string s = "") {
+    if (s != "") std::cout &lt;&lt; s &lt;&lt; ": ";
+    for (int i = l; i &lt;= r; i++) print(a[i], " \n"[i == r]);
+}
+
+const int N = 262150, mod = 998244353;
+
+inline int opp(int x) { return x == 0 ? 0 : mod - x; }
+inline int dec(int a, int b) { a -= b; return a &lt; 0 ? a + mod : a; }
+inline int inc(int a, int b) { a += b; return a &gt;= mod ? a - mod : a; }
+inline int mul(int a, int b) { return (ll)a * b - (ll)a * b / mod * mod; }
+inline int inv(int x) { return x &lt; 2 ? 1 : mul(mod - mod / x, inv(mod % x)); }
+inline int fpow(int a, int b) { int s = 1; for (; b; b &gt;&gt;= 1, a = mul(a, a)) if (b &amp; 1) s = mul(s, a); return s; }
+
+struct poly : std::vector &lt;int&gt; {
+    using std::vector &lt;int&gt; ::vector;
+    void in() { for (int i = 0; i &lt; size(); i++) read(at(i)); }
+    void out() const { for (int i = 0; i &lt; size(); i++) print(at(i), " \n"[i == size() - 1]); }
+};
+
+int w[N &lt;&lt; 2], rev[N &lt;&lt; 2];
+inline int init(int len) {
+    int lim = 1, k = 0; while (lim &lt; len) lim &lt;&lt;= 1, ++k;
+    for (int i = 0; i &lt; lim; i++) rev[i] = (rev[i &gt;&gt; 1] &gt;&gt; 1) | ((i &amp; 1) &lt;&lt; (k - 1));
+    static int last = 1;
+    for (int wn, len = last; len &lt; lim; last = len &lt;&lt;= 1) {
+        wn = fpow(3, (mod - 1) / (len &lt;&lt; 1)), w[len] = 1;
+        for (int i = 1; i &lt; len; i++) w[i + len] = mul(w[i + len - 1], wn);
+    } return lim;
+}
+
+void ntt(int *a, int lim) {
+    for (int i = 0; i &lt; lim; i++) if (i &lt; rev[i]) std::swap(a[i], a[rev[i]]);
+    for (int len = 1; len &lt; lim; len &lt;&lt;= 1)
+        for (int i = 0; i &lt; lim; i += (len &lt;&lt; 1))
+            for (int j = 0; j &lt; len; j++) {
+                int x = a[i + j], y = mul(w[j + len], a[i + j + len]);
+                a[i + j] = inc(x, y), a[i + j + len] = dec(x, y);
+            }
+}
+
+inline poly mul(const poly &amp;f, const poly &amp;g, int len = -1) {
+    static int a[N &lt;&lt; 2], b[N &lt;&lt; 2];
+    static poly h; h.resize(f.size() + g.size() - 1);
+    int lim = init(h.size()), inv_lim = inv(lim);
+    memcpy(a, &amp;f[0], f.size() &lt;&lt; 2), memset(a + f.size(), 0, (lim - f.size()) &lt;&lt; 2);
+    memcpy(b, &amp;g[0], g.size() &lt;&lt; 2), memset(b + g.size(), 0, (lim - g.size()) &lt;&lt; 2);
+    ntt(a, lim), ntt(b, lim);
+    for (int i = 0; i &lt; lim; i++) a[i] = mul(a[i], b[i]);
+    std::reverse(a + 1, a + lim), ntt(a, lim);
+    if (~len) h.resize(len);
+    for (int i = 0; i &lt; h.size(); i++) h[i] = mul(a[i], inv_lim);
+    return h;
+}
+
+inline poly inv(const poly &amp;f) {
+    static int a[N &lt;&lt; 2], b[N &lt;&lt; 2];
+    static poly g; g.resize(f.size()), g[0] = inv(f[0]);
+    for (int len = 2; (len &gt;&gt; 1) &lt; f.size(); len &lt;&lt;= 1) {
+        int lim = init(len &lt;&lt; 1), inv_lim = inv(lim);
+        for (int i = 0; i &lt; lim; i++) a[i] = i &lt; f.size() &amp;&amp; i &lt; len ? f[i] : 0;
+        for (int i = 0; i &lt; lim; i++) b[i] = i &lt; (len &gt;&gt; 1) ? g[i] : 0;
+        ntt(a, lim), ntt(b, lim);
+        for (int i = 0; i &lt; lim; i++) a[i] = mul(a[i], mul(b[i], b[i]));
+        std::reverse(a + 1, a + lim), ntt(a, lim);
+        for (int i = len &gt;&gt; 1; i &lt; len &amp;&amp; i &lt; g.size(); i++) g[i] = dec(0, mul(a[i], inv_lim));
+    } return g;
+}
+
+inline poly ln(poly f) {
+    static poly g; g.resize(f.size());
+    for (int i = 1; i &lt; f.size(); i++) g[i - 1] = mul(f[i], i);
+    g = mul(inv(f), g), g.resize(f.size()), f[0] = 0;
+    for (int i = 0; i &lt; f.size() - 1; i++) f[i + 1] = mul(g[i], inv(i + 1));
+    return f;
+}
+
+inline poly exp(const poly &amp;f) {
+    static poly g, h, t; g.clear(), g.push_back(1);
+    for (int len = 2; (len &gt;&gt; 1) &lt; f.size(); len &lt;&lt;= 1) {
+        g.resize(len), h = ln(g), t.resize(len), h.resize(len);
+        for (int i = 0; i &lt; len; i++) h[i] = dec(i &lt; f.size() ? f[i] : 0, h[i]);
+        for (int i = 0; i &lt; len; i++) t[i] = i &lt; g.size() ? g[i] : 0;
+        h[0] = inc(h[0], 1), h = mul(h, t, len), g.resize(len);
+        for (int i = len &gt;&gt; 1; i &lt; len; i++) g[i] = h[i];
+    } g.resize(f.size()); return g;
+}
+
+inline poly cactus(int n) {
+    static int fac[N] = {1, 1};
+    static poly f, g, f2, ff, t1, t2;
+    for (int i = 2; i &lt; n; i++) fac[i] = mul(fac[i - 1], i);
+    f.resize(2), f[0] = 0, f[1] = 1;
+    for (int len = 4; (len &gt;&gt; 1) &lt; n; len &lt;&lt;= 1) {
+        f2.clear(), ff.clear();
+        g.clear(), t1.clear(), t2.clear();
+        f.resize(len), f2.resize(len), ff.resize(len);
+        g.resize(len), t1.resize(len), t2.resize(len);
+        // 2 F(x) =&gt; f2
+        for (int i = 0; i &lt; len; i++) f2[i] = inc(f[i], f[i]);
+        // F^2(x) =&gt; ff
+        ff = mul(f, f, len);
+        // 2 F(x) - F^2(x) =&gt; t1
+        for (int i = 0; i &lt; len; i++) t1[i] = dec(f2[i], ff[i]);
+        // 2 - 2F(x) =&gt; t2
+        for (int i = 0; i &lt; len; i++) t2[i] = opp(f2[i]);
+        t2[0] = inc(t2[0], 2);
+        // x \exp t1 * t2^{-1} =&gt; g
+        g = exp(mul(t1, inv(t2), len));
+        for (int i = len - 1; i &gt; 0; i--) g[i] = g[i - 1];
+        g[0] = 0;
+        // 2 G(x) - 2 F(x) =&gt; t1
+        for (int i = 0; i &lt; len; i++) t1[i] = dec(inc(g[i], g[i]), f2[i]);
+        // (1 + (F(x) - 1)^{-2}) G(x) - 2 =&gt; t2
+        for (int i = 0; i &lt; len; i++) t2[i] = dec(ff[i], f2[i]);
+        t2[0] = inc(t2[0], 1);
+        t2 = inv(t2), t2[0] = inc(t2[0], 1);
+        t2 = mul(t2, g, len), t2[0] = dec(t2[0], 2);
+        // - t1 * t2^{-1} =&gt; g  
+        g = mul(t1, inv(t2), len);
+        for (int i = 0; i &lt; len; i++) f[i] = dec(f[i], g[i]);
+        // f.out();
+    }
+    f.resize(n);
+    for (int i = 1; i &lt; n; i++) f[i] = mul(f[i], mul(fac[i], inv(i)));
+    return f;
+}
+
+void main() {
+    int T, max = 0;
+    static int query[(int)(5e4 + 10)];
+    read(T);
+    for (int i = 1; i &lt;= T; i++) {
+        read(query[i]);
+        max = std::max(max, query[i]);
+    }
+    poly ans = cactus(max + 1);
+    for (int i = 1; i &lt;= T; i++) print(ans[query[i]], '\n');
+}
+
+} signed main() {
+#ifdef MEMSET0_LOCAL_ENVIRONMENT
+    freopen("1.in", "r", stdin);
+    // freopen("1.out", "w", stdout);
+#endif
+    return ringo::main(), 0;
+}</code></pre>        </div>
+                <p itemprop="keywords" class="tags"><a href="https://memset0.cn/tag/%E5%A4%9A%E9%A1%B9%E5%BC%8F%E6%8C%87%E6%95%B0%E5%87%BD%E6%95%B0/">多项式指数函数</a> <a href="https://memset0.cn/tag/%E4%BB%99%E4%BA%BA%E6%8E%8C/">仙人掌</a> <a href="https://memset0.cn/tag/%E5%A4%9A%E9%A1%B9%E5%BC%8F%E7%89%9B%E9%A1%BF%E8%BF%AD%E4%BB%A3/">多项式牛顿迭代</a> <a href="https://memset0.cn/tag/%E5%A4%9A%E9%A1%B9%E5%BC%8F%E6%B1%82%E5%AF%BC/">多项式求导</a> <a href="https://memset0.cn/tag/%E5%A4%8D%E5%90%88%E5%87%BD%E6%95%B0%E6%B1%82%E5%AF%BC/">复合函数求导</a> <a href="https://memset0.cn/tag/%E8%AE%A1%E6%95%B0/">计数</a></p>
+            </article>
+
+    <div id="comments">
+        
+        <div id="respond-post-676" class="respond">
+        <div class="cancel-comment-reply">
+        <a id="cancel-comment-reply-link" href="https://memset0.cn/loj6569#respond-post-676" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>        </div>
+    
+        <form method="post" action="https://memset0.cn/loj6569/comment" id="comment-form" role="form">
+                        <div class="submit-area">
+                <input type="text" name="author" id="author" class="text" placeholder="用户名" value="" required />
+                <input type="email" name="mail" id="mail" class="text" placeholder="邮箱" value="" required />
+                <input type="url" name="url" id="url" class="text" placeholder="网址 (选填) " value="" />
+                            <textarea rows="8" cols="50" name="text" id="textarea" class="textarea" placeholder="可以在这里写评论哦 ~" required ></textarea>
+                <button type="submit" class="ripple submit">提交评论</button>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <div class="post-near">
+        <div class="post-near-child post-near-child-left "><a href="https://memset0.cn/cf1158c" title="CF1158C Permutation recovery">CF1158C Permutation recovery</a> <br /> 上一篇 &laquo;</div>
+        <div class="post-near-child post-near-child-right"><a href="https://memset0.cn/spoj2002" title="SPOJ2002 Random Number Generator">SPOJ2002 Random Number Generator</a> <br /> &raquo; 下一篇</div>
+    </div>
+</div><!-- end #main-->
+
+
+<footer id="footer" role="contentinfo">
+
+	&copy; 2017 - 2019 <a href="https://memset0.cn/">memset0 的博客</a>.
+	<br />
+			<a rel="nofollow" href="http://beian.miit.gov.cn"> 浙ICP备19006255号-1 </a>
+		<br />
+	
+			<span id="busuanzi_value_site_pv">......</span> visits ·
+		<span id="busuanzi_value_site_uv">......</span> visitors 
+			·
+				<span id="words_counter">73.80 W</span> words
+	
+</footer><!-- end #footer -->
+
+<div class="site-search">
+	<form id="search" method="post" action="https://memset0.cn/" role="search">
+		<label for="s" class="sr-only">搜索关键字</label>
+		<input type="text" id="s" name="s" class="text" placeholder="在这里输入关键字哦 ~ (回车搜索)" />
+		<!-- <button type="submit" class="submit">搜索</button> -->
+	</form>
+</div>
+	</div>
+
+</div><!-- end #body -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- <style>.MathJax:focus {outline: none;}</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	extensions: ["tex2jax.js"],
+	jax: ["input/TeX","output/HTML-CSS"],
+	"fast-preview": {disabled: true},
+	tex2jax: {inlineMath:[ ["$", "$"] ],displayMath:[ ["$$","$$"] ],processEscapes: true},
+	"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.12.0/highlight.pack.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+
+	<div style="display:none">
+<script> var _hmt = _hmt || []; (function() { 	var hm = document.createElement("script"); 	hm.src = "https://hm.baidu.com/hm.js?d8c0a4185322e94013582201484f9131"; 	var s = document.getElementsByTagName("script")[0];  	s.parentNode.insertBefore(hm, s); })(); </script>	</div>
+
+<link href="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.css" rel="stylesheet">
+<script src="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.js"></script>
+<script>
+var tmp = document.getElementsByTagName('katex-inline');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: false, throwOnError: false})); }
+tmp = document.getElementsByTagName('katex');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: true, throwOnError: false})); }
+</script>
+</body>
+</html>

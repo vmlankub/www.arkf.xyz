@@ -1,0 +1,538 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+    <!-- start #optimize -->
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="//secure.gravatar.com" />
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info" />
+    <link rel="dns-prefetch" href="//cdn.bootcss.com" />
+
+    <!-- 关闭百度转码 -->
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <!-- end #optimize -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- css3-mediaqueries-js 用于尝试在上古浏览器支持自适应viewport函数 -->
+    <!--[if lt IE 9]>
+    　　<script src="https://cdn.jsdelivr.net/gh/livingston/css3-mediaqueries-js@master/css3-mediaqueries.min.js"></script>
+    <![endif]-->
+    <title>多项式基础操作复习笔记 - memset0 的博客</title>
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/necolas/normalize.css@latest/normalize.min.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/grid.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/style.css">
+    <!-- <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/ripple.css"> -->
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cinzel Decorative:700"> -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+    
+    <!--[if lt IE 9]>
+    <script src="//cdn.jsdelivr.net/gh/aFarkas/html5shiv@latest/dist/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/scottjehl/Respond@latest/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <meta name="description" content="ZJOI 2019 了，机房同学也差不多都会基本多项式了，就写篇有关简单的多项式操作复习笔记吧 QAQ约定：以下操作默认 n = \deg(F(x)) + 1 ，等号一般表示在 \bmod\ {..." />
+<meta name="keywords" content="多项式求逆,NTT,多项式对数函数,多项式快速幂,多项式多点求值,多项式快速插值,多项式指数函数,多项式" />
+<meta name="generator" content="Typecho 1.1/17.10.30" />
+<meta name="template" content="ringo" />
+<link rel="pingback" href="https://memset0.cn/action/xmlrpc" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://memset0.cn/action/xmlrpc?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://memset0.cn/action/xmlrpc?wlw" />
+<link rel="alternate" type="application/rss+xml" title="多项式基础操作复习笔记 &raquo; memset0 的博客 &raquo; RSS 2.0" href="https://memset0.cn/feed/poly" />
+<link rel="alternate" type="application/rdf+xml" title="多项式基础操作复习笔记 &raquo; memset0 的博客 &raquo; RSS 1.0" href="https://memset0.cn/feed/rss/poly" />
+<link rel="alternate" type="application/atom+xml" title="多项式基础操作复习笔记 &raquo; memset0 的博客 &raquo; ATOM 1.0" href="https://memset0.cn/feed/atom/poly" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-238'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-238'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-238'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _00ow = //'lpK'
+'5'+'ac3'//'O8'
++//'lDt'
+'e'+'a'//'PZL'
++/* 'qH'//'qH' */''+//'EO'
+'5d2'+//'t'
+'e4'+'f0a'//'Jdq'
++/* 'WWa'//'WWa' */''+//'V'
+'968'+//'y'
+'03'+//'f'
+'e'+'146'//'Gid'
++'Q'//'Q'
++/* 'a'//'a' */''+/* 'G0'//'G0' */''+'f2'//'ug'
++'28'//'gx'
++'e8b'//'w3b'
++//'Bm2'
+'89', _fdPX = [[23,24]];
+    
+    for (var i = 0; i < _fdPX.length; i ++) {
+        _00ow = _00ow.substring(0, _fdPX[i][0]) + _00ow.substring(_fdPX[i][1]);
+    }
+
+    return _00ow;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script></head>
+<body>
+
+<!--[if lt IE 8]>
+    <div class="browsehappy" role="dialog">当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>.</div>
+<![endif]-->
+
+<!-- 移动端适配 -->
+<link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/compatible.css">
+
+<!-- 也显示出一遍正常标题来以便适配移动端 -->
+<div style="display:none" class="compatible">
+            <a id="logo" class="site-title">
+                memset0 的博客 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时 那人却已不在灯火阑珊处            </p>
+</div>
+
+<header id="header" class="clearfix" onclick="window.open('https://memset0.cn/','_self')">
+    <div class="container">
+        <div class="site-name">
+                    <a id="logo" class="site-title">
+                memset0's<br />Notebook 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时<br>那人却已不在灯火阑珊处            </p>
+        
+        
+        
+        <!-- <div class="col-mb-12">
+            <nav id="nav-menu" class="clearfix" role="navigation">
+                <a  href="https://memset0.cn/">首页</a>
+                                                <a  href="https://memset0.cn/about" title="关于我">关于我</a>
+                                <a  href="https://memset0.cn/friends" title="友情链接">友情链接</a>
+                                <a  href="https://memset0.cn/archive" title="文章聚合">文章聚合</a>
+                            </nav>
+        </div> -->
+    </div>
+</header><!-- end #header -->
+
+<div id="sidebar" role="complementary">
+        <section class="widget">
+        <ul class="widget-list">
+                                    <li><a href="https://memset0.cn/about" title="关于我">关于我</a></li>
+                        <li><a href="https://memset0.cn/friends" title="友情链接">友情链接</a></li>
+                        <li><a href="https://memset0.cn/archive" title="文章聚合">文章聚合</a></li>
+                    </ul>
+    </section>
+    
+	<section class="widget sidebar-foot">
+        <ul class="widget-list">
+            <li>Theme <a rel="nofollow" target="_blank" href="https://github.com/memset0/typecho-theme-ringo">Ringo</a> by <a  target="_blank" href="https://memset0.cn">memset0</a></li>
+            <li>Proudly powered by <a rel="nofollow" target="_blank" href="http://www.typecho.org">Typecho</a></li>
+        </ul>
+    </section>
+</div><!--end #sidebar -->
+
+<div id="helpbar">
+    <div class="back-to-top">
+        <button id="back2top">↑</button>
+        <script>
+            back2top.onclick = function() {
+                var movement = document.body.scrollTop || document.documentElement.scrollTop;
+                scrollBy(0, -movement);
+            }
+        </script>
+    </div>
+</div><!--end #helpbar -->
+<div id="body">
+    <div class="container">
+
+
+<div class="col-12" id="main" role="main">
+    <article class="post post-atpage" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title post-title-atpage" itemprop="name headline"><a itemprop="url" href="https://memset0.cn/poly">多项式基础操作复习笔记</a></h1>
+        <ul class="post-meta post-meta-atpage">
+            <li><time datetime="2019-03-26T20:32:00+00:00" itemprop="datePublished">2019-03-26</time></li>
+            <li><a href="https://memset0.cn/algorithm/">算法</a></li>
+                    </ul>
+        <div class="post-content" itemprop="articleBody">
+            <blockquote>
+<p>ZJOI 2019 了，机房同学也差不多都会基本多项式了，就写篇有关简单的多项式操作复习笔记吧 QAQ</p>
+</blockquote>
+<p><strong>约定</strong>：以下操作默认 <katex-inline>n = \deg(F(x)) + 1</katex-inline> ，等号一般表示在 <katex-inline>\bmod\ {x^n}</katex-inline> 的意义下同余。</p>
+<h4>多项式乘法</h4>
+<p>可以先把多项式的系数转为点值，各位分别乘起来以后再插值出原多项式。考虑到单位根 / 原根的性质，我们有 FFT / NTT 。</p>
+<!--more-->
+<h4>分治 + NTT</h4>
+<p>分治维护，用 <katex-inline>F(l, r)</katex-inline> 表示从 <katex-inline>A_{l..r}(x)</katex-inline> 的连乘积，<katex-inline>mid = \frac {l + r} 2</katex-inline> ，则 <katex-inline>F(l, r) = F(l, mid) \times F(mid + 1, r)</katex-inline> 。</p>
+<h4>分治 NTT</h4>
+<p>考虑 CDQ 分治，每次考虑左边区间对右边的贡献。</p>
+<h4>多项式牛顿迭代</h4>
+<p>已知 <katex-inline>G(F(x)) = 0, F(x) \bmod x^{\frac n2}</katex-inline> ，求 <katex-inline>F(x) \bmod x^n</katex-inline> ，则 <katex-inline>F'(x) = F(x) - \dfrac {G(F(x))} {G'(F(x))}</katex-inline> 。</p>
+<h4>多项式求逆</h4>
+<p>已知 <katex-inline>A(x)</katex-inline> ，求 <katex-inline>F(x)</katex-inline> 使得 <katex-inline>A(x) \times F(x) \equiv 0 \pmod {x^n}</katex-inline> 。</p>
+<p><katex>F(x)A(x) = 1 \Rightarrow F(x) A(x) - 1 = 0</katex></p>
+<p>设 <katex-inline>G(F(x)) = F(x) A(x) - 1</katex-inline> ，则：</p>
+<p><katex>F'(x) = F(x) - \dfrac {F(x) A(x) - 1} {A(x)} = F(x) - F(x) (F(x) A(x) - 1) = 2F(x) - F^2(x) A(x)</katex></p>
+<h4>多项式对数函数</h4>
+<p>已知 <katex-inline>A(x)</katex-inline> ，求 <katex-inline>F(x)</katex-inline> 使得 <katex-inline>F(x) \equiv \ln A(x) \pmod {x^n}</katex-inline> 。</p>
+<p><katex>F(x) = \ln A(x) \Rightarrow F'(x) = \dfrac {A(x)} {A'(x)} \Rightarrow F(x) = \int \dfrac {A(x)} {A'(x)}</katex></p>
+<h4>多项式指数函数</h4>
+<p>已知 <katex-inline>A(x)</katex-inline> ，求 <katex-inline>F(x)</katex-inline> 使得 <katex-inline>F(x) \equiv e^ {A(x)} \pmod {x^n}</katex-inline> .</p>
+<p><katex>F(x) = e^{A(x)} \Rightarrow \ln F(x) = A(x) \Rightarrow \ln F(x) - A(x) = 0</katex> </p>
+<p>设 <katex-inline>G(F(x)) = \ln F(x) - A(x)</katex-inline> ，则：</p>
+<p><katex>F'(x) = F(x) - \dfrac {\ln F(x) - A(x)} {\frac 1 {F(x)}} = F(x) (1 - \ln F(x) + A(x))</katex></p>
+<h4>多项式快速幂</h4>
+<p>已知 <katex-inline>A(x)</katex-inline> ，求 <katex-inline>F(x) \equiv A^n(x) \pmod {x^n}</katex-inline> 。</p>
+<ul>
+<li>
+<p>朴素做法，按照一般快速幂做，复杂度 <katex-inline>O(n \log^2 n)</katex-inline></p>
+</li>
+<li>进阶做法，转换为 <katex-inline>\ln</katex-inline> + <katex-inline>\exp</katex-inline> 来做：
+<ul>
+<li>若 <katex-inline>A(x)</katex-inline> 的常数项为 <katex-inline>1</katex-inline> ，则 <katex-inline>F(x) = A^n(x) \Rightarrow F(x) = \exp (n \ln A(x))</katex-inline> ；</li>
+<li>若 <katex-inline>A(x)</katex-inline> 的常数项不为 <katex-inline>1</katex-inline> 或 <katex-inline>0</katex-inline> ，则 <katex-inline>F(x) = A_0 ^ n \exp (n \ln (A(x) / A_0^n))</katex-inline> ；</li>
+<li>若 <katex-inline>A(x)</katex-inline> 的常数项为 <katex-inline>0</katex-inline> ，则考虑平移系数并转换为上面的两种情况。</li>
+</ul></li>
+</ul>
+<h4>多项式多点求值和快速插值</h4>
+<p>见 <a href="/MPE-FIP">memset0 的学习笔记</a> </p>
+<h4>例题：挑战多项式</h4>
+<p>直接做即可。</p>
+<p>代码：</p>
+<pre><code class="cpp">// =================================
+//   author: memset0
+//   date: 2019.02.19 09:56:53
+//   website: https://memset0.cn/
+// =================================
+#include &lt;bits/stdc++.h&gt;
+#define ll long long
+#define poly std::vector &lt;int&gt;
+#define for_each(i, a) for (int i = 0, __lim = a.size(); i &lt; __lim; ++i)
+namespace ringo {
+template &lt;class T&gt; inline void read(T &amp;x) {
+    x = 0; char c = getchar(); bool f = 0;
+    while (!isdigit(c)) f ^= c == '-', c = getchar();
+    while (isdigit(c)) x = x * 10 + c - '0', c = getchar();
+    if (f) x = -x;
+}
+template &lt;class T&gt; inline void print(T x) {
+    if (x &lt; 0) putchar('-'), x = -x;
+    if (x &gt; 9) print(x / 10);
+    putchar('0' + x % 10);
+}
+template &lt;class T&gt; inline void print(T x, char c) { print(x), putchar(c); }
+inline void print(const poly &amp;a) { for_each(i, a) print(a[i], " \n"[i == __lim - 1]); }
+inline void read(poly &amp;a, int n) { for (int i = 0, x; i &lt; n; i++) read(x), a.push_back(x); }
+
+const int N = 1e5 + 10, mod = 998244353;
+int n, k; poly f, g;
+
+namespace poly_namespace {
+    const int M = N &lt;&lt; 3, SIZE = sizeof(int);
+    int w[M], rev[M];
+    inline poly resize(poly f, int n) { return f.resize(n), f; }
+    inline int dec(int a, int b) { a -= b; return a &lt; 0 ? a + mod : a; }
+    inline int sub(int a, int b) { a += b; return a &gt;= mod ? a - mod : a; }
+    inline int inv(int x) { return x &lt; 2 ? 1 : (ll)(mod - mod / x) * inv(mod % x) % mod; }
+    inline int fpow(int a, int b) { int s = 1; for (; b; b &gt;&gt;= 1, a = (ll)a * a % mod) if (b &amp; 1) s = (ll)s * a % mod; return s; }
+    inline poly operator + (poly f, int a) { f[0] = sub(f[0], a); return f; }
+    inline poly operator + (int a, poly f) { f[0] = sub(a, f[0]); return f; }
+    inline poly operator - (poly f, int a) { f[0] = dec(f[0], a); return f; }
+    inline poly operator - (int a, poly f) { for_each(i, f) f[i] = dec(0, f[i]); f[0] = sub(a, f[0]); return f; }
+    inline poly operator * (poly f, int a) { for_each(i, f) f[i] = (ll)f[i] * a % mod; return f; }
+    inline poly operator * (int a, poly f) { for_each(i, f) f[i] = (ll)f[i] * a % mod; return f; }
+    inline poly operator + (poly f, const poly &amp;g) {
+        f.resize(std::max(f.size(), g.size()));
+        for_each(i, f) f[i] = sub(i &lt; f.size() ? f[i] : 0, i &lt; g.size() ? g[i] : 0);
+        return f;
+    }
+    inline poly operator - (poly f, const poly &amp;g) {
+        f.resize(std::max(f.size(), g.size()));
+        for_each(i, f) f[i] = dec(i &lt; f.size() ? f[i] : 0, i &lt; g.size() ? g[i] : 0);
+        return f;
+    }
+    namespace cipolla_namespace {
+        int t, sqr_w;
+        typedef std::pair &lt;int, int&gt; pair;
+        inline pair operator * (const pair &amp;a, const pair &amp;b) {
+            return std::make_pair(((ll)a.first * b.first + (ll)a.second * b.second % mod * sqr_w) % mod,
+                ((ll)a.first * b.second + (ll)a.second * b.first) % mod);
+        }
+        int cipolla(int x) {
+            do t = rand() % mod; while (fpow(sqr_w = dec((ll)t * t % mod, x), (mod - 1) &gt;&gt; 1) != mod - 1);
+            // printf("&gt;&gt; t = %d sqr_w %d\n", t, sqr_w);
+            pair s = std::make_pair(1, 0), a = std::make_pair(t, 1);
+            for (int b = (mod + 1) &gt;&gt; 1; b; b &gt;&gt;= 1, a = a * a) if (b &amp; 1) s = s * a;
+            // printf("&gt;&gt; %d %d\n", s.first, s.second);
+            return std::min(s.first, mod - s.first);
+        }
+    } using cipolla_namespace::cipolla;
+    void ntt(int *a, int lim) {
+        for (int i = 0; i &lt; lim; i++) if (i &lt; rev[i]) std::swap(a[i], a[rev[i]]);
+        for (int len = 1; len &lt; lim; len &lt;&lt;= 1)
+            for (int i = 0; i &lt; lim; i += (len &lt;&lt; 1))
+                for (int j = 0; j &lt; len; j++) {
+                    int x = a[i + j], y = (ll)w[j + len] * a[i + j + len] % mod;
+                    a[i + j] = sub(x, y), a[i + j + len] = dec(x, y);
+                }
+    }
+    int init(int len) {
+        int lim = 1, k = 0; while (lim &lt; len) lim &lt;&lt;= 1, ++k;
+        for (int i = 0; i &lt; lim; i++) rev[i] = (rev[i &gt;&gt; 1] &gt;&gt; 1) | ((i &amp; 1) &lt;&lt; (k - 1));
+        return lim;
+    }
+    void main_init() {
+        for (int len = 1, wn; (len &lt;&lt; 1) &lt; M; len &lt;&lt;= 1) {
+            wn = fpow(3, (mod - 1) / (len &lt;&lt; 1)), w[len] = 1;
+            for (int i = 1; i &lt; len; i++) w[i + len] = (ll)w[i + len - 1] * wn % mod;
+        }
+    }
+    inline poly operator * (const poly &amp;f, const poly &amp;g) {
+        static int a[M], b[M];
+        int lim = init(f.size() + g.size() - 1), inv_lim = inv(lim); poly h;
+        memset(&amp;a[f.size()], 0, (lim - f.size()) * SIZE); for_each(i, f) a[i] = f[i];
+        memset(&amp;b[g.size()], 0, (lim - g.size()) * SIZE); for_each(i, g) b[i] = g[i];
+        ntt(a, lim), ntt(b, lim);
+        for (int i = 0; i &lt; lim; i++) a[i] = (ll)a[i] * b[i] % mod;
+        std::reverse(a + 1, a + lim), ntt(a, lim);
+        for (int i = 0, l = f.size() + g.size() - 1; i &lt; l; i++) h.push_back((ll)a[i] * inv_lim % mod);
+        return h;
+    }
+    inline poly inv(const poly &amp;f) {
+        static int a[M], b[M];
+        poly g(1, inv(f[0]));
+        for (int len = 2; (len &gt;&gt; 1) &lt; f.size(); len &lt;&lt;= 1) {
+            int lim = init(len &lt;&lt; 1), inv_lim = inv(lim);
+            memset(&amp;a[len], 0, len * SIZE); for (int i = 0; i &lt; len; i++) a[i] = i &lt; f.size() ? f[i] : 0;
+            memset(&amp;b[len], 0, len * SIZE); for (int i = 0; i &lt; len; i++) b[i] = i &lt; g.size() ? g[i] : 0;
+            ntt(a, lim), ntt(b, lim);
+            for (int i = 0; i &lt; lim; i++) a[i] = (ll)a[i] * b[i] % mod * b[i] % mod;
+            std::reverse(a + 1, a + lim), ntt(a, lim), g.resize(len);
+            for_each(i, g) g[i] = dec(sub(g[i], g[i]), (ll)a[i] * inv_lim % mod);
+        } return g.resize(f.size()), g;
+    }
+    inline poly sqrt(const poly &amp;f) {
+        poly g(1, cipolla(f[0]));
+        for (int len = 2; (len &gt;&gt; 1) &lt; f.size(); len &lt;&lt;= 1)
+            g = resize(resize(resize(g * g, len) + f, len) * inv(resize(2 * g, len)), len);
+        return g.resize(f.size()), g;
+    }
+    inline poly deri(const poly &amp;f) {
+        poly g;
+        for (int i = 0; i &lt; f.size() - 1; i++) g.push_back((ll)(i + 1) * f[i + 1] % mod);
+        return g.push_back(0), g;
+    }
+    inline poly inte(poly f) {
+        poly g(1, 0);
+        for (int i = 0; i &lt; f.size() - 1; i++) g.push_back((ll)inv(i + 1) * f[i] % mod);
+        return g;
+    }
+    inline poly ln(const poly &amp;f) { return inte(resize(deri(f) * inv(f), f.size())); }
+    inline poly exp(const poly &amp;f) {
+        poly g(1, 1);
+        for (int len = 2; (len &gt;&gt; 1) &lt; f.size(); len &lt;&lt;= 1)
+            g = resize(g * (1 - ln(resize(g, len)) + resize(f, len)), len);
+        return g.resize(f.size()), g;
+    }
+    inline poly fpow(poly a, int b) {
+        int n = a.size(); poly s(1, 1);
+        for (; b; b &gt;&gt;= 1, a = resize(a * a, n))
+            if (b &amp; 1) s = resize(s * a, n);
+        return s;
+    }
+} using namespace poly_namespace;
+
+void main() {
+    srand(20040725);
+    read(n), read(k), read(f, n + 1), main_init();
+    g = deri(fpow(1 + ln(2 + f - f[0] - exp(inte(inv(sqrt(f))))), k));
+    for (int i = 0; i &lt; g.size() - 1; i++) print(g[i], " \n"[i == g.size() - 2]);
+}
+
+} signed main() { return ringo::main(), 0; }</code></pre>        </div>
+                <p itemprop="keywords" class="tags"><a href="https://memset0.cn/tag/%E5%A4%9A%E9%A1%B9%E5%BC%8F%E6%B1%82%E9%80%86/">多项式求逆</a> <a href="https://memset0.cn/tag/NTT/">NTT</a> <a href="https://memset0.cn/tag/%E5%A4%9A%E9%A1%B9%E5%BC%8F%E5%AF%B9%E6%95%B0%E5%87%BD%E6%95%B0/">多项式对数函数</a> <a href="https://memset0.cn/tag/%E5%A4%9A%E9%A1%B9%E5%BC%8F%E5%BF%AB%E9%80%9F%E5%B9%82/">多项式快速幂</a> <a href="https://memset0.cn/tag/%E5%A4%9A%E9%A1%B9%E5%BC%8F%E5%A4%9A%E7%82%B9%E6%B1%82%E5%80%BC/">多项式多点求值</a> <a href="https://memset0.cn/tag/%E5%A4%9A%E9%A1%B9%E5%BC%8F%E5%BF%AB%E9%80%9F%E6%8F%92%E5%80%BC/">多项式快速插值</a> <a href="https://memset0.cn/tag/%E5%A4%9A%E9%A1%B9%E5%BC%8F%E6%8C%87%E6%95%B0%E5%87%BD%E6%95%B0/">多项式指数函数</a> <a href="https://memset0.cn/tag/%E5%A4%9A%E9%A1%B9%E5%BC%8F/">多项式</a></p>
+            </article>
+
+    <div id="comments">
+        
+        <div id="respond-post-238" class="respond">
+        <div class="cancel-comment-reply">
+        <a id="cancel-comment-reply-link" href="https://memset0.cn/poly#respond-post-238" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>        </div>
+    
+        <form method="post" action="https://memset0.cn/poly/comment" id="comment-form" role="form">
+                        <div class="submit-area">
+                <input type="text" name="author" id="author" class="text" placeholder="用户名" value="" required />
+                <input type="email" name="mail" id="mail" class="text" placeholder="邮箱" value="" required />
+                <input type="url" name="url" id="url" class="text" placeholder="网址 (选填) " value="" />
+                            <textarea rows="8" cols="50" name="text" id="textarea" class="textarea" placeholder="可以在这里写评论哦 ~" required ></textarea>
+                <button type="submit" class="ripple submit">提交评论</button>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <div class="post-near">
+        <div class="post-near-child post-near-child-left "><a href="https://memset0.cn/zjoi2019-round1" title="ZJOI2019 Round1 游记">ZJOI2019 Round1 游记</a> <br /> 上一篇 &laquo;</div>
+        <div class="post-near-child post-near-child-right"><a href="https://memset0.cn/%E5%A4%9A%E6%A0%A1" title="ZJOI2019前多校联考爆零记录">ZJOI2019前多校联考爆零记录</a> <br /> &raquo; 下一篇</div>
+    </div>
+</div><!-- end #main-->
+
+
+<footer id="footer" role="contentinfo">
+
+	&copy; 2017 - 2019 <a href="https://memset0.cn/">memset0 的博客</a>.
+	<br />
+			<a rel="nofollow" href="http://beian.miit.gov.cn"> 浙ICP备19006255号-1 </a>
+		<br />
+	
+			<span id="busuanzi_value_site_pv">......</span> visits ·
+		<span id="busuanzi_value_site_uv">......</span> visitors 
+			·
+				<span id="words_counter">73.80 W</span> words
+	
+</footer><!-- end #footer -->
+
+<div class="site-search">
+	<form id="search" method="post" action="https://memset0.cn/" role="search">
+		<label for="s" class="sr-only">搜索关键字</label>
+		<input type="text" id="s" name="s" class="text" placeholder="在这里输入关键字哦 ~ (回车搜索)" />
+		<!-- <button type="submit" class="submit">搜索</button> -->
+	</form>
+</div>
+	</div>
+
+</div><!-- end #body -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- <style>.MathJax:focus {outline: none;}</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	extensions: ["tex2jax.js"],
+	jax: ["input/TeX","output/HTML-CSS"],
+	"fast-preview": {disabled: true},
+	tex2jax: {inlineMath:[ ["$", "$"] ],displayMath:[ ["$$","$$"] ],processEscapes: true},
+	"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.12.0/highlight.pack.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+
+	<div style="display:none">
+<script> var _hmt = _hmt || []; (function() { 	var hm = document.createElement("script"); 	hm.src = "https://hm.baidu.com/hm.js?d8c0a4185322e94013582201484f9131"; 	var s = document.getElementsByTagName("script")[0];  	s.parentNode.insertBefore(hm, s); })(); </script>	</div>
+
+<link href="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.css" rel="stylesheet">
+<script src="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.js"></script>
+<script>
+var tmp = document.getElementsByTagName('katex-inline');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: false, throwOnError: false})); }
+tmp = document.getElementsByTagName('katex');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: true, throwOnError: false})); }
+</script>
+</body>
+</html>

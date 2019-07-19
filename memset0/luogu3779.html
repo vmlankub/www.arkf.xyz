@@ -1,0 +1,514 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+    <!-- start #optimize -->
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="//secure.gravatar.com" />
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info" />
+    <link rel="dns-prefetch" href="//cdn.bootcss.com" />
+
+    <!-- 关闭百度转码 -->
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <!-- end #optimize -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- css3-mediaqueries-js 用于尝试在上古浏览器支持自适应viewport函数 -->
+    <!--[if lt IE 9]>
+    　　<script src="https://cdn.jsdelivr.net/gh/livingston/css3-mediaqueries-js@master/css3-mediaqueries.min.js"></script>
+    <![endif]-->
+    <title>洛谷3779 [SDOI2017]龙与地下城 - memset0 的博客</title>
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/necolas/normalize.css@latest/normalize.min.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/grid.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/style.css">
+    <!-- <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/ripple.css"> -->
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cinzel Decorative:700"> -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+    
+    <!--[if lt IE 9]>
+    <script src="//cdn.jsdelivr.net/gh/aFarkas/html5shiv@latest/dist/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/scottjehl/Respond@latest/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <meta name="description" content="有一个 n (n \leq 20) 的骰子，分别写着 0 \cdots (n - 1) ，每个数被投掷出来的概率是相同的，现在我们投掷了 m (m \leq 2\times10^5)  次，造成..." />
+<meta name="keywords" content="巧妙的思路,多项式快速幂,快速傅里叶变换,浮点数计算技巧,中心极限定理,概率论" />
+<meta name="generator" content="Typecho 1.1/17.10.30" />
+<meta name="template" content="ringo" />
+<link rel="pingback" href="https://memset0.cn/action/xmlrpc" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://memset0.cn/action/xmlrpc?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://memset0.cn/action/xmlrpc?wlw" />
+<link rel="alternate" type="application/rss+xml" title="洛谷3779 [SDOI2017]龙与地下城 &raquo; memset0 的博客 &raquo; RSS 2.0" href="https://memset0.cn/feed/luogu3779" />
+<link rel="alternate" type="application/rdf+xml" title="洛谷3779 [SDOI2017]龙与地下城 &raquo; memset0 的博客 &raquo; RSS 1.0" href="https://memset0.cn/feed/rss/luogu3779" />
+<link rel="alternate" type="application/atom+xml" title="洛谷3779 [SDOI2017]龙与地下城 &raquo; memset0 的博客 &raquo; ATOM 1.0" href="https://memset0.cn/feed/atom/luogu3779" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-664'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-664'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-664'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _04wlA = //'W'
+'68'+//'2'
+'f1'+//'Gpe'
+'b'+'e'//'a9Q'
++//'zea'
+'c8'+'16'//'3b6'
++//'w44'
+'w44'+'b'//'b'
++//'b91'
+'372'+'c'//'zV'
++'7'//'hqP'
++/* 'x'//'x' */''+//'RXg'
+'a'+'373'//'YX'
++//'vGi'
+'c57'+'245'//'pwP'
++'fe'//'F0'
++//'1kO'
+'819'+'0a'//'qWw'
+, _7xzmU = [[10,13],[10,11]];
+    
+    for (var i = 0; i < _7xzmU.length; i ++) {
+        _04wlA = _04wlA.substring(0, _7xzmU[i][0]) + _04wlA.substring(_7xzmU[i][1]);
+    }
+
+    return _04wlA;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script></head>
+<body>
+
+<!--[if lt IE 8]>
+    <div class="browsehappy" role="dialog">当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>.</div>
+<![endif]-->
+
+<!-- 移动端适配 -->
+<link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/compatible.css">
+
+<!-- 也显示出一遍正常标题来以便适配移动端 -->
+<div style="display:none" class="compatible">
+            <a id="logo" class="site-title">
+                memset0 的博客 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时 那人却已不在灯火阑珊处            </p>
+</div>
+
+<header id="header" class="clearfix" onclick="window.open('https://memset0.cn/','_self')">
+    <div class="container">
+        <div class="site-name">
+                    <a id="logo" class="site-title">
+                memset0's<br />Notebook 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时<br>那人却已不在灯火阑珊处            </p>
+        
+        
+        
+        <!-- <div class="col-mb-12">
+            <nav id="nav-menu" class="clearfix" role="navigation">
+                <a  href="https://memset0.cn/">首页</a>
+                                                <a  href="https://memset0.cn/about" title="关于我">关于我</a>
+                                <a  href="https://memset0.cn/friends" title="友情链接">友情链接</a>
+                                <a  href="https://memset0.cn/archive" title="文章聚合">文章聚合</a>
+                            </nav>
+        </div> -->
+    </div>
+</header><!-- end #header -->
+
+<div id="sidebar" role="complementary">
+        <section class="widget">
+        <ul class="widget-list">
+                                    <li><a href="https://memset0.cn/about" title="关于我">关于我</a></li>
+                        <li><a href="https://memset0.cn/friends" title="友情链接">友情链接</a></li>
+                        <li><a href="https://memset0.cn/archive" title="文章聚合">文章聚合</a></li>
+                    </ul>
+    </section>
+    
+	<section class="widget sidebar-foot">
+        <ul class="widget-list">
+            <li>Theme <a rel="nofollow" target="_blank" href="https://github.com/memset0/typecho-theme-ringo">Ringo</a> by <a  target="_blank" href="https://memset0.cn">memset0</a></li>
+            <li>Proudly powered by <a rel="nofollow" target="_blank" href="http://www.typecho.org">Typecho</a></li>
+        </ul>
+    </section>
+</div><!--end #sidebar -->
+
+<div id="helpbar">
+    <div class="back-to-top">
+        <button id="back2top">↑</button>
+        <script>
+            back2top.onclick = function() {
+                var movement = document.body.scrollTop || document.documentElement.scrollTop;
+                scrollBy(0, -movement);
+            }
+        </script>
+    </div>
+</div><!--end #helpbar -->
+<div id="body">
+    <div class="container">
+
+
+<div class="col-12" id="main" role="main">
+    <article class="post post-atpage" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title post-title-atpage" itemprop="name headline"><a itemprop="url" href="https://memset0.cn/luogu3779">洛谷3779 [SDOI2017]龙与地下城</a></h1>
+        <ul class="post-meta post-meta-atpage">
+            <li><time datetime="2019-06-24T00:05:00+00:00" itemprop="datePublished">2019-06-24</time></li>
+            <li><a href="https://memset0.cn/solution/">题解</a></li>
+                    </ul>
+        <div class="post-content" itemprop="articleBody">
+            <blockquote>
+<p>有一个 <katex-inline>n (n \leq 20)</katex-inline> 的骰子，分别写着 <katex-inline>0 \cdots (n - 1)</katex-inline> ，每个数被投掷出来的概率是相同的，现在我们投掷了 <katex-inline>m (m \leq 2\times10^5)</katex-inline>  次，造成的伤害为 <katex-inline>m</katex-inline> 次骰子的点数和 <katex-inline>\xi</katex-inline> ，求 <katex-inline>Pr[a \leq \xi \leq b]</katex-inline> 。</p>
+</blockquote>
+<p><a href="https://www.luogu.org/problemnew/show/P3779">Link</a></p>
+<!--more-->
+<h3>Solution 1</h3>
+<p>对于范围较小的数据，显然我们可以通过多项式卷积来维护转移。设 <katex-inline>\displaystyle F(x) = \sum_{i=0}^{n-1} \frac 1n x^i</katex-inline> ，<katex-inline>G(x)</katex-inline> 满足 <katex-inline>[x^n]G(x) = [x^{n-1}]G(x) + [x^n]F^m(x)</katex-inline> ，则显然 <katex-inline>E(\xi) = [x^b] G(x) - [x^{a-1}] G(x)</katex-inline> 。由于值域是实数所以只能使用 FFT ，可以获得 60 分的好成绩，时间复杂度 <katex-inline>O(nm (\log n + \log m))</katex-inline>。</p>
+<p>考虑如何进行优化，题目对允许的误差较大，故我们可以舍去一些小于阈值 <katex-inline>\epsilon</katex-inline> 的系数，易证系数呈单峰状物故剩下的系数是连续的，我们仍然可以用一般的方法进行卷积。打表可以发现当 <katex-inline>\epsilon</katex-inline> 取 <katex-inline>10^{-14}</katex-inline> 时，剩余的项数 <katex-inline>\leq 2\times10^6</katex-inline> ，设为 <katex-inline>L</katex-inline>。可以通过此题，时间复杂度为 <katex-inline>O(L (\log L + \log m))</katex-inline> 。</p>
+<h3>Solution 2</h3>
+<p>设 <katex-inline>f(x)</katex-inline> 为 <katex-inline>\xi</katex-inline> 的概率密度函数，<katex-inline>F(x) = Pr[\xi \geq x]</katex-inline> ，则</p>
+<katex>
+E(\xi) = \int_{-\infty}^\infty f(x) x \mathrm dx </katex>
+<p>对于服从正态分布的随机变量 <katex-inline>\xi \sim N(\mu, \sigma^2)</katex-inline> ，<katex-inline>\displaystyle f(x) = \frac 1 {\sqrt {2 \pi \sigma^2}} e^{-\frac {(x-\mu)^2} {2\sigma^2}}</katex-inline> 。显然对于这样的 <katex-inline>X</katex-inline> ，我们可以方便的用对 <katex-inline>f(x) x</katex-inline> 进行自适应辛普森积分得到 <katex-inline>E(\xi)</katex-inline> 。</p>
+<p>不幸的是，我们的 <katex-inline>\xi</katex-inline> 不服从正态分布，甚至 TMD 还是离散的。然鹅由于此题对精度的要求较低，我们可以用一个服从正态分布的概率密度函数来拟合，这就需要用到 <strong>中心极限定理</strong> 的一个推论。</p>
+<blockquote>
+<p>对于 <katex-inline>m</katex-inline> 个独立同分布随机变量 <katex-inline>x_i</katex-inline> ，期望为 <katex-inline>\mu</katex-inline> ，标准差为 <katex-inline>\sigma</katex-inline> 。那么设</p>
+<katex>
+Y_m = \frac {\sum_{i=1}^m x_i - m \mu} {\sqrt {m \sigma^2}}</katex>
+<p>在 <katex-inline>m</katex-inline> 足够大时可以认为 <katex-inline>Y_m \sim N(0, 1)</katex-inline> 。</p>
+</blockquote>
+<p>对应到此题中，我们可以发现</p>
+<katex>
+\sum_{i=1}^m x_i \in [A, B] \Leftrightarrow Y_m \in [\frac {A - m\mu} {\sqrt {m \sigma^2}}, \frac {B - m\mu} {\sqrt {m \sigma^2}}]</katex>
+<p>显然在 <katex-inline>m</katex-inline> 足够大时，我们对于 <katex-inline>f_{Y_m}(x) x</katex-inline> 进行自适应辛普森积分即可。</p>
+<p>但 however ，在 <katex-inline>m</katex-inline> 小到一定程度时，我们并不能认为 <katex-inline>Y_m</katex-inline> 服从正态分布，暴力处理即可。</p>
+<h3>Solution 3</h3>
+<p>这种算法是 Solution 1 的一种延伸，但仅可以用在对质数去模的情况下。</p>
+<p>注意到我们需要对 <katex-inline>F^m(x)</katex-inline> 求一次前缀和，不方便我们的式子推导，我们可以通过乘以 <katex-inline>\displaystyle \frac 1 {1 - x}</katex-inline> 来代替。也就是说我们需要求 <katex-inline>\displaystyle G(x) = \frac {F^m(x)} {1 - x}</katex-inline> 的单项系数。</p>
+<katex>
+F(x)
+= \sum_{i=0}^{n-1} \frac 1 n x^i
+= \frac 1 n \sum_{i=0}^{n-1} x^i
+= \frac {1 - x^n} {n(1 - x)}</katex>
+<katex>
+G(x)
+= \frac 1 {1 - x} \left( \frac {1 - x^n} {n(1 - x)}\right) ^y
+= \frac 1 {n^m} \left( 1 - x^n \right)^m \left( \frac 1 {1-x} \right)^{m+1}</katex>
+<p>对于求具体的某项直接二项式定理拆开，还是比较套路的。</p>
+<katex>
+\begin{aligned}
+[x^k] G(x)
+&amp;= \frac 1 {n^m} [x^k] \left( 1 - x^n \right)^m \left( 1-x \right)^{-(m+1)} \\
+&amp;= \frac 1 {n^m} [x^k] \left( \sum_{i=0}^m \binom m i (-1)^i x^{in}\right) \left( \sum_{i=0}^m \binom {m + i} m x^i \right) \\
+&amp;= \frac 1 {n^m} \sum_{i=0}^{\left\lfloor \frac k n \right\rfloor} (-1)^i \binom m i \binom {m + k - in} {m}
+\end{aligned}</katex>
+<p>时间复杂度 <katex-inline>O(m)</katex-inline> ，非常优秀。</p>
+<h3>代码</h3>
+<h5>Solution 1</h5>
+<pre><code class="cpp">// =================================
+//   author: memset0
+//   date: 2019.06.23 19:15:25
+//   website: https://memset0.cn/
+// =================================
+#include &lt;bits/stdc++.h&gt;
+#define ll long long
+#define debug(...) ((void)0)
+#ifndef debug
+#define debug(...) fprintf(stderr,__VA_ARGS__)
+#endif
+namespace ringo {
+template &lt;class T&gt; inline void read(T &amp;x) {
+    x = 0; char c = getchar(); bool f = 0;
+    while (!isdigit(c)) f ^= c == '-', c = getchar();
+    while (isdigit(c)) x = x * 10 + c - '0', c = getchar();
+    if (f) x = -x;
+}
+template &lt;class T&gt; inline void print(T x) {
+    if (x &lt; 0) putchar('-'), x = -x;
+    if (x &gt; 9) print(x / 10);
+    putchar('0' + x % 10);
+}
+template &lt;class T&gt; inline void print(T x, char c) { print(x), putchar(c); }
+template &lt;class T&gt; inline void print(T a, int l, int r, std::string s = "") {
+    if (s != "") std::cout &lt;&lt; s &lt;&lt; ": ";
+    for (int i = l; i &lt;= r; i++) print(a[i], " \n"[i == r]);
+}
+
+const double eps = 1e-14, pi = acos(-1);
+const int N = 4e6 + 10;
+int T, n, m, rev[N];
+
+struct complex {
+    double x, y;
+    inline complex operator+(const complex &amp;o) { return { x + o.x, y + o.y }; }
+    inline complex operator-(const complex &amp;o) { return { x - o.x, y - o.y }; }
+    inline complex operator*(const complex &amp;o) { return { x * o.x - y * o.y, x * o.y + y * o.x }; }
+} w1[N], w2[N];
+
+struct poly {
+    double a[N];
+    int n, p;
+    inline double get(int k) { k -= p; return k &lt; 0 ? 0 : (k &gt;= n ? a[n - 1] : a[k]); }
+    inline void print() { for (int i = 0; i &lt; n; i++) printf("%.2lf%c", a[i], " \n"[i == n - 1]); }
+} f, g;
+
+inline void fft(complex *a, int lim, complex *w) {
+    for (int i = 0; i &lt; lim; i++) if (i &lt; rev[i]) std::swap(a[i], a[rev[i]]);
+    for (int len = 1; len &lt; lim; len &lt;&lt;= 1)
+        for (int i = 0; i &lt; lim; i += (len &lt;&lt; 1))
+            for (int j = 0; j &lt; len; j++) {
+                complex x = a[i + j], y = w[j + len] * a[i + j + len];
+                a[i + j] = x + y, a[i + j + len] = x - y;
+            }
+}
+
+inline void mul(poly &amp;f, poly &amp;g, poly &amp;h) {
+    static complex a[N], b[N];
+    int len = (f.n + g.n - 1), lim = 1, k = 0;
+    while (lim &lt; len) lim &lt;&lt;= 1, ++k;
+    for (int i = 0; i &lt; lim; i++) rev[i] = (rev[i &gt;&gt; 1] &gt;&gt; 1) | ((i &amp; 1) &lt;&lt; (k - 1));
+    for (int len = 1; len &lt; lim; len &lt;&lt;= 1) {
+        w1[len] = w2[len] = { 1, 0 };
+        complex wn1 = { cos(pi / len),  sin(pi / len) };
+        complex wn2 = { cos(pi / len), -sin(pi / len) };
+        for (int i = 1; i &lt; len; i++) {
+            w1[i + len] = w1[i + len - 1] * wn1;
+            w2[i + len] = w2[i + len - 1] * wn2;
+        }
+    }
+    // printf("&gt;&gt; mul n=%d m=%d l=%d lim=%d k=%d | %u %u %u \n", f.n, g.n, len, lim, k, &amp;f, &amp;g, &amp;h), f.print(), g.print();
+    for (int i = 0; i &lt; lim; i++) {
+        a[i] = { i &lt; f.n ? f.a[i] : 0, 0 };
+        b[i] = { i &lt; g.n ? g.a[i] : 0, 0 };
+    }
+    fft(a, lim, w1), fft(b, lim, w1);
+    for (int i = 0; i &lt; lim; i++) a[i] = a[i] * b[i];
+    fft(a, lim, w2);
+    int flag = false, first = 0, second = len;
+    for (int i = 0; i &lt; lim; i++) {
+        a[i].x /= lim;
+        if (!flag &amp;&amp; a[i].x &gt; eps) flag = true, first = i;
+        if (flag &amp;&amp; a[i].x &lt;= eps) flag = false, second = i;
+    }
+    h.n = second - first, h.p = f.p + g.p + first;
+    for (int i = 0; i &lt; h.n; i++) h.a[i] = a[i + first].x;
+    // h.print();
+}
+
+inline void fpow(poly &amp;a, int b, poly &amp;s) {
+    s.n = s.a[0] = 1, s.p = 0;
+    for (; b; b &gt;&gt;= 1, mul(a, a, a))
+        if (b &amp; 1) mul(s, a, s);
+}
+
+void main() {
+    for (read(T); T--; ) {
+        read(n), read(m);
+        // memset(f.a, 0, sizeof(f.a));
+        // memset(g.a, 0, sizeof(g.a)); 
+        f.n = n, f.p = 0; for (int i = 0; i &lt; n; i++) f.a[i] = 1.0 / n;
+        // f.print();
+        fpow(f, m, g);
+        // g.print();
+        for (int i = 1; i &lt;= (n - 1) * m; i++) g.a[i] += g.a[i - 1];
+        for (int i = 1, a, b; i &lt;= 10; i++) read(a), read(b), printf("%.6lf\n", g.get(b) - g.get(a - 1));
+    }
+}
+
+} signed main() {
+#ifdef MEMSET0_LOCAL_ENVIRONMENT
+    freopen("1.in", "r", stdin);
+#endif
+    return ringo::main(), 0;
+}</code></pre>
+<h3>参考资料</h3>
+<ul>
+<li><a href="https://www.luogu.org/blog/DOF/sdoi2017-long-yu-di-xia-cheng-zuo-fa">ZJ 余能的题解</a></li>
+<li><a href="https://www.luogu.org/blog/ShadowassIIXVIIIIV/solution-p3779">shadowice1984 的题解</a></li>
+</ul>        </div>
+                <p itemprop="keywords" class="tags"><a href="https://memset0.cn/tag/%E5%B7%A7%E5%A6%99%E7%9A%84%E6%80%9D%E8%B7%AF/">巧妙的思路</a> <a href="https://memset0.cn/tag/%E5%A4%9A%E9%A1%B9%E5%BC%8F%E5%BF%AB%E9%80%9F%E5%B9%82/">多项式快速幂</a> <a href="https://memset0.cn/tag/%E5%BF%AB%E9%80%9F%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2/">快速傅里叶变换</a> <a href="https://memset0.cn/tag/%E6%B5%AE%E7%82%B9%E6%95%B0%E8%AE%A1%E7%AE%97%E6%8A%80%E5%B7%A7/">浮点数计算技巧</a> <a href="https://memset0.cn/tag/%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86/">中心极限定理</a> <a href="https://memset0.cn/tag/%E6%A6%82%E7%8E%87%E8%AE%BA/">概率论</a></p>
+            </article>
+
+    <div id="comments">
+        
+        <div id="respond-post-664" class="respond">
+        <div class="cancel-comment-reply">
+        <a id="cancel-comment-reply-link" href="https://memset0.cn/luogu3779#respond-post-664" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>        </div>
+    
+        <form method="post" action="https://memset0.cn/luogu3779/comment" id="comment-form" role="form">
+                        <div class="submit-area">
+                <input type="text" name="author" id="author" class="text" placeholder="用户名" value="" required />
+                <input type="email" name="mail" id="mail" class="text" placeholder="邮箱" value="" required />
+                <input type="url" name="url" id="url" class="text" placeholder="网址 (选填) " value="" />
+                            <textarea rows="8" cols="50" name="text" id="textarea" class="textarea" placeholder="可以在这里写评论哦 ~" required ></textarea>
+                <button type="submit" class="ripple submit">提交评论</button>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <div class="post-near">
+        <div class="post-near-child post-near-child-left "><a href="https://memset0.cn/spoj2002" title="SPOJ2002 Random Number Generator">SPOJ2002 Random Number Generator</a> <br /> 上一篇 &laquo;</div>
+        <div class="post-near-child post-near-child-right"><a href="https://memset0.cn/uoj14" title="UOJ14 【UER #1】DZY Loves Graph">UOJ14 【UER #1】DZY Loves Graph</a> <br /> &raquo; 下一篇</div>
+    </div>
+</div><!-- end #main-->
+
+
+<footer id="footer" role="contentinfo">
+
+	&copy; 2017 - 2019 <a href="https://memset0.cn/">memset0 的博客</a>.
+	<br />
+			<a rel="nofollow" href="http://beian.miit.gov.cn"> 浙ICP备19006255号-1 </a>
+		<br />
+	
+			<span id="busuanzi_value_site_pv">......</span> visits ·
+		<span id="busuanzi_value_site_uv">......</span> visitors 
+			·
+				<span id="words_counter">73.80 W</span> words
+	
+</footer><!-- end #footer -->
+
+<div class="site-search">
+	<form id="search" method="post" action="https://memset0.cn/" role="search">
+		<label for="s" class="sr-only">搜索关键字</label>
+		<input type="text" id="s" name="s" class="text" placeholder="在这里输入关键字哦 ~ (回车搜索)" />
+		<!-- <button type="submit" class="submit">搜索</button> -->
+	</form>
+</div>
+	</div>
+
+</div><!-- end #body -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- <style>.MathJax:focus {outline: none;}</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	extensions: ["tex2jax.js"],
+	jax: ["input/TeX","output/HTML-CSS"],
+	"fast-preview": {disabled: true},
+	tex2jax: {inlineMath:[ ["$", "$"] ],displayMath:[ ["$$","$$"] ],processEscapes: true},
+	"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.12.0/highlight.pack.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+
+	<div style="display:none">
+<script> var _hmt = _hmt || []; (function() { 	var hm = document.createElement("script"); 	hm.src = "https://hm.baidu.com/hm.js?d8c0a4185322e94013582201484f9131"; 	var s = document.getElementsByTagName("script")[0];  	s.parentNode.insertBefore(hm, s); })(); </script>	</div>
+
+<link href="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.css" rel="stylesheet">
+<script src="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.js"></script>
+<script>
+var tmp = document.getElementsByTagName('katex-inline');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: false, throwOnError: false})); }
+tmp = document.getElementsByTagName('katex');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: true, throwOnError: false})); }
+</script>
+</body>
+</html>

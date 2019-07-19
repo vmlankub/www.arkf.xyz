@@ -1,0 +1,460 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+    <!-- start #optimize -->
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="//secure.gravatar.com" />
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info" />
+    <link rel="dns-prefetch" href="//cdn.bootcss.com" />
+
+    <!-- 关闭百度转码 -->
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <!-- end #optimize -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- css3-mediaqueries-js 用于尝试在上古浏览器支持自适应viewport函数 -->
+    <!--[if lt IE 9]>
+    　　<script src="https://cdn.jsdelivr.net/gh/livingston/css3-mediaqueries-js@master/css3-mediaqueries.min.js"></script>
+    <![endif]-->
+    <title>CF1149C Tree Generator™ - memset0 的博客</title>
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/necolas/normalize.css@latest/normalize.min.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/grid.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/style.css">
+    <!-- <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/ripple.css"> -->
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cinzel Decorative:700"> -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+    
+    <!--[if lt IE 9]>
+    <script src="//cdn.jsdelivr.net/gh/aFarkas/html5shiv@latest/dist/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/scottjehl/Respond@latest/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <meta name="description" content="给定一个括号序列，每次交换两个括号并询问当前括号序列对应的树的直径。N, Q \leq 10^5。" />
+<meta name="keywords" content="巧妙的思路,线段树,括号序列" />
+<meta name="generator" content="Typecho 1.1/17.10.30" />
+<meta name="template" content="ringo" />
+<link rel="pingback" href="https://memset0.cn/action/xmlrpc" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://memset0.cn/action/xmlrpc?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://memset0.cn/action/xmlrpc?wlw" />
+<link rel="alternate" type="application/rss+xml" title="CF1149C Tree Generator™ &raquo; memset0 的博客 &raquo; RSS 2.0" href="https://memset0.cn/feed/cf1149c" />
+<link rel="alternate" type="application/rdf+xml" title="CF1149C Tree Generator™ &raquo; memset0 的博客 &raquo; RSS 1.0" href="https://memset0.cn/feed/rss/cf1149c" />
+<link rel="alternate" type="application/atom+xml" title="CF1149C Tree Generator™ &raquo; memset0 的博客 &raquo; ATOM 1.0" href="https://memset0.cn/feed/atom/cf1149c" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-499'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-499'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-499'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _CiM = '2a'//'vM'
++'a'//'cD'
++//'la'
+'81d'+'3be'//'194'
++'2'//'TWU'
++//'gzG'
+'d'+'36d'//'c'
++'c8'//'N'
++//'m'
+'51e'+//'J'
+'20e'+//'av'
+'av'+//'9I7'
+'9I7'+//'TN1'
+'b'+/* 'GmX'//'GmX' */''+//'FoL'
+'9e'+'90'//'55'
++//'uM0'
+'uM0'+//'u'
+'5'+//'i'
+'i'+'1'//'HVG'
++//'41C'
+'1'+'55'//'00'
+, _C1x = [[22,24],[22,25],[27,30],[28,29]];
+    
+    for (var i = 0; i < _C1x.length; i ++) {
+        _CiM = _CiM.substring(0, _C1x[i][0]) + _CiM.substring(_C1x[i][1]);
+    }
+
+    return _CiM;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script></head>
+<body>
+
+<!--[if lt IE 8]>
+    <div class="browsehappy" role="dialog">当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>.</div>
+<![endif]-->
+
+<!-- 移动端适配 -->
+<link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/compatible.css">
+
+<!-- 也显示出一遍正常标题来以便适配移动端 -->
+<div style="display:none" class="compatible">
+            <a id="logo" class="site-title">
+                memset0 的博客 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时 那人却已不在灯火阑珊处            </p>
+</div>
+
+<header id="header" class="clearfix" onclick="window.open('https://memset0.cn/','_self')">
+    <div class="container">
+        <div class="site-name">
+                    <a id="logo" class="site-title">
+                memset0's<br />Notebook 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时<br>那人却已不在灯火阑珊处            </p>
+        
+        
+        
+        <!-- <div class="col-mb-12">
+            <nav id="nav-menu" class="clearfix" role="navigation">
+                <a  href="https://memset0.cn/">首页</a>
+                                                <a  href="https://memset0.cn/about" title="关于我">关于我</a>
+                                <a  href="https://memset0.cn/friends" title="友情链接">友情链接</a>
+                                <a  href="https://memset0.cn/archive" title="文章聚合">文章聚合</a>
+                            </nav>
+        </div> -->
+    </div>
+</header><!-- end #header -->
+
+<div id="sidebar" role="complementary">
+        <section class="widget">
+        <ul class="widget-list">
+                                    <li><a href="https://memset0.cn/about" title="关于我">关于我</a></li>
+                        <li><a href="https://memset0.cn/friends" title="友情链接">友情链接</a></li>
+                        <li><a href="https://memset0.cn/archive" title="文章聚合">文章聚合</a></li>
+                    </ul>
+    </section>
+    
+	<section class="widget sidebar-foot">
+        <ul class="widget-list">
+            <li>Theme <a rel="nofollow" target="_blank" href="https://github.com/memset0/typecho-theme-ringo">Ringo</a> by <a  target="_blank" href="https://memset0.cn">memset0</a></li>
+            <li>Proudly powered by <a rel="nofollow" target="_blank" href="http://www.typecho.org">Typecho</a></li>
+        </ul>
+    </section>
+</div><!--end #sidebar -->
+
+<div id="helpbar">
+    <div class="back-to-top">
+        <button id="back2top">↑</button>
+        <script>
+            back2top.onclick = function() {
+                var movement = document.body.scrollTop || document.documentElement.scrollTop;
+                scrollBy(0, -movement);
+            }
+        </script>
+    </div>
+</div><!--end #helpbar -->
+<div id="body">
+    <div class="container">
+
+
+<div class="col-12" id="main" role="main">
+    <article class="post post-atpage" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title post-title-atpage" itemprop="name headline"><a itemprop="url" href="https://memset0.cn/cf1149c">CF1149C Tree Generator™</a></h1>
+        <ul class="post-meta post-meta-atpage">
+            <li><time datetime="2019-05-05T12:34:00+00:00" itemprop="datePublished">2019-05-05</time></li>
+            <li><a href="https://memset0.cn/solution/">题解</a></li>
+                    </ul>
+        <div class="post-content" itemprop="articleBody">
+            <blockquote>
+<p>给定一个括号序列，每次交换两个括号并询问当前括号序列对应的树的直径。<katex-inline>N, Q \leq 10^5</katex-inline>。</p>
+</blockquote>
+<!--more-->
+<p>这题可以不用维护树的形态而是直接利用线段树维护括号序列直接求出树的直径。</p>
+<p>考虑一个比较暴力的维护方法，给定每个左括号的权值为 <katex-inline>1</katex-inline>，右括号的权值为 <katex-inline>-1</katex-inline>。那么一堆可以匹配的括号的权值和等于 <katex-inline>0</katex-inline>。</p>
+<p>对于一条直径，先考虑一个朴素的情况：</p>
+<pre><code class="plain">((((((((((((((()))))))))))))((((((((()))))))))))
+| |           L            ||       R        | |
+               |     A     ||   B   |</code></pre>
+<p>由 <katex-inline>L</katex-inline> 和 <katex-inline>R</katex-inline> 构成的直径长度，可以由区间 <katex-inline>A</katex-inline> 的和的相反值加上区间 <katex-inline>B</katex-inline> 的和得到。</p>
+<p>如果在其中加入一些分支但并不选择的话，他们对答案的贡献显然为 <katex-inline>0</katex-inline>。</p>
+<p>记 <katex-inline>\displaystyle{s_n = \sum_{i=1}^n} a_i</katex-inline> ，那么题意转化为求 <katex-inline>\displaystyle{\max_{0 \leq i \leq j \leq k \leq n} (s_i + s_k - 2 s_j)}</katex-inline>。考虑放到线段树上，每个线段只处理 <katex-inline>L \leq i \leq j \leq k \leq R</katex-inline> 的情况，这里把 <katex-inline>s_i</katex-inline> 重新定义为 <katex-inline>\displaystyle{s_n = \sum_{i=L}^n a_i}</katex-inline> 显然对答案并没有影响，然后分类讨论。</p>
+<p>定义 <katex-inline>\displaystyle{M = \frac {L + R} 2}</katex-inline>，考虑可能对答案产生贡献的情况：</p>
+<ol>
+<li><katex-inline>L \leq i \leq j \leq k \leq M \Rightarrow</katex-inline> 直接取左孩子的答案</li>
+<li><katex-inline>M &lt; i \leq j \leq k \leq R \Rightarrow</katex-inline> 直接取右孩子的答案</li>
+<li><katex-inline>L \leq i \leq j \leq M &lt; k \leq R</katex-inline> 左边维护 <katex-inline>\displaystyle{\max_{L \leq i \leq j \leq M}} s_i - 2 s_j</katex-inline> 然后和右边的最大值合并</li>
+<li><katex-inline>L \leq i \leq M &lt; j \leq k \leq R</katex-inline> 右边维护 <katex-inline>\displaystyle{\max_{M &lt; j \leq k \leq R}} s_k - 2 s_j</katex-inline> 然后和左边的最大值合并。</li>
+</ol>
+<p>而 <katex-inline>\displaystyle{\max_{L \leq i \leq j \leq M}} s_i - 2 s_j</katex-inline> 和 <katex-inline>\displaystyle{\max_{M &lt; j \leq k \leq R}} s_k - 2 s_j</katex-inline> 可以用类似的方法分配给左右孩子维护。</p>
+<p>这样就巧妙利用了线段树的性质保证了 <katex-inline>i, j, k</katex-inline> 的位置关系。</p>
+<!--more-->
+<p>代码：</p>
+<pre><code class="cpp">// =================================
+//   author: memset0
+//   date: 2019.04.30 14:25:19
+//   website: https://memset0.cn/
+// =================================
+#include &lt;bits/stdc++.h&gt;
+#define ll long long
+#define debug(...) ((void)0)
+#ifndef debug
+#define debug(...) fprintf(stderr,__VA_ARGS__)
+#endif
+namespace ringo {
+template &lt;class T&gt; inline void read(T &amp;x) {
+    x = 0; register char c = getchar(); register bool f = 0;
+    while (!isdigit(c)) f ^= c == '-', c = getchar();
+    while (isdigit(c)) x = x * 10 + c - '0', c = getchar();
+    if (f) x = -x;
+}
+template &lt;class T&gt; inline void print(T x) {
+    if (x &lt; 0) putchar('-'), x = -x;
+    if (x &gt; 9) print(x / 10);
+    putchar('0' + x % 10);
+}
+template &lt;class T&gt; inline void print(T x, char c) { print(x), putchar(c); }
+
+const int N = 2e5 + 10;
+int n, m;
+char s[N];
+
+#define U p[u]
+#define L p[u &lt;&lt; 1]
+#define R p[u &lt;&lt; 1 | 1]
+struct node {
+    int l, r, mid;
+    int sum, ans, max, min, max1, max2;
+    inline void init(int k, int w) {
+        sum = w == '(' ? 1 : -1;
+        max = min = sum;
+        max1 = max2 = -sum;
+        ans = -1e9;
+    }
+} p[N &lt;&lt; 2];
+// a, b, c =&gt; max(s_a + s_c - 2 s_b)
+
+inline void maintain(int u) {
+    U.sum = L.sum + R.sum;
+    U.max = std::max(L.max, L.sum + R.max);
+    U.min = std::min(L.min, L.sum + R.min);
+    U.max1 = std::max(std::max(L.max1, R.max1 - L.sum), L.max - ((R.min + L.sum) &lt;&lt; 1));
+    U.max2 = std::max(std::max(L.max2, R.max2 - L.sum), R.max + L.sum - (L.min &lt;&lt; 1));
+    U.ans = std::max(std::max(L.ans, R.ans), std::max(L.max1 + R.max + L.sum, R.max2 - L.sum + L.max));
+}
+
+void build(int u, int l, int r) {
+    p[u].l = l, p[u].r = r, p[u].mid = (l + r) &gt;&gt; 1;
+    if (l == r) return p[u].init(l, s[l]);
+    build(u &lt;&lt; 1, l, p[u].mid);
+    build(u &lt;&lt; 1 | 1, p[u].mid + 1, r);
+    maintain(u);
+}
+
+void modify(int u, int k, int w) {
+    if (p[u].l == p[u].r) return p[u].init(k, w);
+    modify(k &lt;= p[u].mid ? u &lt;&lt; 1 : u &lt;&lt; 1 | 1, k, w);
+    maintain(u);
+}
+
+void main() {
+    read(n), read(m), scanf("%s", s + 1);
+    build(1, 1, (n - 1) &lt;&lt; 1);
+    print(p[1].ans, '\n');
+    for (int l, r, i = 1; i &lt;= m; i++) {
+        read(l), read(r), std::swap(s[l], s[r]);
+        modify(1, l, s[l]);
+        modify(1, r, s[r]);
+        // for (int i = 1; i &lt;= (n - 1) &lt;&lt; 1; i++)
+        //  putchar(s[i]);
+        // putchar('\n');
+        print(p[1].ans, '\n');
+    }
+}
+
+} signed main() {
+#ifdef MEMSET0_LOCAL_ENVIRONMENT
+    freopen("1.in", "r", stdin);
+#endif
+    return ringo::main(), 0;
+}</code></pre>        </div>
+                <p itemprop="keywords" class="tags"><a href="https://memset0.cn/tag/%E5%B7%A7%E5%A6%99%E7%9A%84%E6%80%9D%E8%B7%AF/">巧妙的思路</a> <a href="https://memset0.cn/tag/%E7%BA%BF%E6%AE%B5%E6%A0%91/">线段树</a> <a href="https://memset0.cn/tag/%E6%8B%AC%E5%8F%B7%E5%BA%8F%E5%88%97/">括号序列</a></p>
+            </article>
+
+    <div id="comments">
+        
+        <div id="respond-post-499" class="respond">
+        <div class="cancel-comment-reply">
+        <a id="cancel-comment-reply-link" href="https://memset0.cn/cf1149c#respond-post-499" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>        </div>
+    
+        <form method="post" action="https://memset0.cn/cf1149c/comment" id="comment-form" role="form">
+                        <div class="submit-area">
+                <input type="text" name="author" id="author" class="text" placeholder="用户名" value="" required />
+                <input type="email" name="mail" id="mail" class="text" placeholder="邮箱" value="" required />
+                <input type="url" name="url" id="url" class="text" placeholder="网址 (选填) " value="" />
+                            <textarea rows="8" cols="50" name="text" id="textarea" class="textarea" placeholder="可以在这里写评论哦 ~" required ></textarea>
+                <button type="submit" class="ripple submit">提交评论</button>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <div class="post-near">
+        <div class="post-near-child post-near-child-left "><a href="https://memset0.cn/cf1149d" title="CF1149D Abandoning Roads">CF1149D Abandoning Roads</a> <br /> 上一篇 &laquo;</div>
+        <div class="post-near-child post-near-child-right"><a href="https://memset0.cn/ywz" title="好看的颜文字收藏夹">好看的颜文字收藏夹</a> <br /> &raquo; 下一篇</div>
+    </div>
+</div><!-- end #main-->
+
+
+<footer id="footer" role="contentinfo">
+
+	&copy; 2017 - 2019 <a href="https://memset0.cn/">memset0 的博客</a>.
+	<br />
+			<a rel="nofollow" href="http://beian.miit.gov.cn"> 浙ICP备19006255号-1 </a>
+		<br />
+	
+			<span id="busuanzi_value_site_pv">......</span> visits ·
+		<span id="busuanzi_value_site_uv">......</span> visitors 
+			·
+				<span id="words_counter">73.80 W</span> words
+	
+</footer><!-- end #footer -->
+
+<div class="site-search">
+	<form id="search" method="post" action="https://memset0.cn/" role="search">
+		<label for="s" class="sr-only">搜索关键字</label>
+		<input type="text" id="s" name="s" class="text" placeholder="在这里输入关键字哦 ~ (回车搜索)" />
+		<!-- <button type="submit" class="submit">搜索</button> -->
+	</form>
+</div>
+	</div>
+
+</div><!-- end #body -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- <style>.MathJax:focus {outline: none;}</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	extensions: ["tex2jax.js"],
+	jax: ["input/TeX","output/HTML-CSS"],
+	"fast-preview": {disabled: true},
+	tex2jax: {inlineMath:[ ["$", "$"] ],displayMath:[ ["$$","$$"] ],processEscapes: true},
+	"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.12.0/highlight.pack.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+
+	<div style="display:none">
+<script> var _hmt = _hmt || []; (function() { 	var hm = document.createElement("script"); 	hm.src = "https://hm.baidu.com/hm.js?d8c0a4185322e94013582201484f9131"; 	var s = document.getElementsByTagName("script")[0];  	s.parentNode.insertBefore(hm, s); })(); </script>	</div>
+
+<link href="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.css" rel="stylesheet">
+<script src="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.js"></script>
+<script>
+var tmp = document.getElementsByTagName('katex-inline');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: false, throwOnError: false})); }
+tmp = document.getElementsByTagName('katex');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: true, throwOnError: false})); }
+</script>
+</body>
+</html>

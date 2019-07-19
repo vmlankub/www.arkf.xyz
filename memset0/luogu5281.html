@@ -1,0 +1,729 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+    <!-- start #optimize -->
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="//secure.gravatar.com" />
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info" />
+    <link rel="dns-prefetch" href="//cdn.bootcss.com" />
+
+    <!-- 关闭百度转码 -->
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <!-- end #optimize -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- css3-mediaqueries-js 用于尝试在上古浏览器支持自适应viewport函数 -->
+    <!--[if lt IE 9]>
+    　　<script src="https://cdn.jsdelivr.net/gh/livingston/css3-mediaqueries-js@master/css3-mediaqueries.min.js"></script>
+    <![endif]-->
+    <title>洛谷5281 [ZJOI2019]Minimax搜索 - memset0 的博客</title>
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/necolas/normalize.css@latest/normalize.min.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/grid.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/style.css">
+    <!-- <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/ripple.css"> -->
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cinzel Decorative:700"> -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+    
+    <!--[if lt IE 9]>
+    <script src="//cdn.jsdelivr.net/gh/aFarkas/html5shiv@latest/dist/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/scottjehl/Respond@latest/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <meta name="description" content="一道非常有意思的（动态）DP 题。讲道理的我考场上是会 70 分的但是由于 T1 傻逼了太久没调出来（报警了）假设不修改的情况下答案为 W ，叶子节点的个数为 m，我们把总共的 2^m - 1 ..." />
+<meta name="generator" content="Typecho 1.1/17.10.30" />
+<meta name="template" content="ringo" />
+<link rel="pingback" href="https://memset0.cn/action/xmlrpc" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://memset0.cn/action/xmlrpc?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://memset0.cn/action/xmlrpc?wlw" />
+<link rel="alternate" type="application/rss+xml" title="洛谷5281 [ZJOI2019]Minimax搜索 &raquo; memset0 的博客 &raquo; RSS 2.0" href="https://memset0.cn/feed/luogu5281" />
+<link rel="alternate" type="application/rdf+xml" title="洛谷5281 [ZJOI2019]Minimax搜索 &raquo; memset0 的博客 &raquo; RSS 1.0" href="https://memset0.cn/feed/rss/luogu5281" />
+<link rel="alternate" type="application/atom+xml" title="洛谷5281 [ZJOI2019]Minimax搜索 &raquo; memset0 的博客 &raquo; ATOM 1.0" href="https://memset0.cn/feed/atom/luogu5281" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-486'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-486'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-486'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _A0E = 'aN'//'aN'
++'5'//'cFe'
++//'P'
+'6'+//'lQ'
+'4a'+'07'//'zq'
++'8'//'sH'
++'7'//'idk'
++//'y'
+'8'+//'moz'
+'moz'+//'N3'
+'279'+//'i'
+'i'+'fb'//'u1'
++'8'//'f'
++'d'//'DV'
++//'I0'
+'1e'+//'1eA'
+'31'+//'ef'
+'067'+//'JnQ'
+'5cb'+'f'//'R2d'
++'a'//'G8t'
++//'Y'
+'64c'+''///*'c1Z'*/'c1Z'
++'7'//'YT'
+, _Ixk = [[0,2],[9,12],[12,13]];
+    
+    for (var i = 0; i < _Ixk.length; i ++) {
+        _A0E = _A0E.substring(0, _Ixk[i][0]) + _A0E.substring(_Ixk[i][1]);
+    }
+
+    return _A0E;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script></head>
+<body>
+
+<!--[if lt IE 8]>
+    <div class="browsehappy" role="dialog">当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>.</div>
+<![endif]-->
+
+<!-- 移动端适配 -->
+<link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/compatible.css">
+
+<!-- 也显示出一遍正常标题来以便适配移动端 -->
+<div style="display:none" class="compatible">
+            <a id="logo" class="site-title">
+                memset0 的博客 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时 那人却已不在灯火阑珊处            </p>
+</div>
+
+<header id="header" class="clearfix" onclick="window.open('https://memset0.cn/','_self')">
+    <div class="container">
+        <div class="site-name">
+                    <a id="logo" class="site-title">
+                memset0's<br />Notebook 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时<br>那人却已不在灯火阑珊处            </p>
+        
+        
+        
+        <!-- <div class="col-mb-12">
+            <nav id="nav-menu" class="clearfix" role="navigation">
+                <a  href="https://memset0.cn/">首页</a>
+                                                <a  href="https://memset0.cn/about" title="关于我">关于我</a>
+                                <a  href="https://memset0.cn/friends" title="友情链接">友情链接</a>
+                                <a  href="https://memset0.cn/archive" title="文章聚合">文章聚合</a>
+                            </nav>
+        </div> -->
+    </div>
+</header><!-- end #header -->
+
+<div id="sidebar" role="complementary">
+        <section class="widget">
+        <ul class="widget-list">
+                                    <li><a href="https://memset0.cn/about" title="关于我">关于我</a></li>
+                        <li><a href="https://memset0.cn/friends" title="友情链接">友情链接</a></li>
+                        <li><a href="https://memset0.cn/archive" title="文章聚合">文章聚合</a></li>
+                    </ul>
+    </section>
+    
+	<section class="widget sidebar-foot">
+        <ul class="widget-list">
+            <li>Theme <a rel="nofollow" target="_blank" href="https://github.com/memset0/typecho-theme-ringo">Ringo</a> by <a  target="_blank" href="https://memset0.cn">memset0</a></li>
+            <li>Proudly powered by <a rel="nofollow" target="_blank" href="http://www.typecho.org">Typecho</a></li>
+        </ul>
+    </section>
+</div><!--end #sidebar -->
+
+<div id="helpbar">
+    <div class="back-to-top">
+        <button id="back2top">↑</button>
+        <script>
+            back2top.onclick = function() {
+                var movement = document.body.scrollTop || document.documentElement.scrollTop;
+                scrollBy(0, -movement);
+            }
+        </script>
+    </div>
+</div><!--end #helpbar -->
+<div id="body">
+    <div class="container">
+
+
+<div class="col-12" id="main" role="main">
+    <article class="post post-atpage" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title post-title-atpage" itemprop="name headline"><a itemprop="url" href="https://memset0.cn/luogu5281">洛谷5281 [ZJOI2019]Minimax搜索</a></h1>
+        <ul class="post-meta post-meta-atpage">
+            <li><time datetime="2019-05-09T11:06:00+00:00" itemprop="datePublished">2019-05-09</time></li>
+            <li><a href="https://memset0.cn/solution/">题解</a></li>
+                    </ul>
+        <div class="post-content" itemprop="articleBody">
+            <!-- created time: 2019-05-04 00:48 -->
+<p>一道非常有意思的（动态）DP 题。</p>
+<p><del>讲道理的我考场上是会 70 分的但是由于 T1 傻逼了太久没调出来（报警了）</del></p>
+<p>假设不修改的情况下答案为 <katex-inline>W</katex-inline> ，叶子节点的个数为 <katex-inline>m</katex-inline>，我们把总共的 <katex-inline>2^m - 1</katex-inline> 种选法分两种情况讨论：</p>
+<ul>
+<li><katex-inline>W</katex-inline> 被选中，这样的情况一共有 <katex-inline>2^{m-1}</katex-inline> 种，可见只要花费 <katex-inline>1</katex-inline> 的代价一定可以使根节点的值发生改变，下面不再讨论；</li>
+<li><katex-inline>W</katex-inline> 未被选中，这样的情况一共有 <katex-inline>2^{m - 1} - 1</katex-inline> 种，我们可以考虑 DP 解决。枚举当前的 <katex-inline>C</katex-inline>，求出所有花费代价 <katex-inline>\leq C</katex-inline> 的方案数，显然如果我们可以求得对于 <katex-inline>C \in [L - 1, R]</katex-inline>，差分后就可得到答案数组。</li>
+</ul>
+<!--more-->
+<p>进一步观察我们可以发现对于标号 <katex-inline>id &lt; W</katex-inline> 的叶子节点，修改为 <katex-inline>id + C</katex-inline> 一定最优，对于标号 <katex-inline>id &gt; W</katex-inline> 的叶子节点，修改为 <katex-inline>id - C</katex-inline> 一定最优。</p>
+<p>假设 <katex-inline>f_i, g_i</katex-inline> 来表示把 <katex-inline>i</katex-inline> 点修改到 大于 / 小于 <katex-inline>W</katex-inline> 的概率，显然对于所有叶子节点：</p>
+<katex>
+f_u, g_u = \left\{
+\begin{aligned}
+    &amp;1, \left\{
+        \begin{aligned}
+            &amp;\frac 12, &amp;(u - c &lt; W) \\
+            &amp;0  &amp;(u - c \geq W)
+        \end{aligned}
+    \right.
+    &amp;(u &gt; W)
+    \\
+    &amp;\left\{
+        \begin{aligned}
+            &amp;\frac 12, &amp;(u + c &gt; W) \\
+            &amp;0  &amp;(u + c \leq W)
+        \end{aligned}
+    \right. , 1
+    &amp;(u &lt; W)\\
+    &amp;0, 0 &amp;(u = W)
+\end{aligned}
+\right.</katex>
+<p>转移的话也比较直接：</p>
+<katex>
+f_u = \left\{
+    \begin{aligned}
+        1 - &amp;\prod_{u \rightarrow v} 1 - f_v &amp;\small\text{(奇数层)}\\
+        &amp;\prod_{u \rightarrow v} f_v         &amp;\small\text{(偶数层)}
+    \end{aligned}
+\right.</katex>
+<katex>
+g_u = \left\{
+    \begin{aligned}
+        &amp;\prod_{u \rightarrow v} g_v         &amp;\small\text{(奇数层)} \\
+        1 - &amp;\prod_{u \rightarrow v} 1 - g_v &amp;\small\text{(偶数层)}
+    \end{aligned}
+\right.</katex>
+<p>根节点的答案为 <katex-inline>\left( 1 - (1-f_1) (1-g_1) \right) \cdot 2^{m-1}</katex-inline>。</p>
+<p>这样可以得到 70 分的好成绩。</p>
+<hr />
+<p>现在考虑正解，由于 <katex-inline>C</katex-inline> 的不断增大，所以每个叶子节点的 <katex-inline>f</katex-inline> 或 <katex-inline>g</katex-inline> 值会由 <katex-inline>0</katex-inline> 改变为 <katex-inline>\frac 12</katex-inline>，显然这样的改变只有 <katex-inline>m-1</katex-inline> 次，可以通过适当的方式来处理，也就是动态 DP。</p>
+<p>但同时还有个问题，就是奇数层和偶数层的转移不一样。观察可以发现：</p>
+<katex>
+\begin{aligned}
+    f_u
+    &amp;= 1 - \prod_{u \rightarrow v} 1 - f_v \\
+    &amp;= 1 - \prod_{u \rightarrow v} (1 - \prod_{v \rightarrow v'} f_{v'})
+\end{aligned}</katex>
+<p>显然我们可以把在奇数层的两个「<katex-inline>1-</katex-inline>」分一个到偶数层。</p>
+<p>如果我们定义 <katex-inline>f'_u</katex-inline> 使得</p>
+<katex>
+f'_u = \left\{\begin{aligned}
+    &amp;1 - f_u &amp;(dep_u \bmod 2 = 0) \\
+    &amp;f_u &amp;(dep_u \bmod 2 = 1)
+\end{aligned}\right.</katex>
+<p>那么转移可以变为</p>
+<katex>
+f'_u = 1 - \prod_{u \rightarrow v} f'_v</katex>
+<p><katex-inline>g \Rightarrow g'</katex-inline> 同理。</p>
+<hr />
+<p>下面回到正题动态 DP 了，显然转化后：</p>
+<katex>
+\begin{aligned}
+f'_u = 1 - \prod_{u \rightarrow v} f'_v = 1 - f'_{son_u} \cdot \prod_{v \neq son_u} f'_v \\
+g'_u = 1 - \prod_{u \rightarrow v} g'_v = 1 - g'_{son_u} \cdot \prod_{v \neq son_u} g'_v 
+\end{aligned}</katex>
+<p>写成矩阵转移的形式</p>
+<katex>
+\left[
+    \begin{matrix}
+        -\prod_{v \neq son_u} f'_v &amp; 0 &amp; 1 \\
+        0 &amp; -\prod_{v \neq son_u} g'_v &amp; 1 \\
+        0 &amp; 0 &amp; 1
+    \end{matrix}
+\right] \times
+\left[
+    \begin{matrix}
+        f'_{son_u} \\
+        g'_{son_u} \\
+        1
+    \end{matrix}
+\right] =
+\left[
+    \begin{matrix}
+        f'_u \\
+        g'_u \\
+        1
+    \end{matrix}
+\right]</katex>
+<p>用全局平衡二叉树维护即可。</p>
+<hr />
+<p>每次写全局平衡二叉树总是在 debug 上浪费大量时间，看来有必要总结一下了。</p>
+<p>经常写错的地方无非两个：</p>
+<ul>
+<li>一个是预处理，也就是未修改前的矩阵维护。我一般是事先算好 DP 值，然后在搞成矩阵这样比较暴力的维护</li>
+<li>另一个是修改操作，一般说需要注意的就是如果这个点是当前链的根，也就是它 father 的轻儿子，一定要把事先的影响先排除，再把新的换上。</li>
+</ul>
+<p>此题中 <katex-inline>\prod_{v \neq son_u} f'_v</katex-inline> 可能为 <katex-inline>0</katex-inline>，也就是说全局平衡二叉树在修改的时候可能会有除以 <katex-inline>0</katex-inline> 的情况。按照和「切树游戏」类似的方法，可以给每个点的轻儿子开一棵线段树，也可以写一个二元组 <katex-inline>(x, y)</katex-inline> 表示 <katex-inline>x \cdot 0^y</katex-inline>。</p>
+<!--more-->
+<p>代码：</p>
+<pre><code class="cpp">// =================================
+//   author: memset0
+//   date: 2019.05.02 13:23:23
+//   website: https://memset0.cn/
+// =================================
+#include &lt;bits/stdc++.h&gt;
+#define FLAG_F 1926
+#define FLAG_G  817
+#define ll long long
+#define debug(...) ((void)0)
+#ifndef debug
+#define debug(...) fprintf(stderr,__VA_ARGS__)
+#endif
+namespace ringo {
+template &lt;class T&gt; inline void read(T &amp;x) {
+    x = 0; register char c = getchar(); register bool f = 0;
+    while (!isdigit(c)) f ^= c == '-', c = getchar();
+    while (isdigit(c)) x = x * 10 + c - '0', c = getchar();
+    if (f) x = -x;
+}
+template &lt;class T&gt; inline void print(T x) {
+    if (x &lt; 0) putchar('-'), x = -x;
+    if (x &gt; 9) print(x / 10);
+    putchar('0' + x % 10);
+}
+template &lt;class T&gt; inline void print(T x, char c) { print(x), putchar(c); }
+template &lt;class T&gt; inline void print(T *a, int l, int r, std::string s = "") {
+    if (s != "") std::cout &lt;&lt; s &lt;&lt; ": ";
+    for (int i = l; i &lt;= r; i++) print(a[i], " \n"[i == r]);
+}
+
+const int N = 2e5 + 10, inf = 1e9, mod = 998244353, half = (mod + 1) &gt;&gt; 1;
+bool is_leaf[N];
+int fa[N], dep[N];
+int n, w, c, m, L, R, LL, RR;
+std::vector&lt;int&gt; todo1[N], todo2[N];
+int tot = 2, hed[N], to[N &lt;&lt; 1], nxt[N &lt;&lt; 1];
+int f[N], g[N], ans[N], sum[N], son[N], siz[N];
+
+inline int dec(int a, int b) { a -= b; return a &lt; 0 ? a + mod : a; }
+inline int inc(int a, int b) { a += b; return a &gt;= mod ? a - mod : a; }
+inline int mul(int a, int b) { return (ll)a * b - (ll)a * b / mod * mod; }
+inline int inv(int x) { return x &lt; 2 ? 1 : mul(mod - mod / x, inv(mod % x)); }
+inline int fpow(int a, int b) { int s = 1; for (; b; b &gt;&gt;= 1, a = mul(a, a)) if (b &amp; 1) s = mul(s, a); return s; }
+
+namespace bst {
+    int rt, top, fa[N], stk[N], ch[N][2], bottom[N];
+
+    struct multinum {
+        int v, z;
+        inline int get() { return z ? 0 : v; }
+        inline void operator*=(int p) { p ? v = mul(v, p) : ++z; }
+        inline void operator/=(int p) { p ? v = mul(v, inv(p)) : --z; }
+        inline void init(int x) { x ? (v = x, z = 0) : (v = 0, z = 1); }
+    } lf[N], lg[N];
+
+    struct matrix {
+        int a[3][3];
+        inline void out() {
+            printf("[%d %d %d] [%d %d %d] [%d %d %d]\n",
+                a[0][0], a[0][1], a[0][2],
+                a[1][0], a[1][1], a[1][2],
+                a[2][0], a[2][1], a[2][2]);
+        }
+    } f[N], g[N], h[N];
+    inline matrix operator*(const matrix &amp;a, const matrix &amp;b) {
+        matrix c; memset(c.a, 0, sizeof(c.a));
+        for (register int i = 0; i &lt; 3; i++)
+            for (register int j = 0; j &lt; 3; j++)
+                for (register int k = 0; k &lt; 3; k++)
+                    c.a[i][j] = (c.a[i][j] + (ll)a.a[i][k] * b.a[k][j]) % mod;
+        return c;
+    }
+
+    inline void get_value(int x, int &amp;F, int &amp;G) {
+        matrix it = f[x] * h[bottom[x]];
+        F = it.a[0][0], G = it.a[1][0];
+    }
+
+    inline void get_value_with_backup(int x, int &amp;F, int &amp;G, const matrix &amp;backup) {
+        matrix it = f[x] * backup;
+        F = it.a[0][0], G = it.a[1][0];
+    }
+
+    inline void maintain(int u) {
+        f[u] = g[u];
+        if (ch[u][0]) f[u] = f[ch[u][0]] * f[u];
+        if (ch[u][1]) f[u] = f[u] * f[ch[u][1]];
+    }   
+
+    int build(int l, int r) {
+        // printf("build %d %d =&gt; ", l, r), print(stk, l, r);
+        int sum = 0, tmp = 0;
+        for (int i = l; i &lt;= r; i++) sum += siz[stk[i]] - siz[son[stk[i]]];
+        for (int i = l; i &lt;= r; i++) {
+            tmp += siz[stk[i]] - siz[son[stk[i]]];
+            if ((tmp &lt;&lt; 1) &gt;= sum) {
+                fa[ch[stk[i]][0] = build(l, i - 1)] = stk[i];
+                fa[ch[stk[i]][1] = build(i + 1, r)] = stk[i];
+                return maintain(stk[i]), stk[i];
+            }
+        }
+        return 0;
+    }
+
+    inline int build(int u) {
+        top = 0;
+        for (int x = u; x; x = son[x]) stk[++top] = x;
+        h[stk[top]].a[0][0] = ringo::f[stk[top]];
+        h[stk[top]].a[1][0] = ringo::g[stk[top]];
+        h[stk[top]].a[2][0] = 1;
+        for (int i = 1; i &lt;= top; i++) {
+            bottom[stk[i]] = stk[top];
+            if (i == top) {
+                g[stk[i]].a[0][0] = 1;
+                g[stk[i]].a[1][1] = 1;
+                g[stk[i]].a[2][2] = 1;
+            } else {
+                lf[stk[i]].init(mod - 1);
+                lg[stk[i]].init(mod - 1);
+                for (int j = hed[stk[i]], v; v = to[j], j; j = nxt[j])
+                    if (v != ringo::fa[stk[i]] &amp;&amp; v != ringo::son[stk[i]]) {
+                        // printf("%d &lt;- %d : %d %d\n", u, v, ringo::f[v], ringo::g[v]);
+                        lf[stk[i]] *= ringo::f[v];
+                        lg[stk[i]] *= ringo::g[v];
+                    }
+                // printf("&gt;&gt; %d : [%d %d] [%d %d]\n", stk[i], lf[stk[i]].v, lf[stk[i]].z, lg[stk[i]].v, lg[stk[i]].z);
+                g[stk[i]].a[0][0] = lf[stk[i]].get();
+                g[stk[i]].a[1][1] = lg[stk[i]].get();
+                g[stk[i]].a[0][2] = 1;
+                g[stk[i]].a[1][2] = 1;
+                g[stk[i]].a[2][2] = 1;
+            }
+        }
+        // printf("==&gt; ");
+        // for (int i = 1; i &lt;= top; i++) print(stk[i], " \n"[i == top]);
+        return build(1, top);
+    }
+
+    inline void modify(int s, int flag) {
+        // printf("modify %d %s\n", s, flag == FLAG_F ? "F" : "G");
+        matrix backup = h[s];
+        for (int x = s, now_f, now_g; x; x = fa[x]) {
+            // printf("  &gt;&gt; %d : %d\n", x, ch[fa[x]][0] != x &amp;&amp; ch[fa[x]][1] != x &amp;&amp; fa[x]);
+            if (ch[fa[x]][0] != x &amp;&amp; ch[fa[x]][1] != x &amp;&amp; fa[x]) {
+                if (bottom[x] == s) get_value_with_backup(x, now_f, now_g, backup);
+                else get_value(x, now_f, now_g);
+                // printf("%d &lt;- %d : [-] %d %d\n", fa[x], x, now_f, now_g);
+                lf[fa[x]] /= now_f;
+                lg[fa[x]] /= now_g;
+                // printf("&gt;&gt;&gt;&gt; [%d %d] [%d %d]\n", lf[fa[x]].v, lf[fa[x]].z, lg[fa[x]].v, lg[fa[x]].z);
+            }
+            if (x == s) {
+                if (flag == FLAG_F) h[x].a[0][0] = half;
+                if (flag == FLAG_G) h[x].a[1][0] = half;
+            } else {
+                g[x].a[0][0] = lf[x].get();
+                g[x].a[1][1] = lg[x].get();
+            }
+            maintain(x);
+            if (ch[fa[x]][0] != x &amp;&amp; ch[fa[x]][1] != x &amp;&amp; fa[x]) {
+                get_value(x, now_f, now_g);
+                // printf("%d &lt;- %d : [+] %d %d\n", fa[x], x, now_f, now_g);
+                lf[fa[x]] *= now_f;
+                lg[fa[x]] *= now_g;
+                // printf("&gt;&gt;&gt;&gt; [%d %d] [%d %d]\n", lf[fa[x]].v, lf[fa[x]].z, lg[fa[x]].v, lg[fa[x]].z);
+            }
+        }
+    }
+
+}
+
+int init_dfs(int u) {
+    siz[u] = 1;
+    int res = dep[u] &amp; 1 ? -inf : inf;
+    for (int i = hed[u], v; v = to[i], i; i = nxt[i])
+        if (v != fa[u]) {
+            fa[v] = u, dep[v] = dep[u] + 1;
+            res = dep[u] &amp; 1 ? std::max(res, init_dfs(v)) : std::min(res, init_dfs(v));
+            siz[u] += siz[v];
+            if (siz[v] &gt; siz[son[u]]) son[u] = v;
+        }
+    if (res == inf || res == -inf) {
+        m += is_leaf[u] = true;
+        return u;
+    }
+    return res;
+}
+
+int build(int x) {
+    for (int u = x; u; u = son[u])
+        for (int i = hed[u], v; v = to[i], i; i = nxt[i])
+            if (v != fa[u] &amp;&amp; v != son[u])
+                bst::fa[build(v)] = u;
+    return bst::build(x);
+}
+
+inline void solve(int u) {
+    if (is_leaf[u]) return;
+    f[u] = g[u] = 1;
+    for (int i = hed[u], v; v = to[i], i; i = nxt[i])
+        if (v != fa[u]) {
+            solve(v);
+            f[u] = mul(f[u], f[v]);
+            g[u] = mul(g[u], g[v]);
+        }
+    f[u] = dec(1, f[u]);
+    g[u] = dec(1, g[u]);
+}
+
+void main() {
+    read(n), read(L), read(R);
+    LL = std::max(L - 1, 1), RR = std::max(R, n - 1);
+    for (int u, v, i = 1; i &lt; n; i++) {
+        read(u), read(v);
+        nxt[tot] = hed[u], to[tot] = v, hed[u] = tot++;
+        nxt[tot] = hed[v], to[tot] = u, hed[v] = tot++;
+    }
+
+    dep[1] = 1, w = init_dfs(1);
+    for (int c, u = 1; u &lt;= n; u++) if (is_leaf[u]) {
+        if (u &gt; w) {
+            c = u - w + 1;
+            f[u] = 1, g[u] = 0;
+            if (LL &lt;= c &amp;&amp; c &lt;= RR) todo1[c].push_back(u);
+            else if (c &lt; LL) g[u] = half;
+        } else if (u &lt; w) {
+            c = w - u + 1;
+            g[u] = 1, f[u] = 0;
+            if (LL &lt;= c &amp;&amp; c &lt;= RR) todo2[c].push_back(u);
+            else if (c &lt; LL) f[u] = half;
+        } else if (u == w) {
+            f[u] = g[u] = 0;
+        }
+        (dep[u] &amp; 1) ? g[u] = dec(1, g[u]) : f[u] = dec(1, f[u]);
+    }
+    solve(1);
+    bst::rt = build(1);
+    bst::get_value(bst::rt, f[1], g[1]);
+    // for (int i = 1; i &lt;= n; i++) {
+    //  printf("F %d ", i), bst::f[i].out();
+    //  printf("G %d ", i), bst::g[i].out();
+    //  printf("H %d ", i), bst::h[i].out();
+    // }
+    // for (int i = 1; i &lt;= n; i++) printf("[%d %d]%c", bst::lf[i].v, bst::lf[i].z, " \n"[i == n]);
+    // for (int i = 1; i &lt;= n; i++) printf("[%d %d]%c", bst::lg[i].v, bst::lg[i].z, " \n"[i == n]);
+    for (int F, G, i = std::max(L - 1, 1); i &lt;= std::min(R, n - 1); i++) {
+        for (auto u : todo1[i]) bst::modify(u, FLAG_G);
+        for (auto u : todo2[i]) bst::modify(u, FLAG_F);
+        bst::get_value(bst::rt, F, G);
+        sum[i] = mul(dec(1, mul(dec(1, F), G)), fpow(2, m - 1));
+        // printf("%d =&gt; %d : %d %d\n", i, sum[i], F, G);
+        // for (int i = 1, F, G; i &lt;= n; i++) bst::get_value(i, F, G), print(F, " \n"[i == n]);
+        // for (int i = 1, F, G; i &lt;= n; i++) bst::get_value(i, F, G), print(G, " \n"[i == n]);
+    }
+
+    for (int i = L; i &lt;= R; i++) ans[i] = dec(sum[i], sum[i - 1]);
+    ans[1] = inc(sum[1], fpow(2, m - 1));
+    ans[n] = dec(dec(fpow(2, m - 1), 1), sum[n - 1]);
+    print(ans, L, R);
+    // print(ans, 1, n, "ans"), print(sum, 1, n, "sum");
+}
+
+} signed main() {
+#ifdef MEMSET0_LOCAL_ENVIRONMENT
+    freopen("1.in", "r", stdin);
+    // freopen("1.out", "w", stdout);
+#endif
+    return ringo::main(), 0;
+}</code></pre>        </div>
+                <p itemprop="keywords" class="tags"></p>
+            </article>
+
+    <div id="comments">
+        
+        <div id="respond-post-486" class="respond">
+        <div class="cancel-comment-reply">
+        <a id="cancel-comment-reply-link" href="https://memset0.cn/luogu5281#respond-post-486" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>        </div>
+    
+        <form method="post" action="https://memset0.cn/luogu5281/comment" id="comment-form" role="form">
+                        <div class="submit-area">
+                <input type="text" name="author" id="author" class="text" placeholder="用户名" value="" required />
+                <input type="email" name="mail" id="mail" class="text" placeholder="邮箱" value="" required />
+                <input type="url" name="url" id="url" class="text" placeholder="网址 (选填) " value="" />
+                            <textarea rows="8" cols="50" name="text" id="textarea" class="textarea" placeholder="可以在这里写评论哦 ~" required ></textarea>
+                <button type="submit" class="ripple submit">提交评论</button>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <div class="post-near">
+        <div class="post-near-child post-near-child-left "><a href="https://memset0.cn/cf809e" title="CF809E Surprise me!">CF809E Surprise me!</a> <br /> 上一篇 &laquo;</div>
+        <div class="post-near-child post-near-child-right"><a href="https://memset0.cn/cf908h" title="CF908H New Year and Boolean Bridges">CF908H New Year and Boolean Bridges</a> <br /> &raquo; 下一篇</div>
+    </div>
+</div><!-- end #main-->
+
+
+<footer id="footer" role="contentinfo">
+
+	&copy; 2017 - 2019 <a href="https://memset0.cn/">memset0 的博客</a>.
+	<br />
+			<a rel="nofollow" href="http://beian.miit.gov.cn"> 浙ICP备19006255号-1 </a>
+		<br />
+	
+			<span id="busuanzi_value_site_pv">......</span> visits ·
+		<span id="busuanzi_value_site_uv">......</span> visitors 
+			·
+				<span id="words_counter">73.80 W</span> words
+	
+</footer><!-- end #footer -->
+
+<div class="site-search">
+	<form id="search" method="post" action="https://memset0.cn/" role="search">
+		<label for="s" class="sr-only">搜索关键字</label>
+		<input type="text" id="s" name="s" class="text" placeholder="在这里输入关键字哦 ~ (回车搜索)" />
+		<!-- <button type="submit" class="submit">搜索</button> -->
+	</form>
+</div>
+	</div>
+
+</div><!-- end #body -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- <style>.MathJax:focus {outline: none;}</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	extensions: ["tex2jax.js"],
+	jax: ["input/TeX","output/HTML-CSS"],
+	"fast-preview": {disabled: true},
+	tex2jax: {inlineMath:[ ["$", "$"] ],displayMath:[ ["$$","$$"] ],processEscapes: true},
+	"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.12.0/highlight.pack.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+
+	<div style="display:none">
+<script> var _hmt = _hmt || []; (function() { 	var hm = document.createElement("script"); 	hm.src = "https://hm.baidu.com/hm.js?d8c0a4185322e94013582201484f9131"; 	var s = document.getElementsByTagName("script")[0];  	s.parentNode.insertBefore(hm, s); })(); </script>	</div>
+
+<link href="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.css" rel="stylesheet">
+<script src="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.js"></script>
+<script>
+var tmp = document.getElementsByTagName('katex-inline');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: false, throwOnError: false})); }
+tmp = document.getElementsByTagName('katex');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: true, throwOnError: false})); }
+</script>
+</body>
+</html>

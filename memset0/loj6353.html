@@ -1,0 +1,441 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+    <!-- start #optimize -->
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="//secure.gravatar.com" />
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info" />
+    <link rel="dns-prefetch" href="//cdn.bootcss.com" />
+
+    <!-- 关闭百度转码 -->
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <!-- end #optimize -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- css3-mediaqueries-js 用于尝试在上古浏览器支持自适应viewport函数 -->
+    <!--[if lt IE 9]>
+    　　<script src="https://cdn.jsdelivr.net/gh/livingston/css3-mediaqueries-js@master/css3-mediaqueries.min.js"></script>
+    <![endif]-->
+    <title>LOJ6353 「CodePlus 2018 4 月赛」组合数问题 2 - memset0 的博客</title>
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/necolas/normalize.css@latest/normalize.min.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/grid.css">
+    <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/style.css">
+    <!-- <link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/ripple.css"> -->
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cinzel Decorative:700"> -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+    
+    <!--[if lt IE 9]>
+    <script src="//cdn.jsdelivr.net/gh/aFarkas/html5shiv@latest/dist/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/scottjehl/Respond@latest/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <meta name="description" content="要求给出 k 不同的组合数使他们的和最大，要求对于其中的每个组合数 \displaystyle \binom n m 满足 0 \leq n \leq m \leq N 。定义两个组合数 \di..." />
+<meta name="keywords" content="巧妙的思路,对数" />
+<meta name="generator" content="Typecho 1.1/17.10.30" />
+<meta name="template" content="ringo" />
+<link rel="pingback" href="https://memset0.cn/action/xmlrpc" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://memset0.cn/action/xmlrpc?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://memset0.cn/action/xmlrpc?wlw" />
+<link rel="alternate" type="application/rss+xml" title="LOJ6353 「CodePlus 2018 4 月赛」组合数问题 2 &raquo; memset0 的博客 &raquo; RSS 2.0" href="https://memset0.cn/feed/loj6353" />
+<link rel="alternate" type="application/rdf+xml" title="LOJ6353 「CodePlus 2018 4 月赛」组合数问题 2 &raquo; memset0 的博客 &raquo; RSS 1.0" href="https://memset0.cn/feed/rss/loj6353" />
+<link rel="alternate" type="application/atom+xml" title="LOJ6353 「CodePlus 2018 4 月赛」组合数问题 2 &raquo; memset0 的博客 &raquo; ATOM 1.0" href="https://memset0.cn/feed/atom/loj6353" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-573'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-573'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-573'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _QVh42uZ = //'l'
+'l'+'9d'//'vy'
++//'2'
+'b8'+//'4'
+'f4'+'3'//'bn'
++'88a'//'XH'
++'8e'//'6R5'
++//'Zl'
+'67'+'DH'//'DH'
++''///*'93'*/'93'
++//'3'
+'3a1'+//'pMr'
+'3'+'05'//'4QR'
++//'mTs'
+'b0'+'0'//'Uz'
++'1a'//'a'
++''///*'m'*/'m'
++'095'//'m'
++/* 'ieC'//'ieC' */''+'53f'//'ORc'
++//'ey'
+'5', _naPxk = [[0,1],[14,16]];
+    
+    for (var i = 0; i < _naPxk.length; i ++) {
+        _QVh42uZ = _QVh42uZ.substring(0, _naPxk[i][0]) + _QVh42uZ.substring(_naPxk[i][1]);
+    }
+
+    return _QVh42uZ;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script></head>
+<body>
+
+<!--[if lt IE 8]>
+    <div class="browsehappy" role="dialog">当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>.</div>
+<![endif]-->
+
+<!-- 移动端适配 -->
+<link rel="stylesheet" href="https://memset0.cn/usr/themes/ringo/compatible.css">
+
+<!-- 也显示出一遍正常标题来以便适配移动端 -->
+<div style="display:none" class="compatible">
+            <a id="logo" class="site-title">
+                memset0 的博客 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时 那人却已不在灯火阑珊处            </p>
+</div>
+
+<header id="header" class="clearfix" onclick="window.open('https://memset0.cn/','_self')">
+    <div class="container">
+        <div class="site-name">
+                    <a id="logo" class="site-title">
+                memset0's<br />Notebook 
+            </a>
+            <p class="description site-description">
+                方知蓦然回首之时<br>那人却已不在灯火阑珊处            </p>
+        
+        
+        
+        <!-- <div class="col-mb-12">
+            <nav id="nav-menu" class="clearfix" role="navigation">
+                <a  href="https://memset0.cn/">首页</a>
+                                                <a  href="https://memset0.cn/about" title="关于我">关于我</a>
+                                <a  href="https://memset0.cn/friends" title="友情链接">友情链接</a>
+                                <a  href="https://memset0.cn/archive" title="文章聚合">文章聚合</a>
+                            </nav>
+        </div> -->
+    </div>
+</header><!-- end #header -->
+
+<div id="sidebar" role="complementary">
+        <section class="widget">
+        <ul class="widget-list">
+                                    <li><a href="https://memset0.cn/about" title="关于我">关于我</a></li>
+                        <li><a href="https://memset0.cn/friends" title="友情链接">友情链接</a></li>
+                        <li><a href="https://memset0.cn/archive" title="文章聚合">文章聚合</a></li>
+                    </ul>
+    </section>
+    
+	<section class="widget sidebar-foot">
+        <ul class="widget-list">
+            <li>Theme <a rel="nofollow" target="_blank" href="https://github.com/memset0/typecho-theme-ringo">Ringo</a> by <a  target="_blank" href="https://memset0.cn">memset0</a></li>
+            <li>Proudly powered by <a rel="nofollow" target="_blank" href="http://www.typecho.org">Typecho</a></li>
+        </ul>
+    </section>
+</div><!--end #sidebar -->
+
+<div id="helpbar">
+    <div class="back-to-top">
+        <button id="back2top">↑</button>
+        <script>
+            back2top.onclick = function() {
+                var movement = document.body.scrollTop || document.documentElement.scrollTop;
+                scrollBy(0, -movement);
+            }
+        </script>
+    </div>
+</div><!--end #helpbar -->
+<div id="body">
+    <div class="container">
+
+
+<div class="col-12" id="main" role="main">
+    <article class="post post-atpage" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title post-title-atpage" itemprop="name headline"><a itemprop="url" href="https://memset0.cn/loj6353">LOJ6353 「CodePlus 2018 4 月赛」组合数问题 2</a></h1>
+        <ul class="post-meta post-meta-atpage">
+            <li><time datetime="2019-05-23T10:58:00+00:00" itemprop="datePublished">2019-05-23</time></li>
+            <li><a href="https://memset0.cn/solution/">题解</a></li>
+                    </ul>
+        <div class="post-content" itemprop="articleBody">
+            <blockquote>
+<p>要求给出 <katex-inline>k</katex-inline> 不同的组合数使他们的和最大，要求对于其中的每个组合数 <katex-inline>\displaystyle \binom n m</katex-inline> 满足 <katex-inline>0 \leq n \leq m \leq N</katex-inline> 。定义两个组合数 <katex-inline>\displaystyle \binom {n_1} {m_1}</katex-inline> 和 <katex-inline>\binom {n_2} {m_2}</katex-inline> 不同当且仅当 <katex-inline>n_1 \neq n_2 \text{ or } m_1 \neq m_2</katex-inline>。</p>
+</blockquote>
+<!--more-->
+<p>考虑一个类似「超级钢琴」/「异或粽子」的思路：对于所有 <katex-inline>x \in [1, n]</katex-inline> 我们开始把 <katex-inline>\displaystyle \binom {x} {\lfloor \frac x 2 \rfloor}</katex-inline> 都存入优先队列，每次取出其中最大的 <katex-inline>\displaystyle \binom x y</katex-inline>，加入答案后放回 <katex-inline>\displaystyle \binom x {y-1}</katex-inline> 或 <katex-inline>\displaystyle \binom x {y+1}</katex-inline> 即可。</p>
+<p>于是发现我们解决问题的瓶颈在于如何比较两个很大的组合数的大小，非常妙的地方在于此处可以用对数解决。</p>
+<katex>
+\begin{aligned}
+\log \binom n m
+&amp;= \log \frac {n!} {m! \times (n-m)!} \\
+&amp;= \log (n!) - \log (m!) - \log \left( (n-m)! \right) \\
+&amp;= \left( \sum_{i=1}^n \log(i) \right) - \left( \sum_{i=1}^m \log(i) \right) - \left( \sum_{i=1}^{n-m} \log(i) \right) 
+\end{aligned}</katex>
+<p>发现我们可以用 <code>double</code> 来存储，并且我们可以预处理 <katex-inline>\sum_{i=1}^k \log(i)</katex-inline> 的前缀和，这样就能 <katex-inline>\mathcal O(1)</katex-inline> 比较啦 ...</p>
+<p>然后就是个傻逼题了，时间复杂度 <katex-inline>\mathcal O(n \log n)</katex-inline>。</p>
+<!--more-->
+<p>代码：</p>
+<pre><code class="cpp">// =================================
+//   author: memset0
+//   date: 2019.05.22 19:24:13
+//   website: https://memset0.cn/
+// =================================
+#include &lt;bits/stdc++.h&gt;
+#define ll long long
+#define debug(...) ((void)0)
+#ifndef debug
+#define debug(...) fprintf(stderr,__VA_ARGS__)
+#endif
+namespace ringo {
+template &lt;class T&gt; inline void read(T &amp;x) {
+    x = 0; char c = getchar(); bool f = 0;
+    while (!isdigit(c)) f ^= c == '-', c = getchar();
+    while (isdigit(c)) x = x * 10 + c - '0', c = getchar();
+    if (f) x = -x;
+}
+template &lt;class T&gt; inline void print(T x) {
+    if (x &lt; 0) putchar('-'), x = -x;
+    if (x &gt; 9) print(x / 10);
+    putchar('0' + x % 10);
+}
+template &lt;class T&gt; inline void print(T x, char c) { print(x), putchar(c); }
+template &lt;class T&gt; inline void print(T a, int l, int r, std::string s = "") {
+    if (s != "") std::cout &lt;&lt; s &lt;&lt; ": ";
+    for (int i = l; i &lt;= r; i++) print(a[i], " \n"[i == r]);
+}
+
+const int N = 1e6 + 10, mod = 1e9 + 7;
+int n, m, ans, fac[N], ifac[N];
+double s[N];
+
+inline int dec(int a, int b) { a -= b; return a &lt; 0 ? a + mod : a; }
+inline int inc(int a, int b) { a += b; return a &gt;= mod ? a - mod : a; }
+inline int mul(int a, int b) { return (ll)a * b - (ll)a * b / mod * mod; }
+inline int inv(int x) { return x &lt; 2 ? 1 : mul(mod - mod / x, inv(mod % x)); }
+
+struct info {
+    int n, m, val;
+    double key;
+    inline info() {}
+    inline info(int _n, int _m) {
+        n = _n, m = _m;
+        key = s[n] - s[m] - s[n - m];
+        val = mul(fac[n], mul(ifac[m], ifac[n - m]));
+    }
+    inline bool operator&lt;(const info &amp;other) const {
+        return key &lt; other.key;
+    }
+} u;
+std::priority_queue&lt;info&gt; q;
+
+void main() {
+    read(n), read(m);
+    fac[0] = fac[1] = ifac[0] = ifac[1] = 1;
+    for (int i = 2; i &lt;= n; i++) fac[i] = mul(fac[i - 1], i);
+    for (int i = 2; i &lt;= n; i++) ifac[i] = mul(mod - mod / i, ifac[mod % i]);
+    for (int i = 2; i &lt;= n; i++) ifac[i] = mul(ifac[i - 1], ifac[i]);
+    for (int i = 1; i &lt;= n; i++) s[i] = s[i - 1] + log(i);
+    for (int i = 1; i &lt;= n; i++) q.push(info(i, i &gt;&gt; 1));
+    while (m) {
+        u = q.top(), q.pop();
+        --m, ans = inc(ans, u.val);
+        // printf("&gt;&gt; %d %d =&gt; %d %.2lf\n", u.n, u.m, u.val, u.key);
+        if (m &amp;&amp; u.m != u.n - u.m) --m, ans = inc(ans, u.val);
+        if (u.m - 1 &gt;= 0) q.push(info(u.n, u.m - 1));
+    }
+    print(ans, '\n');
+}
+
+} signed main() {
+#ifdef MEMSET0_LOCAL_ENVIRONMENT
+    freopen("1.in", "r", stdin);
+#endif
+    return ringo::main(), 0;
+}</code></pre>        </div>
+                <p itemprop="keywords" class="tags"><a href="https://memset0.cn/tag/%E5%B7%A7%E5%A6%99%E7%9A%84%E6%80%9D%E8%B7%AF/">巧妙的思路</a> <a href="https://memset0.cn/tag/%E5%AF%B9%E6%95%B0/">对数</a></p>
+            </article>
+
+    <div id="comments">
+        
+        <div id="respond-post-573" class="respond">
+        <div class="cancel-comment-reply">
+        <a id="cancel-comment-reply-link" href="https://memset0.cn/loj6353#respond-post-573" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>        </div>
+    
+        <form method="post" action="https://memset0.cn/loj6353/comment" id="comment-form" role="form">
+                        <div class="submit-area">
+                <input type="text" name="author" id="author" class="text" placeholder="用户名" value="" required />
+                <input type="email" name="mail" id="mail" class="text" placeholder="邮箱" value="" required />
+                <input type="url" name="url" id="url" class="text" placeholder="网址 (选填) " value="" />
+                            <textarea rows="8" cols="50" name="text" id="textarea" class="textarea" placeholder="可以在这里写评论哦 ~" required ></textarea>
+                <button type="submit" class="ripple submit">提交评论</button>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <div class="post-near">
+        <div class="post-near-child post-near-child-left "><a href="https://memset0.cn/loj6389" title="LOJ6389 「THUPC2018」好图计数 / Count">LOJ6389 「THUPC2018」好图计数 / Count</a> <br /> 上一篇 &laquo;</div>
+        <div class="post-near-child post-near-child-right"><a href="https://memset0.cn/luogu5363-1" title="洛谷5363 [SDOI2019]移动金币">洛谷5363 [SDOI2019]移动金币</a> <br /> &raquo; 下一篇</div>
+    </div>
+</div><!-- end #main-->
+
+
+<footer id="footer" role="contentinfo">
+
+	&copy; 2017 - 2019 <a href="https://memset0.cn/">memset0 的博客</a>.
+	<br />
+			<a rel="nofollow" href="http://beian.miit.gov.cn"> 浙ICP备19006255号-1 </a>
+		<br />
+	
+			<span id="busuanzi_value_site_pv">......</span> visits ·
+		<span id="busuanzi_value_site_uv">......</span> visitors 
+			·
+				<span id="words_counter">73.80 W</span> words
+	
+</footer><!-- end #footer -->
+
+<div class="site-search">
+	<form id="search" method="post" action="https://memset0.cn/" role="search">
+		<label for="s" class="sr-only">搜索关键字</label>
+		<input type="text" id="s" name="s" class="text" placeholder="在这里输入关键字哦 ~ (回车搜索)" />
+		<!-- <button type="submit" class="submit">搜索</button> -->
+	</form>
+</div>
+	</div>
+
+</div><!-- end #body -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- <style>.MathJax:focus {outline: none;}</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	extensions: ["tex2jax.js"],
+	jax: ["input/TeX","output/HTML-CSS"],
+	"fast-preview": {disabled: true},
+	tex2jax: {inlineMath:[ ["$", "$"] ],displayMath:[ ["$$","$$"] ],processEscapes: true},
+	"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.12.0/highlight.pack.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+
+	<div style="display:none">
+<script> var _hmt = _hmt || []; (function() { 	var hm = document.createElement("script"); 	hm.src = "https://hm.baidu.com/hm.js?d8c0a4185322e94013582201484f9131"; 	var s = document.getElementsByTagName("script")[0];  	s.parentNode.insertBefore(hm, s); })(); </script>	</div>
+
+<link href="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.css" rel="stylesheet">
+<script src="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.js"></script>
+<script>
+var tmp = document.getElementsByTagName('katex-inline');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: false, throwOnError: false})); }
+tmp = document.getElementsByTagName('katex');
+for (var i = 0; i < tmp.length; i++) { var t = tmp[i].innerHTML, e; console.log(katex.render(tmp[i].innerText, tmp[i], {displayMode: true, throwOnError: false})); }
+</script>
+</body>
+</html>
