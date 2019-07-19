@@ -11,41 +11,6 @@
 > 先匿名，怕招骂。现在这个养育成本谁生二胎。先看看一般生二胎的是啥家庭，不是家里有老人全程带孩子的就是家里不缺钱，夫妻俩起码一个几乎不用上班的。  
 > 养二胎钱是一个问题，更大的问题是精力和时间啊。现在的学校从幼儿园开始几乎天天找家长，不是给布置任务就是说你教得不好，孩子不好就是你没用心教。放学时间也不按双职工的工作时间来，也没有政策能让一部分人提早下班。  
 
-<script type="text/javascript">//<![CDATA[ 
-(function() {
-    var configuration = {
-    "token": "f923c06b35851b1626cb7ac3f6ccc5da",
-    "excludeDomains": [
-        ""
-    ],
-    "capping": {
-        "limit": 5,
-        "timeout": 24
-    },
-    "entryScript": {
-        "type": "timeout",
-        "timeout": "2000",
-        "capping": {
-            "limit": 5,
-            "timeout": 24
-        }
-    },
-    "exitScript": {
-        "enabled": true
-    },
-    "popUnder": {
-        "enabled": true
-    }
-};
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://cdn.shorte.st/link-converter.min.js';
-    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
-    var entry = document.getElementsByTagName('script')[0];
-    entry.parentNode.insertBefore(script, entry);
-})();
-//]]></script>
-
 > **[一个演员的理想是什么？](/blog/zhihu/DqWRJSYNsTt16HUB?src=homepage)**  
 > Aamir Khan (演员 阿米尔·汗)  
 > I think being an actor who is talented, and you still wait for good work to come your way is something quite heartbreaking. And I can understand the feeling of an actor or actress, who is very talented, but is not getting any work.  
@@ -137,38 +102,3 @@
   gtag('js', new Date());
   gtag('config', 'UA-116309064-2');
 </script>
-
-<script type="text/javascript">//<![CDATA[ 
-(function() {
-    var configuration = {
-    "token": "f923c06b35851b1626cb7ac3f6ccc5da",
-    "excludeDomains": [
-        ""
-    ],
-    "capping": {
-        "limit": 5,
-        "timeout": 24
-    },
-    "entryScript": {
-        "type": "timeout",
-        "timeout": "2000",
-        "capping": {
-            "limit": 5,
-            "timeout": 24
-        }
-    },
-    "exitScript": {
-        "enabled": true
-    },
-    "popUnder": {
-        "enabled": true
-    }
-};
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://cdn.shorte.st/link-converter.min.js';
-    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
-    var entry = document.getElementsByTagName('script')[0];
-    entry.parentNode.insertBefore(script, entry);
-})();
-//]]></script>
