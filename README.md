@@ -47,6 +47,14 @@
 > Cloudflare是一间美国的跨国IT企业，总部位于旧金山，在伦敦和英美外亦设有办事处。  
 > Cloudflare以向客户提供网站安全管理、性能优化及相关的技术支持为主要业务。通过基于反向代理的内容分发网络（Content Delivery Network,CDN）及分布式域名解析服务（Distributed Domain Name Server），Cloudflare可以帮助受保护站点抵御包括拒绝服务攻击在内的大多数网络攻击，确保该网站长期在线，同时提升网站的性能、加载速度以改善访客体验。  
 
+> ## [A Dark Room](https://room.arkf.xyz/index.html?lang=en)
+> ### 微简介   
+> A minimalist text adventure  
+> ## [小黑屋](https://room.arkf.xyz/index.html?lang=zh_cn)
+> ### 微简介   
+> A minimalist text adventure  
+> ## [ONE](https://one.arkf.xyz/)
+
 -----------------------------
 
 > ## 在线工具箱
@@ -56,6 +64,8 @@
 > * [下载 Chrome](/chrome-download/?src=homepage)
 > * [Ark Blog::Link](https://link.arkf.xyz/?src=homepage)
 > * [Ark Blog::Redirecting…](http://evassmat.com/NKUa)
+> * [ONE](https://one.arkf.xyz/)
+> * [ROOM](https://room.arkf.xyz/)
 
 -----------------------------
 
