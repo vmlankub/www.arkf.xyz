@@ -54,6 +54,7 @@
 > ### 微简介   
 > A minimalist text adventure  
 > ## [ONE](https://one.arkf.xyz/)
+> ## [膜拜Siyuan](https://siyuan.arkf.xyz/mosiyuan/index.html)
 
 -----------------------------
 
@@ -66,6 +67,7 @@
 > * [Ark Blog::Redirecting…](http://evassmat.com/NKUa)
 > * [ONE](https://one.arkf.xyz/)
 > * [ROOM](https://room.arkf.xyz/)
+> * [Siyuan](https://siyuan.arkf.xyz/)
 
 -----------------------------
 
