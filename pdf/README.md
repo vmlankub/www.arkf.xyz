@@ -1,44 +1,44 @@
 # PDF List
 > 使用 Ctrl+F 来查找
 
-* [Problem - 1100B - Codeforces](Problem%20-%201100B%20-%20Codeforces.pdf)
-* [Problem - 1100C - Codeforces](Problem%20-%201100C%20-%20Codeforces.pdf)
-* [Problem - 1100D - Codeforces](Problem%20-%201100D%20-%20Codeforces.pdf)
-* [Problem - 1100E - Codeforces](Problem%20-%201100E%20-%20Codeforces.pdf)
-* [BZOJ2410 Nim游戏 - memset0 的博客](BZOJ2410%20Nim%E6%B8%B8%E6%88%8F%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
-* [BZOJ4179 B - memset0 的博客](BZOJ4179%20B%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
+* [Problem - 1100B - Codeforces.pdf](Problem%20-%201100B%20-%20Codeforces.pdf)
+* [Problem - 1100C - Codeforces.pdf](Problem%20-%201100C%20-%20Codeforces.pdf)
+* [Problem - 1100D - Codeforces.pdf](Problem%20-%201100D%20-%20Codeforces.pdf)
+* [Problem - 1100E - Codeforces.pdf](Problem%20-%201100E%20-%20Codeforces.pdf)
+* [BZOJ2410 Nim游戏 - memset0 的博客.pdf](BZOJ2410%20Nim%E6%B8%B8%E6%88%8F%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
+* [BZOJ4179 B - memset0 的博客.pdf](BZOJ4179%20B%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
 * [BZOJ5016 [SNOI2017]一个简单的询问 - memset0 的博客.pdf](BZOJ5016%20%5BSNOI2017%5D%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E8%AF%A2%E9%97%AE%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
 * [BZOJ5403 marshland - memset0 的博客.pdf](BZOJ5403%20marshland%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
 * [BZOJ5404 party - memset0 的博客.pdf](BZOJ5404%20party%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
 * [BZOJ5405 platform - memset0 的博客.pdf](BZOJ5405%20platform%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
-* CF538G Berserk Robot - memset0 的博客.pdf
-* LJOJ5249 老夫 - memset0 的博客.pdf
-* LOJ150 挑战多项式 - memset0 的博客.pdf
-* LOJ2541 「PKUWC2018」猎人杀 - memset0 的博客.pdf
-* LOJ2542 「PKUWC2018」随机游走 - memset0 的博客.pdf
-* LOJ6287 诗歌 - memset0 的博客.pdf
-* LOJ6514 「雅礼集训 2018 Day10」文明 - memset0 的博客.pdf
-* LOJ6515 「雅礼集训 2018 Day10」贪玩蓝月 - memset0 的博客.pdf
-* Min-Max 容斥学习笔记 - memset0 的博客.pdf
-* MySQL 数据库基本操作学习笔记 - memset0 的博客.pdf
-* Polya 定理学习笔记 - memset0 的博客.pdf
-* UOJ 社区版安装笔记 - memset0 的博客.pdf
-* 多项式多点求值与快速插值学习笔记 - memset0 的博客.pdf
-* 多项式复合逆学习笔记 - memset0 的博客.pdf
-* 关于这个博客 - memset0 的博客.pdf
-* 洛谷2496 [SDOI2012]体育课 - memset0 的博客.pdf
-* 洛谷3350 [ZJOI2016]旅行者 - memset0 的博客.pdf
-* 洛谷4102 [HEOI2014]林中路径 - memset0 的博客.pdf
-* 洛谷4208 [JSOI2008]最小生成树计数 - memset0 的博客.pdf
-* 洛谷4647 [IOI2007] sails 船帆 - memset0 的博客.pdf
-* 洛谷5162 WD与积木 - memset0 的博客.pdf
-* 洛谷5219 无聊的水题 I - memset0 的博客.pdf
-* 洛谷T14898 透明的星尘 - memset0 的博客.pdf
-* 如何在家中访问内网 OJ ？ - memset0 的博客.pdf
-* 使用 Hexo Hey 进行 Hexo 下的写作 - memset0 的博客.pdf
-* 特征多项式和常系数线性齐次递推学习笔记 - memset0 的博客.pdf
-* 下载 Oneindex 网站的整个文件夹 - memset0 的博客.pdf
-* 循环卷积学习笔记 - memset0 的博客.pdf
-* 一句话题解 2019年1月 - memset0 的博客.pdf
-* 约束与放缩学习笔记 - memset0 的博客.pdf
-* 在 lxd 中安装 SYZOJ - memset0 的博客.pdf
+* [CF538G Berserk Robot - memset0 的博客.pdf](CF538G%20Berserk%20Robot%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
+* [LJOJ5249 老夫 - memset0 的博客.pdf](LJOJ5249%20%E8%80%81%E5%A4%AB%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
+* [LOJ150 挑战多项式 - memset0 的博客.pdf](LOJ150%20%E6%8C%91%E6%88%98%E5%A4%9A%E9%A1%B9%E5%BC%8F%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
+* [LOJ2541 「PKUWC2018」猎人杀 - memset0 的博客.pdf](LOJ2541%20%E3%80%8CPKUWC2018%E3%80%8D%E7%8C%8E%E4%BA%BA%E6%9D%80%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
+* [LOJ2542 「PKUWC2018」随机游走 - memset0 的博客.pdf](LOJ2542%20%E3%80%8CPKUWC2018%E3%80%8D%E9%9A%8F%E6%9C%BA%E6%B8%B8%E8%B5%B0%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
+* [LOJ6287 诗歌 - memset0 的博客.pdf](LOJ6287%20%E8%AF%97%E6%AD%8C%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
+* [LOJ6514 「雅礼集训 2018 Day10」文明 - memset0 的博客.pdf](LOJ6514%20%E3%80%8C%E9%9B%85%E7%A4%BC%E9%9B%86%E8%AE%AD%202018%20Day10%E3%80%8D%E6%96%87%E6%98%8E%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
+* [LOJ6515 「雅礼集训 2018 Day10」贪玩蓝月 - memset0 的博客.pdf](LOJ6515%20%E3%80%8C%E9%9B%85%E7%A4%BC%E9%9B%86%E8%AE%AD%202018%20Day10%E3%80%8D%E8%B4%AA%E7%8E%A9%E8%93%9D%E6%9C%88%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
+* [Min-Max 容斥学习笔记 - memset0 的博客.pdf](Min-Max 容斥学习笔记 - memset0 的博客.pdf)
+* [MySQL 数据库基本操作学习笔记 - memset0 的博客.pdf](MySQL 数据库基本操作学习笔记 - memset0 的博客.pdf)
+* [Polya 定理学习笔记 - memset0 的博客.pdf](Polya 定理学习笔记 - memset0 的博客.pdf)
+* [UOJ 社区版安装笔记 - memset0 的博客.pdf](UOJ 社区版安装笔记 - memset0 的博客.pdf)
+* [多项式多点求值与快速插值学习笔记 - memset0 的博客.pdf](多项式多点求值与快速插值学习笔记 - memset0 的博客.pdf)
+* [多项式复合逆学习笔记 - memset0 的博客.pdf](多项式复合逆学习笔记 - memset0 的博客.pdf)
+* [关于这个博客 - memset0 的博客.pdf](关于这个博客 - memset0 的博客.pdf)
+* [洛谷2496 [SDOI2012]体育课 - memset0 的博客.pdf](洛谷2496 [SDOI2012]体育课 - memset0 的博客.pdf)
+* [洛谷3350 [ZJOI2016]旅行者 - memset0 的博客.pdf](洛谷3350 [ZJOI2016]旅行者 - memset0 的博客.pdf)
+* [洛谷4102 [HEOI2014]林中路径 - memset0 的博客.pdf](洛谷4102 [HEOI2014]林中路径 - memset0 的博客.pdf)
+* [洛谷4208 [JSOI2008]最小生成树计数 - memset0 的博客.pdf](洛谷4208 [JSOI2008]最小生成树计数 - memset0 的博客.pdf)
+* [洛谷4647 [IOI2007] sails 船帆 - memset0 的博客.pdf](洛谷4647 [IOI2007] sails 船帆 - memset0 的博客.pdf)
+* [洛谷5162 WD与积木 - memset0 的博客.pdf](洛谷5162 WD与积木 - memset0 的博客.pdf)
+* [洛谷5219 无聊的水题 I - memset0 的博客.pdf](洛谷5219 无聊的水题 I - memset0 的博客.pdf)
+* [洛谷T14898 透明的星尘 - memset0 的博客.pdf](洛谷T14898 透明的星尘 - memset0 的博客.pdf)
+* [如何在家中访问内网 OJ ？ - memset0 的博客.pdf](如何在家中访问内网 OJ ？ - memset0 的博客.pdf)
+* [使用 Hexo Hey 进行 Hexo 下的写作 - memset0 的博客.pdf](使用 Hexo Hey 进行 Hexo 下的写作 - memset0 的博客.pdf)
+* [特征多项式和常系数线性齐次递推学习笔记 - memset0 的博客.pdf](特征多项式和常系数线性齐次递推学习笔记 - memset0 的博客.pdf)
+* [下载 Oneindex 网站的整个文件夹 - memset0 的博客.pdf](下载 Oneindex 网站的整个文件夹 - memset0 的博客.pdf)
+* [循环卷积学习笔记 - memset0 的博客.pdf](循环卷积学习笔记 - memset0 的博客.pdf)
+* [一句话题解 2019年1月 - memset0 的博客.pdf](一句话题解 2019年1月 - memset0 的博客.pdf)
+* [约束与放缩学习笔记 - memset0 的博客.pdf](约束与放缩学习笔记 - memset0 的博客.pdf)
+* [在 lxd 中安装 SYZOJ - memset0 的博客.pdf](%E5%9C%A8%20lxd%20%E4%B8%AD%E5%AE%89%E8%A3%85%20SYZOJ%20-%20memset0%20%E7%9A%84%E5%8D%9A%E5%AE%A2.pdf)
