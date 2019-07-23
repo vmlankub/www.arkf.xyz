@@ -7,6 +7,8 @@
 > ### [『2019年4月』目录](/blog/con-1904.html)
 > ### [『PDF List』](/pdf/)
 
+<iframe src="https://duckduckgo.com/search.html?width=420&duck=yes&site=www.arkf.xyz,g.arkf.xyz,m.arkf.xyz,one.arkf.xyz,siyuan.arkf.xyz,room.arkf.xyz,cf.arkf.xyz&prefill=使用 DuckDuckGo 站内搜索&bgcolor=3399ff" style="overflow:hidden;margin:0;padding:0;width:553px;height:60px;" frameborder="0"></iframe>
+
 > ## 博客内容推荐
 > **[如何看待国家鼓励人们生二胎，但效果甚微？](/blog/zhihu/86jvKAlzT4jhMOG0?src=homepage)**  
 > 先匿名，怕招骂。现在这个养育成本谁生二胎。先看看一般生二胎的是啥家庭，不是家里有老人全程带孩子的就是家里不缺钱，夫妻俩起码一个几乎不用上班的。  
