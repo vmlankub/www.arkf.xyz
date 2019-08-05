@@ -118,6 +118,13 @@
 
 -----------------------------
 
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/gh/favicon.ico)](https://bit.ly/ark-github)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/zh/favicon.ico)](https://bit.ly/ark-zhihu)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/41939.png)](https://bit.ly/ark-lg)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/favicon.ico)](https://bit.ly/ark-yy)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/wiki-32/wikipedia.png)](https://bit.ly/ark-wiki)
+[![](https://cdn.jsdelivr.net/gh/MinecraftFuns/notebooks@master/data/v2ex_32x32.png)](https://bit.ly/ark-v2)
+
 > ## [打赏](/donations?src=homepage&token=RDf5UV2Y2FsFrizY)
 > ## 前往[Blog::Illegal](/blog/illegal.html)   
 
