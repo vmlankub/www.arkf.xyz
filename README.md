@@ -58,6 +58,7 @@
 > A minimalist text adventure  
 > ## [ONE](https://one.arkf.xyz/)
 > ## [膜拜Siyuan](https://siyuan.arkf.xyz/mosiyuan/index.html)
+> ### [膜拜Siyuan 0](https://0.siyuan.arkf.xyz/mosiyuan/index.html)
 
 -----------------------------
 
