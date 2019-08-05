@@ -58,13 +58,16 @@
 > 文字奇遇记 
 > ## [ONE](https://one.arkf.xyz/)
 > ### 微简介   
-> ``<iframe>``
+> ``<iframe>`` required
 > ## [膜拜Siyuan](https://siyuan.arkf.xyz/mosiyuan/index.html)
 > ### 微简介   
 > 膜拜Siyuan  
 > [历史版本: 膜拜Siyuan 0](https://0.siyuan.arkf.xyz/mosiyuan/index.html)
+> ## [暮光原野](https://darkwild.arkf.xyz/)
+> ### 微简介   
+> LMOliver/Darkwild
   
-![](https://cdn.jsdelivr.net/gh/vmlankub/__cdn@master/wc_400.png)
+[微信赞赏码](https://bit.ly/ark_wp)
 
 -----------------------------
 
@@ -79,6 +82,7 @@
 > * [ROOM](https://room.arkf.xyz/)
 > * [Siyuan](https://siyuan.arkf.xyz/)
 > * [Siyuan 0](https://0.siyuan.arkf.xyz/)
+> * [Darkwild](https://darkwild.arkf.xyz/)
 
 ![](https://cdn.jsdelivr.net/gh/vmlankub/__cdn@master/wc_400.png)
 
