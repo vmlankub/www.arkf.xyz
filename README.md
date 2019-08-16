@@ -91,37 +91,38 @@
 **以下是我的个人简介。**
 
 > ### *这是我的 GitHub 账户*
-[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dh1xi0cj30vp0kzjzm.jpg)](http://q.gs/Et0hg)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dh1xi0cj30vp0kzjzm.jpg)](https://bit.ly/ark-github)
 
-> ## [前往GitHub](http://q.gs/Et0hg)
+> ## [前往GitHub](https://bit.ly/ark-github)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/gh/favicon.ico)](https://bit.ly/ark-github)
 
 -----------------------------
 
 > ### *方舟 · Ark's Blog*
-[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dhwhi0rj31c00ltx2w.jpg)](http://uclaut.net/3Ou)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dhwhi0rj31c00ltx2w.jpg)](https://www.arkblog.cf/)
 
-> ## [前往ArkBlog.CF](http://uclaut.net/3Ou)
+> ## [前往ArkBlog.CF](https://www.arkblog.cf/)
 
 -----------------------------
 
 > ### *你可以在 知乎@MinecraftFuns 找到我*
-[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01didpnl0j30vv0lo7gk.jpg)](http://q.gs/Et0hg)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01didpnl0j30vv0lo7gk.jpg)](https://bit.ly/ark-zhihu)
 
-> ## [前往知乎](http://q.gs/Et0hg)
+> ## [前往知乎](https://bit.ly/ark-zhihu)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/zh/favicon.ico)](https://bit.ly/ark-zhihu)
 
 -----------------------------
 
 > ### *我的网易云音乐账号，有不少精选歌单呢*
-[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01diuv3jcj30rw0kadk3.jpg)](http://j.gs/CpRd)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01diuv3jcj30rw0kadk3.jpg)](https://bit.ly/ark-yy)
 
-> ## [前往网易云音乐](http://j.gs/CpRd)
+> ## [前往网易云音乐](https://bit.ly/ark-yy)
+[![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/favicon.ico)](https://bit.ly/ark-yy)
 
 -----------------------------
 
-[![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/gh/favicon.ico)](https://bit.ly/ark-github)
-[![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/zh/favicon.ico)](https://bit.ly/ark-zhihu)
+> ## 其它账号
 [![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/41939.png)](https://bit.ly/ark-lg)
-[![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/favicon.ico)](https://bit.ly/ark-yy)
 [![](https://cdn.jsdelivr.net/gh/lkpo0v/5n@master/wiki-32/wikipedia.png)](https://bit.ly/ark-wiki)
 [![](https://cdn.jsdelivr.net/gh/MinecraftFuns/notebooks@master/data/v2ex_32x32.png)](https://bit.ly/ark-v2)
 
