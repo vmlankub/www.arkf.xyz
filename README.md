@@ -126,7 +126,6 @@
 [![](https://cdn.jsdelivr.net/gh/MinecraftFuns/notebooks@master/data/v2ex_32x32.png)](https://bit.ly/ark-v2)
 
 > ## [打赏](/donations?src=homepage&token=RDf5UV2Y2FsFrizY)
-> ## 前往[Blog::Illegal](/blog/illegal.html)   
 
 ![](https://cdn.jsdelivr.net/gh/lkpo0v/d1n3/ww2.sinaimg.cn/large/005BYqpgly1g01dwo3j72j308c01o080.jpg)
 
