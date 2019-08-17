@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="使用这个免费的在线工具创建一个 identicon。identicon 是利用 hash 信息创建的头像。">
+	<meta name="keywords" content="Generate, 生成, identicon, visual, 可视化的, hash, 哈希, avatar, 头像">
+	<meta author="Joe Fang">
+	<title>头像生成器: 生成你的 identicon 头像</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="css/sticky-footer.css" rel="stylesheet">
+	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/vendor/pnglib.js"></script>
+	<script src="js/vendor/identicon.js"></script>
+	<script src="js/vendor/sha.js"></script>
+</head>
+
+<body>
+	<div id="about" class="container content-section">
+		<div class="row text-center">
+			<div class="col-lg-12">
+				<div class="page-header">
+					<h1 class=" banner text-center"><img id="favicon" width="30px" src="./img/identicon.png"> 生成一个
+						identicon</h1>
+					<p class="">
+						Identicon 是一个代表一串独一无二的信息哈希值的头像。
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row text-center">
+			<div class="col-lg-12 ">
+				<div class="input-group-lg">
+					<input type="text" id="name" class="form-control focus" oninput="get_identicon(this.value);"
+						placeholder="在这里写文字" autofocus>
+				</div>
+
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> <span
+						class="glyphicon glyphicon-cog"></span> 高级选项 </a>
+				<div id="collapseOne" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="row">
+							<div class="radio-inline">
+								<label class="radio-inline">
+									<input type="radio" name="hashVariant" id="optionsRadios1" value="SHA-1">
+									SHA-1</label>
+							</div>
+							<label class="radio-inline">
+								<input type="radio" name="hashVariant" id="optionsRadios2" value="SHA-224">
+								SHA-224</label>
+							<label class="radio-inline">
+								<input type="radio" name="hashVariant" id="optionsRadios3" value="SHA-256">
+								SHA-256</label>
+							<label class="radio-inline">
+								<input type="radio" name="hashVariant" id="optionsRadios4" value="SHA-384">
+								SHA-384</label>
+							<label class="radio-inline">
+								<input type="radio" name="hashVariant" id="optionsRadios5" value="SHA-512" checked>
+								SHA-512</label>
+						</div>
+
+						<div class="row">
+							<label class="radio-inline">
+								<input type="radio" name="outputType" id="optionsRadiosa" value="HEX" checked>
+								HEX</label>
+							<label class="radio-inline">
+								<input type="radio" name="outputType" id="optionsRadiosb" value="B64">
+								Base-64</label>
+
+						</div <div class="row">
+						<div class="col-xs-6">
+							<div class="input-group  input-group-sm">
+								<span class="input-group-addon">Size</span>
+								<input type="text" id="size" class="form-control focus" value="210"
+									oninput="get_identicon($('#name')[0].value);">
+							</div>
+						</div>
+						<div class="col-xs-6">
+							<div class="input-group  input-group-sm">
+								<span class="input-group-addon">Rounds</span>
+								<input type="text" id="rounds" class="form-control focus" value="1"
+									oninput="get_identicon($('#name')[0].value);">
+							</div>
+						</div>
+						<div class="col-xs-6">
+							<div class="input-group  input-group-sm">
+								<span class="input-group-addon">Salt</span>
+								<input type="text" id="salt" class="form-control focus" value="0"
+									oninput="get_identicon($('#name')[0].value);">
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="row text-center">
+			<div class="col-lg-12">
+				<p></p>
+				<img class="img-thumbnail" id="show_identicon" width="210px" src="./img/identicon.png">
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+		<div class="alert alert-warning  alert-dismissable text-center">
+			<button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+				&times;
+			</button>
+			<span class="glyphicon glyphicon-warning-sign"></span> 不要将敏感信息用作文本，您的 identicon 可以揭示它。
+		</div>
+
+		<div class="push"></div>
+	</div>
+	<div id="footer" class="">
+		<div class="container footer">
+			<div class="row text-center">
+				<div class="col-lg-6  text-left">
+					<p class="text-muted ">
+
+					</p>
+					<p class="text-muted ">
+						<a href="https://github.com/stewartlord/identicon.js">本项目使用了 identicon.js</a>
+					</p>
+					<p class="text-muted ">
+						<a href="http://caligatio.github.io/jsSHA/">本项目使用了 jsSHA</a>
+					</p>
+					<p class="copyright text-muted credit">
+						© Joe Fang, 2019
+					</p>
+				</div>
+				<div class="col-lg-6 text-left">
+					<p class="text-muted ">
+						Identicon 生成器是一个在线生成 identicon 的免费工具。Identicon 是一种使用用户信息的哈希值生成用户头像的方法，并保护了用户的隐私权 <a
+							href="http://en.wikipedia.org/wiki/Identicon">关于 identicons</a>.
+					</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/vendor/jquery-1.11.0.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116309064-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'UA-116309064-2');
+	</script>
+
+
+</body>
+
+</html>
