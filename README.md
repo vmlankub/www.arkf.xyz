@@ -3,8 +3,8 @@
 **欢迎你，访客！**
 
 > ## [前往博客](/blog/)
-> ### [博客新专题『资料专区』](/blog/information.html?src=homepage)
-> ### [『2019年4月』目录](/blog/con-1904.html)
+> ### [博客新专题『资料专区』](/blog/information.html)
+> ### [『推荐工具』Identicon](/identicon/index.html)
 > ### [『PDF List』](/pdf/)
 
 <iframe src="https://duckduckgo.com/search.html?width=420&duck=yes&site=www.arkf.xyz&prefill=使用 DuckDuckGo 站内搜索&bgcolor=3399ff" style="overflow:hidden;margin:0;padding:0;width:553px;height:60px;" frameborder="0"></iframe>
@@ -66,6 +66,9 @@
 > ## [暮光原野](https://darkwild.arkf.xyz/)
 > ### 微简介   
 > LMOliver/Darkwild
+> ## [Identicon](/identicon/index.html)
+> ### 微简介   
+> Identicon 生成器是一个在线生成 identicon 的免费工具。Identicon 是一种使用用户信息的哈希值生成用户头像的方法，并保护了用户的隐私权。
   
 [微信赞赏码](https://bit.ly/ark_wp)
 
@@ -83,6 +86,7 @@
 > * [Siyuan](https://siyuan.arkf.xyz/)
 > * [Siyuan 0](https://0.siyuan.arkf.xyz/)
 > * [Darkwild](https://darkwild.arkf.xyz/)
+> * [Identicon](/identicon/index.html)
 
 ![](https://cdn.jsdelivr.net/gh/vmlankub/__cdn@master/wc_400.png)
 
