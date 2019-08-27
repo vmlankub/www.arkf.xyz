@@ -62,8 +62,7 @@
 > ## [膜拜Siyuan](https://siyuan.arkf.xyz/mosiyuan/index.html)
 > ### 微简介   
 > 膜拜Siyuan  
-> [历史版本: 膜拜Siyuan 0](https://0.siyuan.arkf.xyz/mosiyuan/index.html)
-> [历史版本: 膜拜Siyuan 1](https://1.siyuan.arkf.xyz/mosiyuan/index.html)
+> 历史版本: [膜拜Siyuan 0](https://0.siyuan.arkf.xyz/mosiyuan/index.html) [膜拜Siyuan 1](https://1.siyuan.arkf.xyz/mosiyuan/index.html)
 > ## [暮光原野](https://darkwild.arkf.xyz/)
 > ### 微简介   
 > LMOliver/Darkwild
