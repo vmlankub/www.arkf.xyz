@@ -7,7 +7,7 @@
 > ### [『推荐工具』Identicon](/identicon/index.html)
 > ### [『PDF List』](/pdf/)
 
-<iframe src="https://duckduckgo.com/search.html?width=420&duck=yes&site=www.arkf.xyz&prefill=使用 DuckDuckGo 站内搜索&bgcolor=3399ff" style="overflow:hidden;margin:0;padding:0;width:553px;height:60px;" frameborder="0"></iframe>
+<iframe src="https://duckduckgo.com/search.html?width=420&duck=yes&site=old.blog.gainian.pro&prefill=使用 DuckDuckGo 站内搜索&bgcolor=3399ff" style="overflow:hidden;margin:0;padding:0;width:553px;height:60px;" frameborder="0"></iframe>
 
 > ## 博客内容推荐
 > **[如何看待国家鼓励人们生二胎，但效果甚微？](/blog/zhihu/86jvKAlzT4jhMOG0?src=homepage)**  
